@@ -4,7 +4,7 @@
 \usepackage{hyperref}
 \title{\vspace{-2.0cm}ViReport v0.0.1}
 \author{Niema Moshiri}
-\date{2020-03-01}
+\date{2020-03-02}
 \begin{document}
 \maketitle
 
@@ -57,10 +57,10 @@ and the most recent sample date was 2020-02-28.
 
 \section{Multiple Sequence Alignment}
 Multiple sequence alignment was performed using MAFFT (Katoh \& Standley, 2013) in automatic mode.
-There were 30379 positions (9653 invariant) and 167 unique sequences in the multiple sequence alignment.
+There were 30379 positions (16956 invariant) and 157 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
-The average pairwise sequence distance was 0.01388184560512209,
-with a standard deviation of 0.04200095197834215.
+The average pairwise sequence distance was 0.0002367379605663574,
+with a standard deviation of 0.0002469060445309071.
 
 
 \begin{figure}[h]
@@ -70,12 +70,12 @@ with a standard deviation of 0.04200095197834215.
 \end{figure}
 
 \section{Phylogenetic Inference}
-A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017).
+A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.2231920142,
-and the average pairwise phylogenetic distance was 0.01895804133598644,
-with a standard deviation of 0.05693104226047919.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0035765329999999976,
+and the average pairwise phylogenetic distance was 0.00040441892561284877,
+with a standard deviation of 0.0004151634456449567.
 
 
 TODO INSERT ROOTED TREE VISUALIZATION HERE
@@ -91,9 +91,9 @@ TODO INSERT ROOTED TREE VISUALIZATION HERE
 
 \section{Phylogenetic Dating}
 The rooted phylogeny was dated using treedater (Volz \& Frost, 2017).
-The height of the dated tree was 23584.873017164988 days,
+The height of the dated tree was 255.11532509799997 days,
 so given that the most recent sample was collected on 2020-02-28,
-the estimated time of the most recent common ancestor (tMRCA) was 1955-08-03.
+the estimated time of the most recent common ancestor (tMRCA) was 2019-06-17.
 
 
 TODO INSERT DATED TREE VISUALIZATION HERE
@@ -101,10 +101,10 @@ TODO INSERT DATED TREE VISUALIZATION HERE
 
 \section{Transmission Clustering}
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 107,
-and the total number of clusters (excluding singletons) was 25.
-The average cluster size (excluding singletons) was 2.88,
-with a standard deviation of 0.9516301802696255,
+The total number of singletons (i.e., non-clustered individuals) was 111,
+and the total number of clusters (excluding singletons) was 19.
+The average cluster size (excluding singletons) was 3.0526315789473686,
+with a standard deviation of 1.0989796325169001,
 and the maximum and minimum cluster sizes were 5 and 2, respectively.
 
 

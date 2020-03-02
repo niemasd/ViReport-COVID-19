@@ -97,5 +97,5 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (5 pages, 131113 bytes).
+Output written on main.pdf (5 pages, 130501 bytes).
 Transcript written on main.log.
