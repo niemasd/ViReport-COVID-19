@@ -1,8 +1,7 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
-Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
 Note: Minimum temporal branch length  (*minblen*) set to 1.3463687150838. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 6.95404357026983e-08,4.28493784990529e-07 
+Initial guesses of substitution rate: 8.55067134293418e-08,5.50986267121136e-07 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -29,23 +28,21 @@ The following steps may help to fix or alleviate common problems:
 Phylogenetic tree with 179 tips and 178 internal nodes.
 
 Tip labels:
-	BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538, BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543, BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539, BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540, BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541, BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542, ...
-Node labels:
-	, 1.000, 0.812, 0.912, 0.656, 0.810, ...
+	BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538, BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539, BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540, BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541, BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542, BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-734254.31321301 
+713897.12698213 
 
  Time to common ancestor (before most recent sample) 
-3227.68678699003 
+23584.8730178699 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-4.66732384595432e-05 
+1.94080653273299e-05 
 
  Unadjusted mean substitution rate 
-4.66732384595432e-05 
+1.94080653273299e-05 
 
  Clock model  
 strict 

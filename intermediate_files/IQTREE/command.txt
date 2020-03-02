@@ -1,0 +1,1 @@
+iqtree -m MFP -nt AUTO -s /home/a1moshir/COVID-19/output_files/sequences_safe.aln
