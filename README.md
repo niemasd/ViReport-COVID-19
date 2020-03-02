@@ -5,3 +5,5 @@ This repository contains a molecular epidemiological report on COVID-19 produced
     * I can, however, share the FASTA upon request if given proof of ownership of a GISAID account
 * You can access the output files from the analyses here: **[output_files](output_files)**
 * You can access all intermediate files from the analyses here: **[intermediate_files](intermediate_files)**
+
+Note that this is still using a ***very*** early version of [ViReport](https://github.com/niemasd/ViReport), so the aesthetics of the report will improve significantly in the next few weeks.
