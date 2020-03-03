@@ -6,6 +6,3 @@ During startup - Warning messages:
 5: Setting LC_MONETARY failed, using "C" 
 6: Setting LC_PAPER failed, using "C" 
 7: Setting LC_MEASUREMENT failed, using "C" 
-Warning message:
-In .dater(tre, sts, s = s, omega0 = omega0, minblen = minblen, maxit = maxit,  :
-  Root to tip regression predicts a substition rate less than zero. Tree may be poorly rooted or there may be small temporal signal.

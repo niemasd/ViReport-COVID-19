@@ -67,12 +67,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_s
 equence_lengths.pdf>]
-<./figs/pairwise_distances_tree.pdf, id=53, 462.52798pt x 346.89601pt>
+<./figs/tree_mutations.pdf, id=53, 722.7pt x 2058.24966pt>
+<use ./figs/tree_mutations.pdf>
+
+LaTeX Warning: Float too large for page by 711.3923pt on input line 85.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figs/pairwise_distances_tree.pdf, id=54, 462.52798pt x 346.89601pt>
 <use ./figs/pairwise_distances_tree.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/cluster_sizes.pdf, id=54, 462.52798pt x 346.89601pt>
+<./figs/tree_time.pdf, id=55, 722.7pt x 2058.24966pt>
+<use ./figs/tree_time.pdf>
+
+LaTeX Warning: Float too large for page by 711.3923pt on input line 106.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figs/cluster_sizes.pdf, id=56, 462.52798pt x 346.89601pt>
 <use ./figs/cluster_sizes.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -82,12 +98,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex (file ./figs/processed_sample_dates.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] [4 <./figs/pairwise_distances_sequences.pdf> <./figs/pairwise_distances_tree
-.pdf
-
-pdfTeX warning: pdflatex (file ./figs/pairwise_distances_tree.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] [5 <./figs/cluster_sizes.pdf>] (./main.aux)
+>] [4 <./figs/pairwise_distances_sequences.pdf>] [5 <./figs/tree_mutations.pdf>
+] [6 <./figs/pairwise_distances_tree.pdf>] [7 <./figs/tree_time.pdf>] [8 <./fig
+s/cluster_sizes.pdf>] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -97,5 +110,5 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (5 pages, 130501 bytes).
+Output written on main.pdf (8 pages, 185907 bytes).
 Transcript written on main.log.
