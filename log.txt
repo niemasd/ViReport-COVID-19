@@ -4,7 +4,7 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-ViReport was run as follows: ./ViReport/ViReport.py -o COVID-19 -s GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.dates.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.outgroups.txt --phylo FastTree
+ViReport was run as follows: ./ViReport/ViReport.py -o COVID-19 -s GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.dates.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-03/2020-03-03.outgroups.txt
 Output directory: /home/a1moshir/COVID-19
 Starting viral analysis workflow...
 
@@ -19,7 +19,7 @@ Multiple sequence alignment output to: /home/a1moshir/COVID-19/output_files/sequ
 Running 'PairwiseDistancesSequence_tn93'...
 Pairwise sequence distances output to: /home/a1moshir/COVID-19/output_files/pairwise_distances_sequence.csv
 
-Running 'PhylogeneticInference_FastTree'...
+Running 'PhylogeneticInference_IQTREE'...
 Inferred (unrooted) phylogeny output to: /home/a1moshir/COVID-19/output_files/unrooted.no_outgroup.tre
 
 Running 'PairwiseDistancesTree_TreeSwift'...
@@ -39,13 +39,12 @@ Report written to: /home/a1moshir/COVID-19/Report.pdf
 
 
 ===========================   Citations   ============================
+Kalyaanamoorthy S., Minh B.Q., Wong T.K.F., von Haeseler A., Jermiin L.S. (2017). "ModelFinder: Fast model selection for accurate phylogenetic estimates". Nature Methods. 14, 587-589.
 Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.
-Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.
 Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.
 Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.
 Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.
 Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).
+Nguyen L.T., Schmidt H.A., von Haeseler A., Minh B.Q. (2015). "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies". Molecular Biology and Evolution. 32(1), 268-274.
 Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.
-Price M.N., Dehal P.S., Arkin A.P. (2010). "FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments". PLoS ONE. 5(3), e9490.
-Tavare S. (1986). ""Some Probabilistic and Statistical Problems in the Analysis of DNA Sequences". Lectures on Mathematics in the Life Sciences. 17, 57-86.
 Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.

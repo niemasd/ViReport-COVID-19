@@ -1,8 +1,7 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
-Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
 Note: Minimum temporal branch length  (*minblen*) set to 0.05. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 1.16207789213783e-06,1.18648508319329e-06,5.68085380739204e-06,5.71561021028705e-06 
+Initial guesses of substitution rate: 2.13128653298303e-08,3.47093324890304e-06,3.57687336567705e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -29,23 +28,21 @@ The following steps may help to fix or alleviate common problems:
 Phylogenetic tree with 178 tips and 177 internal nodes.
 
 Tip labels:
-	BetaCoV_USA_IL1_2020_EPI_ISL_404253, BetaCoV_Nepal_61_2020_EPI_ISL_410301, BetaCov_Wuhan_WH02_2019_EPI_ISL_406799, BetaCoV_Chongqing_IVDC_CQ_001_2020_EPI_ISL_408481, BetaCoV_South_Korea_KUMC02_2020_EPI_ISL_413018, BetaCoV_South_Korea_KUMC01_2020_EPI_ISL_413017, ...
-Node labels:
-	0.784, 0.000, 0.000, 0.226, 0.731, 0.745, ...
+	BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665, BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666, BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667, BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935, BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933, BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737382.338711131 
+737380.549964804 
 
  Time to common ancestor (before most recent sample) 
-99.6612888689851 
+101.450035195798 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.75075854507226e-05 
+1.38835034536883e-05 
 
  Unadjusted mean substitution rate 
-1.75075854507226e-05 
+1.38835034536883e-05 
 
  Clock model  
 strict 
