@@ -4,640 +4,677 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    comet-ln2.sdsc.edu (AVX2, FMA3, 62 GB RAM)
 Command: iqtree -m MFP -nt AUTO -s /home/a1moshir/COVID-19/output_files/sequences_safe.aln
-Seed:    110566 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Tue Mar  3 22:53:28 2020
+Seed:    572652 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar  4 07:48:31 2020
 Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
 
 Reading alignment file /home/a1moshir/COVID-19/output_files/sequences_safe.aln ... Fasta format detected
 Alignment most likely contains DNA/RNA sequences
 WARNING: 352 sites contain only gaps or ambiguous characters.
-Alignment has 188 sequences with 30379 columns, 3132 distinct patterns
-5557 parsimony-informative, 867 singleton sites, 23955 constant sites
+Alignment has 198 sequences with 30382 columns, 3170 distinct patterns
+5561 parsimony-informative, 875 singleton sites, 23946 constant sites
                                                           Gap/Ambiguity  Composition  p-value
-   1  BetaCoV_Shenzhen_SZTH_003_2020_EPI_ISL_406594               1.58%    passed     99.89%
-   2  BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479                  1.61%    passed     99.95%
-   3  BetaCoV_China_WHU02_2020_EPI_ISL_406717                     1.64%    passed     99.98%
-   4  BetaCoV_Foshan_20SF211_2020_EPI_ISL_406536                  1.90%    passed     99.93%
-   5  BetaCoV_Wuhan_IPBCAMS_WH_02_2019_EPI_ISL_403931             1.61%    passed     99.97%
-   6  BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543            9.94%    passed     11.44%
-   7  BetaCoV_Japan_KY_V_029_2020_EPI_ISL_408669                  1.65%    passed     99.94%
-   8  BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539            1.90%    passed     20.31%
-   9  BetaCoV_Korea_KCDC06_2020_EPI_ISL_412870                    1.94%    passed     99.91%
-  10  _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899              1.75%    passed     99.89%
-  11  BetaCoV_Australia_QLD04_2020_EPI_ISL_410718                 1.69%    passed     99.94%
-  12  BetaCoV_Jiangsu_IVDC_JS_001_2020_EPI_ISL_408488             1.86%    passed     99.90%
-  13  BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962                   1.75%    passed     99.89%
-  14  BetaCoV_Wuhan_IPBCAMS_WH_04_2019_EPI_ISL_403929             1.61%    passed     99.95%
-  15  BetaCoV_Taiwan_3_2020_EPI_ISL_411926                        1.61%    passed     99.96%
-  16  BetaCoV_Wuhan_WIV02_2019_EPI_ISL_402127                     1.82%    passed     99.81%
-  17  BetaCoV_England_02_2020_EPI_ISL_407073                      1.78%    passed     99.91%
-  18  BetaCoV_Hong_Kong_VB20026565_2020_EPI_ISL_412030            1.76%    passed     99.91%
-  19  BetaCoV_Tianmen_HBCDC_HB_07_2020_EPI_ISL_412983             2.25%    passed     99.75%
-  20  BetaCoV_Fujian_8_2020_EPI_ISL_411060                        1.67%    passed     99.92%
-  21  BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935               1.76%    passed     99.90%
-  22  BetaCoV_South_Korea_KUMC02_2020_EPI_ISL_413018              1.72%    passed     99.91%
-  23  BetaCoV_Wuhan_IPBCAMS_WH_01_2019_EPI_ISL_402123             1.58%    passed     99.88%
-  24  BetaCov_Wuhan_WH01_2019_EPI_ISL_406798                      1.69%    passed     99.91%
-  25  BetaCoV_Hong_Kong_VM20001061_2020_EPI_ISL_412028            1.74%    passed     99.89%
-  26  BetaCoV_Mexico_CDMX_InDRE_01_2020_EPI_ISL_412972            1.75%    passed     99.86%
-  27  BetaCoV_USA_CA6_2020_EPI_ISL_410044                         1.72%    passed     99.99%
-  28  BetaCoV_Yunnan_IVDC_YN_003_2020_EPI_ISL_408480              1.63%    passed     99.97%
-  29  BetaCoV_Taiwan_2_2020_EPI_ISL_406031                        1.65%    passed     99.96%
-  30  BetaCoV_USA_CA7_2020_EPI_ISL_411954                         1.64%    passed     99.97%
-  31  BetaCoV_Nepal_61_2020_EPI_ISL_410301                        1.87%    passed     99.94%
-  32  BetaCoV_Canada_ON_PHL2445_2020_EPI_ISL_413014               1.74%    passed     99.76%
-  33  BetaCoV_Australia_VIC01_2020_EPI_ISL_406844                 1.60%    passed     99.70%
-  34  BetaCoV_pangolin_China_MP789_2019_EPI_ISL_412860           16.58%    passed     30.56%
-  35  BetaCoV_Wuhan_IVDC_HB_envF13_21_2020_EPI_ISL_408515         1.61%    passed     99.95%
-  36  BetaCoV_pangolin_Guandong_1_2020_EPI_ISL_410721             2.35%    passed     62.60%
-  37  BetaCoV_China_IQTC01_2020_EPI_ISL_412966                    1.61%    passed     99.93%
-  38  BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531                1.65%    passed     99.99%
-  39  BetaCoV_Singapore_1_2020_EPI_ISL_406973                     1.76%    passed     99.93%
-  40  BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215                      1.64%    passed     99.96%
-  41  _BetaCoV_Wuhan_HBCDC_HB_04_2019_EPI_ISL_412900              3.88%    passed     95.85%
-  42  BetaCoV_Sichuan_IVDC_SC_001_2020_EPI_ISL_408484             1.66%    passed     99.98%
-  43  BetaCoV_Singapore_2_2020_EPI_ISL_407987                     1.76%    passed     99.93%
-  44  BetaCoV_Jiangsu_JS01_2020_EPI_ISL_411950                    1.61%    passed     99.87%
-  45  BetaCoV_Singapore_4_2020_EPI_ISL_410535                     3.19%    passed     98.59%
-  46  BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665                 1.65%    passed     99.94%
-  47  BetaCoV_Shenzhen_HKU_SZ_005_2020_EPI_ISL_405839             1.61%    passed     99.93%
-  48  BetaCoV_Singapore_8_2020_EPI_ISL_410714                     2.04%    passed     99.78%
-  49  BetaCoV_Zhejiang_WZ_01_2020_EPI_ISL_404227                  1.78%    passed     99.88%
-  50  BetaCoV_Belgium_GHB_03021_2020_EPI_ISL_407976               1.72%    passed     99.97%
-  51  BetaCoV_Wuhan_IVDC_HB_envF13_2020_EPI_ISL_408511            6.02%    passed     78.77%
-  52  BetaCoV_Hangzhou_HZCDC0001_2020_EPI_ISL_407313              1.79%    passed     99.88%
-  53  BetaCoV_Shenzhen_HKU_SZ_002_2020_EPI_ISL_406030             1.78%    passed     99.83%
-  54  BetaCoV_Chongqing_IVDC_CQ_001_2020_EPI_ISL_408481           1.63%    passed     99.96%
-  55  BetaCoV_USA_IL2_2020_EPI_ISL_410045                         1.64%    passed     99.97%
-  56  BetaCoV_USA_CA8_2020_EPI_ISL_411955                         1.64%    passed     99.98%
-  57  BetaCoV_Canada_ON_VIDO_01_2020_EPI_ISL_413015               1.65%    passed     99.90%
-  58  BetaCoV_France_IDF0372_2020_EPI_ISL_410720                  1.66%    passed     99.93%
-  59  BetaCoV_Wuhan_IVDC_HB_envF13_20_2020_EPI_ISL_408514         1.61%    passed     99.90%
-  60  BetaCoV_China_IQTC02_2020_EPI_ISL_412967                    1.49%    passed     99.91%
-  61  BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214                     1.64%    passed     99.96%
-  62  BetaCoV_USA_CA1_2020_EPI_ISL_406034                         1.64%    passed     99.97%
-  63  BetaCoV_Beijing_IVDC_BJ_005_2020_EPI_ISL_408485             1.63%    passed     99.86%
-  64  BetaCoV_Sweden_01_2020_EPI_ISL_411951                       1.62%    passed     99.98%
-  65  BetaCoV_England_03_2020_EPI_ISL_412116                      1.77%    passed     99.92%
-  66  BetaCoV_Singapore_9_2020_EPI_ISL_410715                     1.61%    passed     99.91%
-  67  BetaCoV_Wuhan_HBCDC_HB_01_2019_EPI_ISL_402132               1.75%    passed     99.92%
-  68  BetaCoV_Cambodia_0012_2020_EPI_ISL_411902                   1.67%    passed     99.94%
-  69  BetaCoV_Chongqing_YC01_2020_EPI_ISL_408478                  1.61%    passed     99.87%
-  70  BetaCoV_China_WHU01_2020_EPI_ISL_406716                     1.64%    passed     99.98%
-  71  BetaCoV_Shenzhen_SZTH_004_2020_EPI_ISL_406595               1.58%    passed     99.98%
-  72  BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542            1.96%    passed     20.08%
-  73  BetaCoV_Wuhan_IPBCAMS_WH_03_2019_EPI_ISL_403930             1.58%    passed     99.86%
-  74  BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538            1.89%    passed     18.78%
-  75  BetaCoV_Korea_KCDC07_2020_EPI_ISL_412871                    1.94%    passed     99.84%
-  76  BetaCoV_Vietnam_VR03_38142_2020_EPI_ISL_408668              1.61%    passed     99.95%
-  77  _BetaCoV_Wuhan_HBCDC_HB_02_2019_EPI_ISL_412898              1.75%    passed     99.88%
-  78  BetaCoV_Singapore_11_2020_EPI_ISL_410719                    1.76%    passed     99.87%
-  79  IPBCAMS_WH_05_2020_EPI_ISL_403928                           1.63%    passed     99.97%
-  80  BetaCoV_Taiwan_NTU01_2020_EPI_ISL_408489                    2.99%    passed     99.44%
-  81  BetaCoV_Nonthaburi_74_2020_EPI_ISL_403963                   1.71%    passed     99.94%
-  82  BetaCoV_France_IDF0515_isl_2020_EPI_ISL_410984              1.67%    passed     99.88%
-  83  BetaCoV_Wuhan_WH05_2020_EPI_ISL_408978                      7.13%    passed     37.30%
-  84  BetaCoV_Taiwan_4_2020_EPI_ISL_411927                        1.61%    passed     99.95%
-  85  BetaCoV_USA_WI1_2020_EPI_ISL_408670                         1.65%    passed     99.97%
-  86  BetaCoV_Australia_QLD01_2020_EPI_ISL_407894                 1.79%    passed     99.90%
-  87  BetaCoV_Korea_KCDC05_2020_EPI_ISL_412869                    1.94%    passed     99.91%
-  88  _BetaCoV_Wuhan_HBCDC_HB_06_2020_EPI_ISL_412982              1.78%    passed     99.91%
-  89  BetaCoV_Italy_INMI1_cs_2020_EPI_ISL_410546                  1.96%    passed     99.87%
-  90  BetaCoV_Guangzhou_20SF206_2020_EPI_ISL_406533               1.78%    passed     99.83%
-  91  BetaCoV_Guangdong_20SF014_2020_EPI_ISL_403934               1.76%    passed     99.93%
-  92  BetaCov_Wuhan_WH02_2019_EPI_ISL_406799                     36.59%    passed     40.91%
-  93  BetaCoV_Hong_Kong_VM20001988_2020_EPI_ISL_412029            1.93%    passed     99.83%
-  94  BetaCoV_Italy_CDG1_2020_EPI_ISL_412973                      1.57%    passed     99.68%
-  95  BetaCoV_China_WH_09_2020_EPI_ISL_411957                     1.54%    passed     99.96%
-  96  BetaCoV_Shanghai_IVDC_SH_001_2020_EPI_ISL_408483            2.66%    passed     99.61%
-  97  BetaCoV_South_Korea_KUMC01_2020_EPI_ISL_413017              1.64%    passed     99.77%
-  98  BetaCoV_Canada_BC_37_0_2_2020_EPI_ISL_412965                2.85%    passed     99.96%
-  99  BetaCoV_Singapore_7_2020_EPI_ISL_410713                     1.61%    passed     99.91%
- 100  BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532                1.65%    passed     99.99%
- 101  BetaCoV_Zhejiang_Hangzhou_1_2020_EPI_ISL_406970             1.80%    passed     99.95%
- 102  BetaCoV_Wuhan_WIV05_2019_EPI_ISL_402128                     1.73%    passed     99.91%
- 103  BetaCoV_South_Korea_SNU01_2020_EPI_ISL_411929               1.57%    passed     99.56%
- 104  BetaCov_Taiwan_NTU02_2020_EPI_ISL_410218                    1.68%    passed     99.89%
- 105  BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119                1.61%    passed     99.95%
- 106  BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953                    1.61%    passed     99.95%
- 107  BetaCoV_Sydney_2_2020_EPI_ISL_408976                        2.10%    passed     99.68%
- 108  BetaCoV_France_IDF0386_2020_EPI_ISL_411219                  1.67%    passed     99.92%
- 109  BetaCoV_Henan_IVDC_HeN_002_2020_EPI_ISL_408487              3.88%    passed     89.63%
- 110  _BetaCoV_Wuhan_HBCDC_HB_03_2020_EPI_ISL_412979              1.75%    passed     99.89%
- 111  BetaCoV_USA_CA2_2020_EPI_ISL_406036                         1.63%    passed     99.95%
- 112  BetaCoV_Australia_QLD03_2020_EPI_ISL_410717                 1.69%    passed     99.95%
- 113  BetaCoV_Wuhan_WIV07_2019_EPI_ISL_402130                     1.72%    passed     99.92%
- 114  BetaCoV_Singapore_5_2020_EPI_ISL_410536                     1.76%    passed     99.91%
- 115  BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666                 1.65%    passed     99.96%
- 116  BetaCoV_Korea_KCDC03_2020_EPI_ISL_407193                    1.85%    passed     99.92%
- 117  BetaCoV_Wuhan_IVDC_HB_envF54_2020_EPI_ISL_408512           16.63%    passed     54.87%
- 118  BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932               1.76%    passed     99.90%
- 119  BetaCoV_Foshan_20SF210_2020_EPI_ISL_406535                  1.78%    passed     99.86%
- 120  BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540            1.89%    passed     21.07%
- 121  BetaCoV_France_RA739_2020_EPI_ISL_410486                    4.74%    passed     99.79%
- 122  BetaCoV_USA_CA4_2020_EPI_ISL_408009                         1.64%    passed     99.96%
- 123  BetaCoV_USA_WA1_2020_EPI_ISL_404895                         1.64%    passed     99.96%
- 124  BetaCov_France_IDF0626_2020_EPI_ISL_408431                  1.74%    passed     99.89%
- 125  BetaCoV_France_IDF0373_2020_EPI_ISL_406597                  1.88%    passed     99.95%
- 126  BetaCoV_Zhejiang_WZ_02_2020_EPI_ISL_404228                  1.71%    passed     99.98%
- 127  BetaCoV_Korea_KCDC24_2020_EPI_ISL_412873                    1.94%    passed     99.88%
- 128  BetaCoV_Australia_NSW05_2020_EPI_ISL_412975                 1.97%    passed     99.91%
- 129  BetaCoV_Singapore_3_2020_EPI_ISL_407988                     1.76%    passed     99.93%
- 130  BetaCoV_Australia_QLD02_2020_EPI_ISL_407896                 1.70%    passed     99.88%
- 131  BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124                     1.61%    passed     99.95%
- 132  BetaCoV_Guangdong_20SF174_2020_EPI_ISL_406531               1.88%    passed     99.92%
- 133  BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936               1.76%    passed     99.90%
- 134  BetaCoV_Germany_BavPat1_2020_EPI_ISL_406862                 1.97%    passed     99.78%
- 135  BetaCoV_pangolin_Guangdong_P2S_2019_EPI_ISL_410544         29.30%    passed      5.88%
- 136  BetaCoV_Japan_Hu_DP_Kng_19_027_2020_EPI_ISL_412969          1.57%    passed     99.98%
- 137  _BetaCoV_Wuhan_HBCDC_HB_04_2020_EPI_ISL_412980              1.76%    passed     99.89%
- 138  BetaCoV_Shenzhen_SZTH_002_2020_EPI_ISL_406593               1.61%    passed     99.93%
- 139  BetaCoV_France_IDF0386_2020_EPI_ISL_411220                  1.65%    passed     99.95%
- 140  BetaCov_Wuhan_WH03_2020_EPI_ISL_406800                      1.68%    passed     99.97%
- 141  BetaCoV_Wuhan_IVDC_HB_04_2020_EPI_ISL_402120                1.59%    passed     99.84%
- 142  BetaCoV_Finland_FIN_25_2020_EPI_ISL_412971                  3.31%    passed     99.12%
- 143  BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541            1.90%    passed     17.07%
- 144  BetaCoV_Foshan_20SF207_2020_EPI_ISL_406534                  1.78%    passed     99.83%
- 145  BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933               1.76%    passed     99.90%
- 146  BetaCoV_France_IDF0515_2020_EPI_ISL_408430                  1.70%    passed     99.82%
- 147  BetaCoV_France_IDF0372_2020_EPI_ISL_406596                  1.73%    passed     99.89%
- 148  BetaCoV_Fujian_13_2020_EPI_ISL_411066                       1.61%    passed     99.91%
- 149  BetaCoV_USA_IL1_2020_EPI_ISL_404253                         1.66%    passed     99.95%
- 150  BetaCoV_USA_CA3_2020_EPI_ISL_408008                         1.64%    passed     99.96%
- 151  BetaCoV_Korea_KCDC12_2020_EPI_ISL_412872                    1.94%    passed     99.85%
- 152  BetaCoV_USA_CA5_2020_EPI_ISL_408010                         1.64%    passed     99.94%
- 153  BetaCoV_Taiwan_CGMH_CGU_01_2020_EPI_ISL_411915              1.70%    passed     99.97%
- 154  BetaCoV_Italy_SPL1_2020__EPI_ISL_412974                     1.57%    passed     99.71%
- 155  BetaCoV_Wuhan_Hu_1_2019_EPI_ISL_402125                      1.57%    passed     99.75%
- 156  BetaCoV_England_01_2020_EPI_ISL_407071                      1.78%    passed     99.94%
- 157  BetaCoV_Japan_AI_I_004_2020_EPI_ISL_407084                  1.75%    passed     99.90%
- 158  BetaCoV_Germany_Baden_Wuerttemberg_1_2020_EPI_ISL_412912    2.05%    passed     99.88%
- 159  BetaCoV_Italy_INMI1_isl_2020_EPI_ISL_410545                 1.69%    passed     99.86%
- 160  BetaCoV_Japan_Hu_DP_Kng_19_020_2020_EPI_ISL_412968          1.57%    passed     99.89%
- 161  BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937               1.76%    passed     99.90%
- 162  BetaCoV_Shenzhen_SZTH_001_2020_EPI_ISL_406592               1.61%    passed    100.00%
- 163  _BetaCoV_Wuhan_HBCDC_HB_05_2020_EPI_ISL_412981              1.77%    passed     99.88%
- 164  BetaCov_Wuhan_WH04_2020_EPI_ISL_406801                      1.67%    passed     99.98%
- 165  BetaCoV_Australia_NSW01_2020_EPI_ISL_407893                 1.97%    passed     99.87%
- 166  BetaCoV_Jingzhou_HBCDC_HB_01_2020_EPI_ISL_412459            1.75%    passed     99.81%
- 167  BetaCoV_Wuhan_IVDC_HB_05_2019_EPI_ISL_402121                1.61%    passed     99.91%
- 168  BetaCoVUSA_WA2_2020_EPI_ISL_412970                          1.74%    passed     99.84%
- 169  BetaCoV_USA_TX1_2020_EPI_ISL_411956                         1.64%    passed     99.98%
- 170  BetaCoV_Shandong_IVDC_SD_001_2020_EPI_ISL_408482            1.65%    passed     99.93%
- 171  BetaCoV_USA_CA9_2020_EPI_ISL_412862                         1.64%    passed     99.96%
- 172  BetaCoV_Hefei_2_2020_EPI_ISL_412026                         1.68%    passed     99.93%
- 173  BetaCov_Brazil_SPBR_02_2020_EPI_ISL_413016                  1.97%    passed     99.83%
- 174  BetaCoV_Finland_1_2020_EPI_ISL_407079                       2.29%    passed     99.76%
- 175  BetaCoV_USA_AZ1_2020_EPI_ISL_406223                         1.64%    passed     99.95%
- 176  BetaCoV_Brazil_SPBR_01_2020_EPI_ISL_412964                  5.55%    passed     93.89%
- 177  BetaCoV_Wuhan_WIV06_2019_EPI_ISL_402129                     1.73%    passed     99.92%
- 178  BetaCoV_Sydney_3_2020_EPI_ISL_408977                        1.97%    passed     99.87%
- 179  BetaCoV_Jiangsu_JS02_2020_EPI_ISL_411952                    1.61%    passed     99.84%
- 180  BetaCoV_USA_MA1_2020_EPI_ISL_409067                         1.64%    passed     99.93%
- 181  _BetaCoV_Wuhan_HBCDC_HB_02_2020_EPI_ISL_412978              1.75%    passed     99.89%
- 182  BetaCoV_Jiangxi_IVDC_JX_002_2020_EPI_ISL_408486             1.66%    passed     99.97%
- 183  BetaCoV_France_IDF0571_2020_EPI_ISL_411218                  1.67%    passed     99.90%
- 184  BetaCoV_Singapore_10_2020_EPI_ISL_410716                    1.61%    passed     99.93%
- 185  BetaCoV_bat_Yunnan_RaTG13_2013_EPI_ISL_402131               1.72%    passed     99.23%
- 186  BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667                 1.65%    passed     99.95%
- 187  BetaCoV_Singapore_6_2020_EPI_ISL_410537                     1.81%    passed     99.94%
- 188  BetaCoV_Guangdong_20SF201_2020_EPI_ISL_406538               1.78%    passed     99.89%
-****  TOTAL                                                       2.40%  0 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119 is identical to BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479 but kept for subsequent analysis
-NOTE: BetaCoV_China_WHU01_2020_EPI_ISL_406716 is identical to BetaCoV_China_WHU02_2020_EPI_ISL_406717 but kept for subsequent analysis
-NOTE: BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962 is identical to _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899 but kept for subsequent analysis
-NOTE: BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932 is identical to BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935 but kept for subsequent analysis
-NOTE: BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532 is identical to BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531 but kept for subsequent analysis
-NOTE: BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214 is identical to BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215 but kept for subsequent analysis
-NOTE: BetaCoV_USA_CA3_2020_EPI_ISL_408008 is identical to BetaCoV_USA_CA4_2020_EPI_ISL_408009 but kept for subsequent analysis
+   1  BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119                1.62%    passed     99.95%
+   2  BetaCoV_Wuhan_IVDC_HB_04_2020_EPI_ISL_402120                1.60%    passed     99.85%
+   3  BetaCoV_Wuhan_IVDC_HB_05_2019_EPI_ISL_402121                1.62%    passed     99.92%
+   4  BetaCoV_Wuhan_IPBCAMS_WH_01_2019_EPI_ISL_402123             1.59%    passed     99.88%
+   5  BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124                     1.62%    passed     99.95%
+   6  BetaCoV_Wuhan_Hu_1_2019_EPI_ISL_402125                      1.58%    passed     99.75%
+   7  BetaCoV_Wuhan_WIV02_2019_EPI_ISL_402127                     1.83%    passed     99.83%
+   8  BetaCoV_Wuhan_WIV05_2019_EPI_ISL_402128                     1.74%    passed     99.92%
+   9  BetaCoV_Wuhan_WIV06_2019_EPI_ISL_402129                     1.74%    passed     99.93%
+  10  BetaCoV_Wuhan_WIV07_2019_EPI_ISL_402130                     1.73%    passed     99.93%
+  11  BetaCoV_bat_Yunnan_RaTG13_2013_EPI_ISL_402131               1.73%    passed     99.20%
+  12  BetaCoV_Wuhan_HBCDC_HB_01_2019_EPI_ISL_402132               1.76%    passed     99.93%
+  13  IPBCAMS_WH_05_2020_EPI_ISL_403928                           1.64%    passed     99.97%
+  14  BetaCoV_Wuhan_IPBCAMS_WH_04_2019_EPI_ISL_403929             1.62%    passed     99.96%
+  15  BetaCoV_Wuhan_IPBCAMS_WH_03_2019_EPI_ISL_403930             1.59%    passed     99.86%
+  16  BetaCoV_Wuhan_IPBCAMS_WH_02_2019_EPI_ISL_403931             1.62%    passed     99.97%
+  17  BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932               1.77%    passed     99.92%
+  18  BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933               1.77%    passed     99.92%
+  19  BetaCoV_Guangdong_20SF014_2020_EPI_ISL_403934               1.77%    passed     99.94%
+  20  BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935               1.77%    passed     99.92%
+  21  BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936               1.77%    passed     99.92%
+  22  BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937               1.77%    passed     99.92%
+  23  BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962                   1.76%    passed     99.90%
+  24  BetaCoV_Nonthaburi_74_2020_EPI_ISL_403963                   1.72%    passed     99.95%
+  25  BetaCoV_Zhejiang_WZ_01_2020_EPI_ISL_404227                  1.79%    passed     99.89%
+  26  BetaCoV_Zhejiang_WZ_02_2020_EPI_ISL_404228                  1.72%    passed     99.98%
+  27  BetaCoV_USA_IL1_2020_EPI_ISL_404253                         1.67%    passed     99.96%
+  28  BetaCoV_USA_WA1_2020_EPI_ISL_404895                         1.65%    passed     99.97%
+  29  BetaCoV_Shenzhen_HKU_SZ_005_2020_EPI_ISL_405839             1.62%    passed     99.93%
+  30  BetaCoV_Shenzhen_HKU_SZ_002_2020_EPI_ISL_406030             1.79%    passed     99.85%
+  31  BetaCoV_Taiwan_2_2020_EPI_ISL_406031                        1.66%    passed     99.97%
+  32  BetaCoV_USA_CA1_2020_EPI_ISL_406034                         1.65%    passed     99.98%
+  33  BetaCoV_USA_CA2_2020_EPI_ISL_406036                         1.64%    passed     99.96%
+  34  BetaCoV_USA_AZ1_2020_EPI_ISL_406223                         1.65%    passed     99.96%
+  35  BetaCoV_Guangdong_20SF174_2020_EPI_ISL_406531               1.89%    passed     99.93%
+  36  BetaCoV_Guangzhou_20SF206_2020_EPI_ISL_406533               1.79%    passed     99.85%
+  37  BetaCoV_Foshan_20SF207_2020_EPI_ISL_406534                  1.79%    passed     99.85%
+  38  BetaCoV_Foshan_20SF210_2020_EPI_ISL_406535                  1.79%    passed     99.88%
+  39  BetaCoV_Foshan_20SF211_2020_EPI_ISL_406536                  1.91%    passed     99.94%
+  40  BetaCoV_Guangdong_20SF201_2020_EPI_ISL_406538               1.79%    passed     99.90%
+  41  BetaCoV_Shenzhen_SZTH_001_2020_EPI_ISL_406592               1.62%    passed    100.00%
+  42  BetaCoV_Shenzhen_SZTH_002_2020_EPI_ISL_406593               1.62%    passed     99.93%
+  43  BetaCoV_Shenzhen_SZTH_003_2020_EPI_ISL_406594               1.59%    passed     99.90%
+  44  BetaCoV_Shenzhen_SZTH_004_2020_EPI_ISL_406595               1.59%    passed     99.98%
+  45  BetaCoV_France_IDF0372_2020_EPI_ISL_406596                  1.74%    passed     99.91%
+  46  BetaCoV_France_IDF0373_2020_EPI_ISL_406597                  1.89%    passed     99.96%
+  47  BetaCoV_China_WHU01_2020_EPI_ISL_406716                     1.65%    passed     99.98%
+  48  BetaCoV_China_WHU02_2020_EPI_ISL_406717                     1.65%    passed     99.98%
+  49  BetaCov_Wuhan_WH01_2019_EPI_ISL_406798                      1.70%    passed     99.91%
+  50  BetaCov_Wuhan_WH02_2019_EPI_ISL_406799                     36.60%    passed     40.61%
+  51  BetaCov_Wuhan_WH03_2020_EPI_ISL_406800                      1.69%    passed     99.97%
+  52  BetaCov_Wuhan_WH04_2020_EPI_ISL_406801                      1.68%    passed     99.98%
+  53  BetaCoV_Australia_VIC01_2020_EPI_ISL_406844                 1.61%    passed     99.70%
+  54  BetaCoV_Germany_BavPat1_2020_EPI_ISL_406862                 1.97%    passed     99.80%
+  55  BetaCoV_Zhejiang_Hangzhou_1_2020_EPI_ISL_406970             1.81%    passed     99.96%
+  56  BetaCoV_Singapore_1_2020_EPI_ISL_406973                     1.77%    passed     99.93%
+  57  BetaCoV_England_01_2020_EPI_ISL_407071                      1.79%    passed     99.94%
+  58  BetaCoV_England_02_2020_EPI_ISL_407073                      1.79%    passed     99.92%
+  59  BetaCoV_Finland_1_2020_EPI_ISL_407079                       2.30%    passed     99.76%
+  60  BetaCoV_Japan_AI_I_004_2020_EPI_ISL_407084                  1.76%    passed     99.91%
+  61  BetaCoV_Korea_KCDC03_2020_EPI_ISL_407193                    1.86%    passed     99.93%
+  62  BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214                     1.65%    passed     99.97%
+  63  BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215                      1.65%    passed     99.97%
+  64  BetaCoV_Hangzhou_HZCDC0001_2020_EPI_ISL_407313              1.80%    passed     99.90%
+  65  BetaCoV_Australia_NSW01_2020_EPI_ISL_407893                 1.97%    passed     99.89%
+  66  BetaCoV_Australia_QLD01_2020_EPI_ISL_407894                 1.80%    passed     99.92%
+  67  BetaCoV_Australia_QLD02_2020_EPI_ISL_407896                 1.71%    passed     99.90%
+  68  BetaCoV_Belgium_GHB_03021_2020_EPI_ISL_407976               1.73%    passed     99.98%
+  69  BetaCoV_Singapore_2_2020_EPI_ISL_407987                     1.77%    passed     99.94%
+  70  BetaCoV_Singapore_3_2020_EPI_ISL_407988                     1.77%    passed     99.94%
+  71  BetaCoV_USA_CA3_2020_EPI_ISL_408008                         1.65%    passed     99.97%
+  72  BetaCoV_USA_CA4_2020_EPI_ISL_408009                         1.65%    passed     99.97%
+  73  BetaCoV_USA_CA5_2020_EPI_ISL_408010                         1.65%    passed     99.95%
+  74  BetaCoV_France_IDF0515_2020_EPI_ISL_408430                  1.71%    passed     99.84%
+  75  BetaCov_France_IDF0626_2020_EPI_ISL_408431                  1.75%    passed     99.90%
+  76  BetaCoV_Chongqing_YC01_2020_EPI_ISL_408478                  1.62%    passed     99.88%
+  77  BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479                  1.62%    passed     99.95%
+  78  BetaCoV_Yunnan_IVDC_YN_003_2020_EPI_ISL_408480              1.64%    passed     99.97%
+  79  BetaCoV_Chongqing_IVDC_CQ_001_2020_EPI_ISL_408481           1.64%    passed     99.97%
+  80  BetaCoV_Shandong_IVDC_SD_001_2020_EPI_ISL_408482            1.66%    passed     99.94%
+  81  BetaCoV_Shanghai_IVDC_SH_001_2020_EPI_ISL_408483            2.67%    passed     99.58%
+  82  BetaCoV_Sichuan_IVDC_SC_001_2020_EPI_ISL_408484             1.67%    passed     99.98%
+  83  BetaCoV_Beijing_IVDC_BJ_005_2020_EPI_ISL_408485             1.64%    passed     99.85%
+  84  BetaCoV_Jiangxi_IVDC_JX_002_2020_EPI_ISL_408486             1.67%    passed     99.97%
+  85  BetaCoV_Henan_IVDC_HeN_002_2020_EPI_ISL_408487              3.89%    passed     89.79%
+  86  BetaCoV_Jiangsu_IVDC_JS_001_2020_EPI_ISL_408488             1.87%    passed     99.91%
+  87  BetaCoV_Taiwan_NTU01_2020_EPI_ISL_408489                    3.00%    passed     99.48%
+  88  BetaCoV_Wuhan_IVDC_HB_envF13_2020_EPI_ISL_408511            6.03%    passed     79.09%
+  89  BetaCoV_Wuhan_IVDC_HB_envF54_2020_EPI_ISL_408512           16.64%    passed     55.19%
+  90  BetaCoV_Wuhan_IVDC_HB_envF13_20_2020_EPI_ISL_408514         1.62%    passed     99.91%
+  91  BetaCoV_Wuhan_IVDC_HB_envF13_21_2020_EPI_ISL_408515         1.62%    passed     99.95%
+  92  BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665                 1.66%    passed     99.95%
+  93  BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666                 1.66%    passed     99.97%
+  94  BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667                 1.66%    passed     99.96%
+  95  BetaCoV_Vietnam_VR03_38142_2020_EPI_ISL_408668              1.62%    passed     99.95%
+  96  BetaCoV_Japan_KY_V_029_2020_EPI_ISL_408669                  1.66%    passed     99.95%
+  97  BetaCoV_USA_WI1_2020_EPI_ISL_408670                         1.66%    passed     99.98%
+  98  BetaCoV_Sydney_2_2020_EPI_ISL_408976                        2.11%    passed     99.72%
+  99  BetaCoV_Sydney_3_2020_EPI_ISL_408977                        1.97%    passed     99.89%
+ 100  BetaCoV_Wuhan_WH05_2020_EPI_ISL_408978                      7.14%    passed     36.93%
+ 101  BetaCoV_USA_MA1_2020_EPI_ISL_409067                         1.65%    passed     99.94%
+ 102  BetaCoV_USA_CA6_2020_EPI_ISL_410044                         1.72%    passed     99.99%
+ 103  BetaCoV_USA_IL2_2020_EPI_ISL_410045                         1.65%    passed     99.98%
+ 104  BetaCov_Taiwan_NTU02_2020_EPI_ISL_410218                    1.69%    passed     99.91%
+ 105  BetaCoV_Nepal_61_2020_EPI_ISL_410301                        1.88%    passed     99.95%
+ 106  BetaCoV_France_RA739_2020_EPI_ISL_410486                    4.75%    passed     99.78%
+ 107  BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531                1.66%    passed     99.99%
+ 108  BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532                1.66%    passed     99.99%
+ 109  BetaCoV_Singapore_4_2020_EPI_ISL_410535                     3.20%    passed     98.66%
+ 110  BetaCoV_Singapore_5_2020_EPI_ISL_410536                     1.77%    passed     99.93%
+ 111  BetaCoV_Singapore_6_2020_EPI_ISL_410537                     1.82%    passed     99.94%
+ 112  BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538            1.90%    passed     18.52%
+ 113  BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539            1.91%    passed     20.04%
+ 114  BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540            1.90%    passed     20.79%
+ 115  BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541            1.91%    passed     16.83%
+ 116  BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542            1.96%    passed     19.81%
+ 117  BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543            9.95%    passed     11.26%
+ 118  BetaCoV_pangolin_Guangdong_P2S_2019_EPI_ISL_410544         29.31%    passed      5.79%
+ 119  BetaCoV_Italy_INMI1_isl_2020_EPI_ISL_410545                 1.70%    passed     99.88%
+ 120  BetaCoV_Italy_INMI1_cs_2020_EPI_ISL_410546                  1.96%    passed     99.89%
+ 121  BetaCoV_Singapore_7_2020_EPI_ISL_410713                     1.62%    passed     99.92%
+ 122  BetaCoV_Singapore_8_2020_EPI_ISL_410714                     2.05%    passed     99.80%
+ 123  BetaCoV_Singapore_9_2020_EPI_ISL_410715                     1.62%    passed     99.92%
+ 124  BetaCoV_Singapore_10_2020_EPI_ISL_410716                    1.62%    passed     99.93%
+ 125  BetaCoV_Australia_QLD03_2020_EPI_ISL_410717                 1.70%    passed     99.96%
+ 126  BetaCoV_Australia_QLD04_2020_EPI_ISL_410718                 1.70%    passed     99.95%
+ 127  BetaCoV_Singapore_11_2020_EPI_ISL_410719                    1.77%    passed     99.88%
+ 128  BetaCoV_France_IDF0372_2020_EPI_ISL_410720                  1.67%    passed     99.94%
+ 129  BetaCoV_pangolin_Guandong_1_2020_EPI_ISL_410721             2.36%    passed     62.13%
+ 130  BetaCoV_France_IDF0515_isl_2020_EPI_ISL_410984              1.68%    passed     99.89%
+ 131  BetaCoV_Fujian_8_2020_EPI_ISL_411060                        1.68%    passed     99.93%
+ 132  BetaCoV_Fujian_13_2020_EPI_ISL_411066                       1.62%    passed     99.92%
+ 133  BetaCoV_France_IDF0571_2020_EPI_ISL_411218                  1.68%    passed     99.91%
+ 134  BetaCoV_France_IDF0386_2020_EPI_ISL_411219                  1.68%    passed     99.93%
+ 135  BetaCoV_France_IDF0386_2020_EPI_ISL_411220                  1.66%    passed     99.96%
+ 136  BetaCoV_Cambodia_0012_2020_EPI_ISL_411902                   1.68%    passed     99.95%
+ 137  BetaCoV_Taiwan_CGMH_CGU_01_2020_EPI_ISL_411915              1.71%    passed     99.97%
+ 138  BetaCoV_Taiwan_3_2020_EPI_ISL_411926                        1.62%    passed     99.96%
+ 139  BetaCoV_Taiwan_4_2020_EPI_ISL_411927                        1.62%    passed     99.96%
+ 140  BetaCoV_South_Korea_SNU01_2020_EPI_ISL_411929               1.58%    passed     99.57%
+ 141  BetaCoV_Jiangsu_JS01_2020_EPI_ISL_411950                    1.62%    passed     99.88%
+ 142  BetaCoV_Sweden_01_2020_EPI_ISL_411951                       1.63%    passed     99.98%
+ 143  BetaCoV_Jiangsu_JS02_2020_EPI_ISL_411952                    1.62%    passed     99.86%
+ 144  BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953                    1.62%    passed     99.95%
+ 145  BetaCoV_USA_CA7_2020_EPI_ISL_411954                         1.65%    passed     99.97%
+ 146  BetaCoV_USA_CA8_2020_EPI_ISL_411955                         1.65%    passed     99.98%
+ 147  BetaCoV_USA_TX1_2020_EPI_ISL_411956                         1.65%    passed     99.98%
+ 148  BetaCoV_China_WH_09_2020_EPI_ISL_411957                     1.55%    passed     99.97%
+ 149  BetaCoV_Hefei_2_2020_EPI_ISL_412026                         1.69%    passed     99.94%
+ 150  BetaCoV_Hong_Kong_VM20001061_2020_EPI_ISL_412028            1.75%    passed     99.90%
+ 151  BetaCoV_Hong_Kong_VM20001988_2020_EPI_ISL_412029            1.94%    passed     99.84%
+ 152  BetaCoV_Hong_Kong_VB20026565_2020_EPI_ISL_412030            1.77%    passed     99.92%
+ 153  BetaCoV_England_03_2020_EPI_ISL_412116                      1.78%    passed     99.93%
+ 154  BetaCoV_Jingzhou_HBCDC_HB_01_2020_EPI_ISL_412459            1.76%    passed     99.83%
+ 155  BetaCoV_pangolin_China_MP789_2019_EPI_ISL_412860           16.59%    passed     30.22%
+ 156  BetaCoV_USA_CA9_2020_EPI_ISL_412862                         1.65%    passed     99.97%
+ 157  BetaCoV_Korea_KCDC05_2020_EPI_ISL_412869                    1.95%    passed     99.92%
+ 158  BetaCoV_Korea_KCDC06_2020_EPI_ISL_412870                    1.95%    passed     99.92%
+ 159  BetaCoV_Korea_KCDC07_2020_EPI_ISL_412871                    1.95%    passed     99.86%
+ 160  BetaCoV_Korea_KCDC12_2020_EPI_ISL_412872                    1.95%    passed     99.86%
+ 161  BetaCoV_Korea_KCDC24_2020_EPI_ISL_412873                    1.95%    passed     99.89%
+ 162  _BetaCoV_Wuhan_HBCDC_HB_02_2019_EPI_ISL_412898              1.76%    passed     99.89%
+ 163  _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899              1.76%    passed     99.90%
+ 164  _BetaCoV_Wuhan_HBCDC_HB_04_2019_EPI_ISL_412900              3.89%    passed     95.91%
+ 165  BetaCoV_Germany_Baden_Wuerttemberg_1_2020_EPI_ISL_412912    2.06%    passed     99.89%
+ 166  BetaCoV_Brazil_SPBR_01_2020_EPI_ISL_412964                  5.56%    passed     94.05%
+ 167  BetaCoV_Canada_BC_37_0_2_2020_EPI_ISL_412965                2.86%    passed     99.96%
+ 168  BetaCoV_China_IQTC01_2020_EPI_ISL_412966                    1.62%    passed     99.94%
+ 169  BetaCoV_China_IQTC02_2020_EPI_ISL_412967                    1.50%    passed     99.92%
+ 170  BetaCoV_Japan_Hu_DP_Kng_19_020_2020_EPI_ISL_412968          1.58%    passed     99.91%
+ 171  BetaCoV_Japan_Hu_DP_Kng_19_027_2020_EPI_ISL_412969          1.58%    passed     99.98%
+ 172  BetaCoVUSA_WA2_2020_EPI_ISL_412970                          1.75%    passed     99.86%
+ 173  BetaCoV_Finland_FIN_25_2020_EPI_ISL_412971                  3.32%    passed     99.10%
+ 174  BetaCoV_Mexico_CDMX_InDRE_01_2020_EPI_ISL_412972            1.76%    passed     99.88%
+ 175  BetaCoV_Italy_CDG1_2020_EPI_ISL_412973                      1.58%    passed     99.68%
+ 176  BetaCoV_Italy_SPL1_2020__EPI_ISL_412974                     1.58%    passed     99.71%
+ 177  BetaCoV_Australia_NSW05_2020_EPI_ISL_412975                 1.97%    passed     99.92%
+ 178  _BetaCoV_Wuhan_HBCDC_HB_02_2020_EPI_ISL_412978              1.76%    passed     99.90%
+ 179  _BetaCoV_Wuhan_HBCDC_HB_03_2020_EPI_ISL_412979              1.76%    passed     99.90%
+ 180  _BetaCoV_Wuhan_HBCDC_HB_04_2020_EPI_ISL_412980              1.77%    passed     99.90%
+ 181  _BetaCoV_Wuhan_HBCDC_HB_05_2020_EPI_ISL_412981              1.78%    passed     99.90%
+ 182  _BetaCoV_Wuhan_HBCDC_HB_06_2020_EPI_ISL_412982              1.79%    passed     99.92%
+ 183  BetaCoV_Tianmen_HBCDC_HB_07_2020_EPI_ISL_412983             2.26%    passed     99.77%
+ 184  BetaCoV_Canada_ON_PHL2445_2020_EPI_ISL_413014               1.75%    passed     99.77%
+ 185  BetaCoV_Canada_ON_VIDO_01_2020_EPI_ISL_413015               1.66%    passed     99.91%
+ 186  BetaCov_Brazil_SPBR_02_2020_EPI_ISL_413016                  1.97%    passed     99.85%
+ 187  BetaCoV_South_Korea_KUMC01_2020_EPI_ISL_413017              1.65%    passed     99.77%
+ 188  BetaCoV_South_Korea_KUMC02_2020_EPI_ISL_413018              1.72%    passed     99.92%
+ 189  BetaCoV_Switzerland_1000477102_2020_EPI_ISL_413019          1.66%    passed     99.86%
+ 190  BetaCoV_Switzerland_1000477377_2020_EPI_ISL_413020          1.73%    passed     99.87%
+ 191  BetaCoV_Switzerland_1000477757_2020_EPI_ISL_413021          1.67%    passed     99.91%
+ 192  BetaCoV_Switzerland_1000477796_2020_EPI_ISL_413022          1.77%    passed     99.91%
+ 193  BetaCoV_Switzerland_1000477797_2020_EPI_ISL_413023          1.96%    passed     99.78%
+ 194  BetaCoV_Switzerland_1000477806_2020_EPI_ISL_413024          1.69%    passed     99.91%
+ 195  BetaCoV_USA_WA3_UW1_2020_EPI_ISL_413025                     1.58%    passed     99.42%
+ 196  BetaCoV_Australia_NSW06_2020_EPI_ISL_413213                 1.97%    passed     99.86%
+ 197  BetaCoV_Australia_NSW07_2020_EPI_ISL_413214                 1.97%    passed     99.93%
+ 198  BetaCoV_Scotland_CVR01_2020_EPI_ISL_413221                  3.81%    passed     99.86%
+****  TOTAL                                                       2.39%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124 is identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119 but kept for subsequent analysis
+NOTE: BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933 is identical to BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932 but kept for subsequent analysis
 NOTE: BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937 is identical to BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936 but kept for subsequent analysis
+NOTE: _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899 is identical to BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962 but kept for subsequent analysis
+NOTE: BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214 is identical to BetaCoV_USA_WA1_2020_EPI_ISL_404895 but kept for subsequent analysis
+NOTE: BetaCoV_China_WHU02_2020_EPI_ISL_406717 is identical to BetaCoV_China_WHU01_2020_EPI_ISL_406716 but kept for subsequent analysis
+NOTE: BetaCoV_USA_CA4_2020_EPI_ISL_408009 is identical to BetaCoV_USA_CA3_2020_EPI_ISL_408008 but kept for subsequent analysis
+NOTE: BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532 is identical to BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531 but kept for subsequent analysis
 NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
-NOTE: BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953 (identical to BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479) is ignored but added at the end
-NOTE: BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124 (identical to BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479) is ignored but added at the end
-NOTE: BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933 (identical to BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935) is ignored but added at the end
-NOTE: BetaCoV_USA_WA1_2020_EPI_ISL_404895 (identical to BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215) is ignored but added at the end
+NOTE: BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479 (identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119) is ignored but added at the end
+NOTE: BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953 (identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119) is ignored but added at the end
+NOTE: BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935 (identical to BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932) is ignored but added at the end
+NOTE: BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215 (identical to BetaCoV_USA_WA1_2020_EPI_ISL_404895) is ignored but added at the end
 
 For your convenience alignment with unique sequences printed to /home/a1moshir/COVID-19/output_files/sequences_safe.aln.uniqueseq.phy
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.104 seconds
-NOTE: ModelFinder requires 187 MB RAM!
-ModelFinder will test 286 DNA models (sample size: 30379) ...
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.115 seconds
+NOTE: ModelFinder requires 199 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 30382) ...
  No. Model         -LnL         df  AIC          AICc         BIC
 Measuring multi-threading efficiency up to 24 CPU cores
 Increase to 10 rounds for branch lengths
-111 trees examined
-Threads: 1 / Time: 24.149 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -187197
-Threads: 2 / Time: 16.437 sec / Speedup: 1.469 / Efficiency: 73% / LogL: -187197
-Threads: 3 / Time: 16.247 sec / Speedup: 1.486 / Efficiency: 50% / LogL: -187197
+99 trees examined
+Threads: 1 / Time: 24.004 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -188069
+Threads: 2 / Time: 11.905 sec / Speedup: 2.016 / Efficiency: 101% / LogL: -188069
+Threads: 3 / Time: 12.895 sec / Speedup: 1.862 / Efficiency: 62% / LogL: -188069
+Threads: 4 / Time: 11.653 sec / Speedup: 2.060 / Efficiency: 51% / LogL: -188069
+Threads: 5 / Time: 10.385 sec / Speedup: 2.311 / Efficiency: 46% / LogL: -188069
 BEST NUMBER OF THREADS: 2
 
-  1  JC            81325.227    365 163380.454   163389.356   166417.804
-  2  JC+I          81059.414    366 162850.828   162859.780   165896.500
-  3  JC+G4         81056.025    366 162844.050   162853.002   165889.722
-  4  JC+I+G4       81056.054    367 162846.107   162855.108   165900.100
-  5  JC+R2         81059.106    367 162852.212   162861.212   165906.205
-  6  JC+R3         81054.321    369 162846.643   162855.742   165917.279
- 14  F81+F         80291.008    368 161318.016   161327.066   164380.331
- 15  F81+F+I       79998.682    369 160735.364   160744.463   163806.000
- 16  F81+F+G4      79995.341    369 160728.683   160737.782   163799.319
- 17  F81+F+I+G4    79995.220    370 160730.441   160739.590   163809.398
- 18  F81+F+R2      79996.275    370 160732.551   160741.700   163811.508
- 19  F81+F+R3      79995.727    372 160735.454   160744.703   163831.055
- 27  K2P           80096.814    366 160925.628   160934.579   163971.299
- 28  K2P+I         79742.673    367 160219.346   160228.346   163273.339
- 29  K2P+G4        79738.801    367 160211.602   160220.603   163265.595
- 30  K2P+I+G4      79738.236    368 160212.473   160221.523   163274.787
- 31  K2P+R2        79739.605    368 160215.210   160224.260   163277.524
- 32  K2P+R3        79739.528    370 160219.056   160228.205   163298.014
- 40  HKY+F         78931.424    369 158600.847   158609.946   161671.483
- 41  HKY+F+I       78510.186    370 157760.372   157769.521   160839.330
- 42  HKY+F+G4      78506.825    370 157753.650   157762.799   160832.608
- 43  HKY+F+I+G4    78506.153    371 157754.307   157763.506   160841.586
- 44  HKY+F+R2      78507.819    371 157757.638   157766.836   160844.917
-WARNING: Log-likelihood of HKY+F+R3 worse than HKY+F+R2
- 45  HKY+F+R3      78508.011    373 157762.021   157771.320   160865.943
- 53  TNe           79946.548    367 160627.096   160636.096   163681.089
- 54  TNe+I         79604.682    368 159945.363   159954.413   163007.678
- 55  TNe+G4        79598.602    368 159933.203   159942.253   162995.518
- 56  TNe+I+G4      79598.287    369 159934.574   159943.673   163005.210
- 57  TNe+R2        79597.731    369 159933.463   159942.562   163004.099
- 58  TNe+R3        79597.305    371 159936.610   159945.809   163023.889
- 66  TN+F          78769.647    370 158279.294   158288.442   161358.251
- 67  TN+F+I        78362.995    371 157467.989   157477.188   160555.268
- 68  TN+F+G4       78356.317    371 157454.633   157463.832   160541.912
- 69  TN+F+I+G4     78355.741    372 157455.481   157464.730   160551.082
- 70  TN+F+R2       78356.544    372 157457.088   157466.337   160552.689
- 71  TN+F+R3       78356.544    374 157461.089   157470.438   160573.332
- 79  K3P           79995.587    367 160725.174   160734.174   163779.167
- 80  K3P+I         79647.124    368 160030.247   160039.297   163092.562
- 81  K3P+G4        79643.617    368 160023.233   160032.283   163085.548
- 82  K3P+I+G4      79642.940    369 160023.879   160032.978   163094.515
- 83  K3P+R2        79643.583    369 160025.166   160034.265   163095.802
- 84  K3P+R3        79643.285    371 160028.571   160037.769   163115.850
- 92  K3Pu+F        78866.661    370 158473.322   158482.471   161552.279
- 93  K3Pu+F+I      78453.099    371 157648.199   157657.397   160735.478
- 94  K3Pu+F+G4     78450.519    371 157643.038   157652.237   160730.317
- 95  K3Pu+F+I+G4   78449.805    372 157643.609   157652.858   160739.210
- 96  K3Pu+F+R2     78452.340    372 157648.680   157657.928   160744.280
+  1  JC            81667.531    385 164105.063   164114.971   167308.881
+  2  JC+I          81391.799    386 163555.597   163565.558   166767.737
+  3  JC+G4         81387.153    386 163546.305   163556.266   166758.445
+  4  JC+I+G4       81387.267    387 163548.535   163558.547   166768.996
+  5  JC+R2         81390.287    387 163554.575   163564.587   166775.036
+  6  JC+R3         81385.383    389 163548.766   163558.883   166785.871
+ 14  F81+F         80627.548    388 162031.096   162041.161   165259.879
+ 15  F81+F+I       80325.231    389 161428.462   161438.579   164665.567
+ 16  F81+F+G4      80320.661    389 161419.322   161429.439   164656.427
+ 17  F81+F+I+G4    80320.526    390 161421.052   161431.221   164666.478
+ 18  F81+F+R2      80321.586    390 161423.171   161433.340   164668.598
+ 19  F81+F+R3      80320.675    392 161425.351   161435.625   164687.420
+ 27  K2P           80432.061    386 161636.123   161646.083   164848.263
+ 28  K2P+I         80066.775    387 160907.549   160917.561   164128.010
+ 29  K2P+G4        80061.650    387 160897.300   160907.312   164117.761
+ 30  K2P+I+G4      80060.861    388 160897.723   160907.787   164126.506
+ 31  K2P+R2        80062.219    388 160900.437   160910.502   164129.220
+ 32  K2P+R3        80061.687    390 160903.373   160913.542   164148.800
+ 40  HKY+F         79261.109    389 159300.218   159310.335   162537.323
+ 41  HKY+F+I       78828.943    390 158437.886   158448.055   161683.312
+ 42  HKY+F+G4      78824.339    390 158428.678   158438.847   161674.104
+ 43  HKY+F+I+G4    78823.286    391 158428.573   158438.794   161682.321
+ 44  HKY+F+R2      78825.073    391 158432.146   158442.367   161685.894
+ 45  HKY+F+R3      78825.167    393 158436.334   158446.660   161706.725
+ 53  TNe           80279.363    387 161332.726   161342.738   164553.187
+ 54  TNe+I         79926.676    388 160629.353   160639.417   163858.136
+ 55  TNe+G4        79919.327    388 160614.653   160624.718   163843.436
+ 56  TNe+I+G4      79918.813    389 160615.626   160625.742   163852.730
+ 57  TNe+R2        79917.998    389 160613.997   160624.113   163851.101
+ 58  TNe+R3        79917.391    391 160616.782   160627.004   163870.530
+ 66  TN+F          79096.364    390 158972.727   158982.896   162218.153
+ 67  TN+F+I        78679.363    391 158140.726   158150.948   161394.474
+ 68  TN+F+G4       78671.357    391 158124.714   158134.935   161378.462
+ 69  TN+F+I+G4     78670.450    392 158124.900   158135.175   161386.970
+ 70  TN+F+R2       78671.181    392 158126.363   158136.637   161388.432
+ 71  TN+F+R3       78671.189    394 158130.379   158140.759   161409.091
+ 79  K3P           80333.052    387 161440.104   161450.117   164660.566
+ 80  K3P+I         79973.986    388 160723.971   160734.036   163952.754
+ 81  K3P+G4        79969.156    388 160714.311   160724.376   163943.094
+ 82  K3P+I+G4      79968.297    389 160714.594   160724.710   163951.698
+ 83  K3P+R2        79968.652    389 160715.303   160725.420   163952.408
+ 84  K3P+R3        79968.324    391 160718.649   160728.871   163972.397
+ 92  K3Pu+F        79197.807    390 159175.613   159185.782   162421.039
+ 93  K3Pu+F+I      78773.608    391 158329.216   158339.438   161582.964
+ 94  K3Pu+F+G4     78769.738    391 158321.477   158331.699   161575.225
+ 95  K3Pu+F+I+G4   78768.671    392 158321.342   158331.616   161583.411
+ 96  K3Pu+F+R2     78771.290    392 158326.580   158336.855   161588.650
 WARNING: Log-likelihood of K3Pu+F+R3 worse than K3Pu+F+R2
- 97  K3Pu+F+R3     78452.595    374 157653.191   157662.540   160765.434
-105  TPM2+F        78791.563    370 158323.127   158332.276   161402.084
-106  TPM2+F+I      78398.594    371 157539.188   157548.387   160626.467
-107  TPM2+F+G4     78394.833    371 157531.667   157540.865   160618.946
-108  TPM2+F+I+G4   78394.195    372 157532.390   157541.639   160627.991
-109  TPM2+F+R2     78395.061    372 157534.122   157543.370   160629.722
-110  TPM2+F+R3     78395.026    374 157538.052   157547.401   160650.296
-118  TPM2u+F       78791.513    370 158323.026   158332.175   161401.983
-119  TPM2u+F+I     78398.543    371 157539.085   157548.284   160626.364
-120  TPM2u+F+G4    78394.727    371 157531.453   157540.652   160618.732
-121  TPM2u+F+I+G4  78394.099    372 157532.197   157541.446   160627.798
-122  TPM2u+F+R2    78395.010    372 157534.019   157543.268   160629.620
-123  TPM2u+F+R3    78394.975    374 157537.950   157547.299   160650.194
-131  TPM3+F        78879.630    370 158499.261   158508.410   161578.218
-132  TPM3+F+I      78465.674    371 157673.347   157682.546   160760.626
-133  TPM3+F+G4     78462.769    371 157667.539   157676.737   160754.818
-134  TPM3+F+I+G4   78462.040    372 157668.080   157677.329   160763.681
-135  TPM3+F+R2     78464.035    372 157672.069   157681.318   160767.670
-136  TPM3+F+R3     78463.962    374 157675.924   157685.273   160788.168
-144  TPM3u+F       78879.686    370 158499.372   158508.521   161578.330
-145  TPM3u+F+I     78465.695    371 157673.390   157682.589   160760.669
-146  TPM3u+F+G4    78462.831    371 157667.662   157676.861   160754.941
-147  TPM3u+F+I+G4  78462.100    372 157668.200   157677.449   160763.801
-148  TPM3u+F+R2    78463.953    372 157671.906   157681.155   160767.507
-149  TPM3u+F+R3    78463.920    374 157675.840   157685.189   160788.083
-157  TIMe          79844.522    368 160425.045   160434.094   163487.359
-158  TIMe+I        79508.501    369 159755.003   159764.102   162825.639
-159  TIMe+G4       79502.831    369 159743.663   159752.762   162814.299
-160  TIMe+I+G4     79502.478    370 159744.956   159754.105   162823.914
-161  TIMe+R2       79501.980    370 159743.961   159753.110   162822.918
-162  TIMe+R3       79501.655    372 159747.310   159756.558   162842.910
-170  TIM+F         78704.536    371 158151.072   158160.271   161238.351
-171  TIM+F+I       78304.041    372 157352.083   157361.331   160447.683
-172  TIM+F+G4      78298.445    372 157340.890   157350.139   160436.491
-173  TIM+F+I+G4    78297.818    373 157341.637   157350.935   160445.559
-174  TIM+F+R2      78299.792    373 157345.583   157354.882   160449.505
+ 97  K3Pu+F+R3     78771.530    394 158331.060   158341.440   161609.773
+105  TPM2+F        79120.645    390 159021.290   159031.460   162266.717
+106  TPM2+F+I      78716.828    391 158215.655   158225.877   161469.403
+107  TPM2+F+G4     78711.754    391 158205.509   158215.730   161459.257
+108  TPM2+F+I+G4   78710.807    392 158205.614   158215.889   161467.684
+109  TPM2+F+R2     78711.548    392 158207.096   158217.370   161469.165
+110  TPM2+F+R3     78711.484    394 158210.969   158221.348   161489.681
+118  TPM2u+F       79120.497    390 159020.994   159031.163   162266.420
+119  TPM2u+F+I     78716.710    391 158215.420   158225.642   161469.168
+120  TPM2u+F+G4    78711.580    391 158205.159   158215.381   161458.907
+121  TPM2u+F+I+G4  78710.643    392 158205.285   158215.559   161467.354
+122  TPM2u+F+R2    78711.475    392 158206.951   158217.225   161469.020
+123  TPM2u+F+R3    78711.419    394 158210.837   158221.217   161489.550
+131  TPM3+F        79209.558    390 159199.117   159209.286   162444.543
+132  TPM3+F+I      78784.537    391 158351.073   158361.295   161604.821
+133  TPM3+F+G4     78780.379    391 158342.757   158352.979   161596.505
+134  TPM3+F+I+G4   78779.285    392 158342.570   158352.844   161604.640
+135  TPM3+F+R2     78781.373    392 158346.746   158357.020   161608.816
+136  TPM3+F+R3     78781.270    394 158350.539   158360.919   161629.252
+144  TPM3u+F       79209.610    390 159199.220   159209.389   162444.646
+145  TPM3u+F+I     78784.558    391 158351.115   158361.337   161604.863
+146  TPM3u+F+G4    78780.440    391 158342.880   158353.101   161596.628
+147  TPM3u+F+I+G4  78779.342    392 158342.684   158352.958   161604.753
+148  TPM3u+F+R2    78781.275    392 158346.549   158356.824   161608.619
+149  TPM3u+F+R3    78781.219    394 158350.438   158360.818   161629.150
+157  TIMe          80179.284    388 161134.568   161144.633   164363.351
+158  TIMe+I        79832.971    389 160443.943   160454.060   163681.047
+159  TIMe+G4       79825.967    389 160429.934   160440.050   163667.038
+160  TIMe+I+G4     79825.496    390 160430.992   160441.161   163676.418
+161  TIMe+R2       79824.485    390 160428.970   160439.139   163674.396
+162  TIMe+R3       79824.092    392 160432.184   160442.458   163694.253
+170  TIM+F         79032.904    391 158847.809   158858.030   162101.556
+171  TIM+F+I       78622.335    392 158028.669   158038.944   161290.739
+172  TIM+F+G4      78615.385    392 158014.771   158025.045   161276.840
+173  TIM+F+I+G4    78614.467    393 158014.933   158025.260   161285.324
+174  TIM+F+R2      78616.323    393 158018.646   158028.973   161289.037
 WARNING: Log-likelihood of TIM+F+R3 worse than TIM+F+R2
-175  TIM+F+R3      78300.025    375 157350.051   157359.450   160470.616
-183  TIM2e         79701.090    368 160138.181   160147.230   163200.495
-184  TIM2e+I       79367.470    369 159472.940   159482.040   162543.576
-185  TIM2e+G4      79360.970    369 159459.939   159469.039   162530.575
-186  TIM2e+I+G4    79360.868    370 159461.736   159470.885   162540.694
-187  TIM2e+R2      79359.516    370 159459.031   159468.180   162537.989
-188  TIM2e+R3      79359.164    372 159462.329   159471.577   162557.929
-196  TIM2+F        78630.286    371 158002.573   158011.771   161089.852
-197  TIM2+F+I      78242.111    372 157228.222   157237.471   160323.823
-198  TIM2+F+G4     78235.696    372 157215.392   157224.640   160310.992
-199  TIM2+F+I+G4   78235.253    373 157216.506   157225.804   160320.428
-200  TIM2+F+R2     78236.598    373 157219.196   157228.494   160323.118
+175  TIM+F+R3      78616.658    395 158023.317   158033.750   161310.351
+183  TIM2e         80032.990    388 160841.979   160852.044   164070.762
+184  TIM2e+I       79688.465    389 160154.931   160165.048   163392.036
+185  TIM2e+G4      79680.587    389 160139.175   160149.291   163376.279
+186  TIM2e+I+G4    79680.349    390 160140.697   160150.866   163386.123
+187  TIM2e+R2      79678.319    390 160136.637   160146.806   163382.063
+188  TIM2e+R3      79677.902    392 160139.805   160150.079   163401.874
+196  TIM2+F        78956.572    391 158695.144   158705.365   161948.892
+197  TIM2+F+I      78557.969    392 157899.937   157910.211   161162.007
+198  TIM2+F+G4     78550.123    392 157884.245   157894.520   161146.315
+199  TIM2+F+I+G4   78549.403    393 157884.806   157895.133   161155.197
+200  TIM2+F+R2     78550.523    393 157887.046   157897.373   161157.437
 WARNING: Log-likelihood of TIM2+F+R3 worse than TIM2+F+R2
-201  TIM2+F+R3     78236.867    375 157223.734   157233.133   160344.299
-209  TIM3e         79798.288    368 160332.576   160341.626   163394.890
-210  TIM3e+I       79458.604    369 159655.208   159664.307   162725.844
-211  TIM3e+G4      79451.287    369 159640.573   159649.673   162711.210
-212  TIM3e+I+G4    79451.179    370 159642.359   159651.508   162721.316
-213  TIM3e+R2      79449.414    370 159638.827   159647.976   162717.785
-214  TIM3e+R3      79449.137    372 159642.274   159651.523   162737.875
-222  TIM3+F        78716.950    371 158175.899   158185.098   161263.178
-223  TIM3+F+I      78322.143    372 157388.286   157397.534   160483.886
-224  TIM3+F+G4     78316.329    372 157376.657   157385.906   160472.258
-225  TIM3+F+I+G4   78315.707    373 157377.414   157386.713   160481.336
-226  TIM3+F+R2     78317.474    373 157380.949   157390.247   160484.871
+201  TIM2+F+R3     78550.826    395 157891.651   157902.084   161178.685
+209  TIM3e         80131.692    388 161039.385   161049.449   164268.168
+210  TIM3e+I       79781.060    389 160340.119   160350.236   163577.224
+211  TIM3e+G4      79772.374    389 160322.748   160332.865   163559.853
+212  TIM3e+I+G4    79772.093    390 160324.186   160334.355   163569.612
+213  TIM3e+R2      79769.608    390 160319.216   160329.385   163564.642
+214  TIM3e+R3      79769.309    392 160322.618   160332.892   163584.687
+222  TIM3+F        79044.161    391 158870.323   158880.544   162124.071
+223  TIM3+F+I      78638.860    392 158061.720   158071.994   161323.789
+224  TIM3+F+G4     78631.720    392 158047.441   158057.715   161309.510
+225  TIM3+F+I+G4   78630.799    393 158047.599   158057.926   161317.990
+226  TIM3+F+R2     78632.354    393 158050.709   158061.035   161321.100
 WARNING: Log-likelihood of TIM3+F+R3 worse than TIM3+F+R2
-227  TIM3+F+R3     78317.764    375 157385.528   157394.927   160506.093
-235  TVMe          79692.627    369 160123.255   160132.354   163193.891
-236  TVMe+I        79350.104    370 159440.209   159449.358   162519.166
-237  TVMe+G4       79344.569    370 159429.137   159438.286   162508.095
-238  TVMe+I+G4     79344.182    371 159430.365   159439.563   162517.644
-239  TVMe+R2       79343.503    371 159429.006   159438.205   162516.285
-240  TVMe+R3       79343.161    373 159432.323   159441.621   162536.245
-248  TVM+F         78736.084    372 158216.168   158225.416   161311.768
-249  TVM+F+I       78348.844    373 157443.689   157452.987   160547.611
-250  TVM+F+G4      78345.547    373 157437.094   157446.392   160541.016
-251  TVM+F+I+G4    78344.860    374 157437.720   157447.068   160549.963
-252  TVM+F+R2      78347.564    374 157443.129   157452.478   160555.372
+227  TIM3+F+R3     78632.668    395 158055.335   158065.768   161342.369
+235  TVMe          80028.574    389 160835.149   160845.265   164072.253
+236  TVMe+I        79674.956    390 160129.911   160140.080   163375.338
+237  TVMe+G4       79667.939    390 160115.879   160126.048   163361.305
+238  TVMe+I+G4     79667.401    391 160116.803   160127.024   163370.550
+239  TVMe+R2       79665.828    391 160113.656   160123.877   163367.404
+240  TVMe+R3       79665.443    393 160116.885   160127.212   163387.276
+248  TVM+F         79066.000    392 158916.000   158926.275   162178.070
+249  TVM+F+I       78667.999    393 158121.999   158132.326   161392.390
+250  TVM+F+G4      78663.339    393 158112.679   158123.006   161383.070
+251  TVM+F+I+G4    78662.350    394 158112.699   158123.079   161391.412
+252  TVM+F+R2      78664.830    394 158117.661   158128.041   161396.373
 WARNING: Log-likelihood of TVM+F+R3 worse than TVM+F+R2
-253  TVM+F+R3      78347.796    376 157447.592   157457.042   160576.479
-261  SYM           79541.373    370 159822.747   159831.896   162901.704
-262  SYM+I         79208.010    371 159158.020   159167.218   162245.299
-263  SYM+G4        79200.671    371 159143.343   159152.541   162230.622
-264  SYM+I+G4      79200.668    372 159145.335   159154.584   162240.936
-265  SYM+R2        79198.753    372 159141.506   159150.754   162237.106
-266  SYM+R3        79198.433    374 159144.867   159154.215   162257.110
-274  GTR+F         78574.578    373 157895.155   157904.454   160999.077
-275  GTR+F+I       78196.719    374 157141.437   157150.786   160253.681
-276  GTR+F+G4      78191.129    374 157130.258   157139.607   160242.502
-277  GTR+F+I+G4    78190.643    375 157131.286   157140.685   160251.851
-278  GTR+F+R2      78192.700    375 157135.400   157144.799   160255.965
+253  TVM+F+R3      78664.994    396 158121.989   158132.475   161417.344
+261  SYM           79874.785    390 160529.571   160539.740   163774.997
+262  SYM+I         79530.621    391 159843.241   159853.463   163096.989
+263  SYM+G4        79521.797    391 159825.594   159835.816   163079.342
+264  SYM+I+G4      79521.678    392 159827.355   159837.629   163089.424
+265  SYM+R2        79518.786    392 159821.572   159831.846   163083.641
+266  SYM+R3        79518.480    394 159824.959   159835.339   163103.672
+274  GTR+F         78901.969    393 158589.939   158600.266   161860.330
+275  GTR+F+I       78513.803    394 157815.607   157825.987   161094.319
+276  GTR+F+G4      78506.756    394 157801.512   157811.892   161080.225
+277  GTR+F+I+G4    78505.984    395 157801.968   157812.401   161089.002
+278  GTR+F+R2      78507.747    395 157805.494   157815.927   161092.528
 WARNING: Log-likelihood of GTR+F+R3 worse than GTR+F+R2
-279  GTR+F+R3      78192.928    377 157139.856   157149.356   160277.064
+279  GTR+F+R3      78507.969    397 157809.938   157820.478   161113.616
 Akaike Information Criterion:           GTR+F+G4
 Corrected Akaike Information Criterion: GTR+F+G4
 Bayesian Information Criterion:         GTR+F+G4
 Best-fit model: GTR+F+G4 chosen according to BIC
 
 All model information printed to /home/a1moshir/COVID-19/output_files/sequences_safe.aln.model.gz
-CPU time for ModelFinder: 553.731 seconds (0h:9m:13s)
-Wall-clock time for ModelFinder: 282.421 seconds (0h:4m:42s)
+CPU time for ModelFinder: 659.474 seconds (0h:10m:59s)
+Wall-clock time for ModelFinder: 306.745 seconds (0h:5m:6s)
 
-NOTE: 74 MB RAM (0 GB) is required!
+NOTE: 79 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 24 CPU cores
 Increase to 10 rounds for branch lengths
-37 trees examined
-Threads: 1 / Time: 24.327 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -158169
-Threads: 2 / Time: 13.643 sec / Speedup: 1.783 / Efficiency: 89% / LogL: -158169
-Threads: 3 / Time: 9.778 sec / Speedup: 2.488 / Efficiency: 83% / LogL: -158169
-Threads: 4 / Time: 7.984 sec / Speedup: 3.047 / Efficiency: 76% / LogL: -158169
-Threads: 5 / Time: 6.580 sec / Speedup: 3.697 / Efficiency: 74% / LogL: -158169
-Threads: 6 / Time: 5.842 sec / Speedup: 4.164 / Efficiency: 69% / LogL: -158169
-Threads: 7 / Time: 5.416 sec / Speedup: 4.491 / Efficiency: 64% / LogL: -158169
-Threads: 8 / Time: 4.974 sec / Speedup: 4.890 / Efficiency: 61% / LogL: -158169
-Threads: 9 / Time: 8.407 sec / Speedup: 2.894 / Efficiency: 32% / LogL: -158169
-BEST NUMBER OF THREADS: 8
+33 trees examined
+Threads: 1 / Time: 24.621 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -159025
+Threads: 2 / Time: 12.806 sec / Speedup: 1.923 / Efficiency: 96% / LogL: -159025
+Threads: 3 / Time: 8.820 sec / Speedup: 2.791 / Efficiency: 93% / LogL: -159025
+Threads: 4 / Time: 6.888 sec / Speedup: 3.574 / Efficiency: 89% / LogL: -159025
+Threads: 5 / Time: 5.833 sec / Speedup: 4.221 / Efficiency: 84% / LogL: -159025
+Threads: 6 / Time: 5.482 sec / Speedup: 4.491 / Efficiency: 75% / LogL: -159025
+Threads: 7 / Time: 4.826 sec / Speedup: 5.102 / Efficiency: 73% / LogL: -159025
+Threads: 8 / Time: 4.657 sec / Speedup: 5.286 / Efficiency: 66% / LogL: -159025
+Threads: 9 / Time: 4.432 sec / Speedup: 5.555 / Efficiency: 62% / LogL: -159025
+Threads: 10 / Time: 4.213 sec / Speedup: 5.844 / Efficiency: 58% / LogL: -159025
+Threads: 11 / Time: 6.140 sec / Speedup: 4.010 / Efficiency: 36% / LogL: -159025
+BEST NUMBER OF THREADS: 9
 
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -80101.608
-2. Current log-likelihood: -78230.255
-3. Current log-likelihood: -78194.263
-4. Current log-likelihood: -78191.452
-5. Current log-likelihood: -78191.118
-Optimal log-likelihood: -78191.095
-Rate parameters:  A-C: 1.32690  A-G: 4.61971  A-T: 2.44713  C-G: 0.80820  C-T: 8.87030  G-T: 1.00000
+1. Initial log-likelihood: -80431.387
+2. Current log-likelihood: -78546.986
+3. Current log-likelihood: -78510.026
+4. Current log-likelihood: -78507.143
+5. Current log-likelihood: -78506.865
+Optimal log-likelihood: -78506.804
+Rate parameters:  A-C: 1.31895  A-G: 4.48582  A-T: 2.38669  C-G: 0.78604  C-T: 8.67355  G-T: 1.00000
 Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
-Gamma shape alpha: 0.410
-Parameters optimization took 5 rounds (2.441 sec)
-Computing ML distances based on estimated model parameters... 1.633 sec
+Gamma shape alpha: 0.408
+Parameters optimization took 5 rounds (1.822 sec)
+Computing ML distances based on estimated model parameters... 2.154 sec
 Computing BIONJ tree...
-0.021 seconds
-Log-likelihood of BIONJ tree: -78213.706
+0.024 seconds
+Log-likelihood of BIONJ tree: -78523.551
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 9.703 second
-Computing log-likelihood of 98 initial trees ... 8.204 seconds
-Current best score: -78160.438
+Generating 98 parsimony trees... 11.053 second
+Computing log-likelihood of 98 initial trees ... 5.457 seconds
+Current best score: -78465.055
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -78147.737
-Iteration 10 / LogL: -78150.657 / Time: 0h:2m:13s
-Iteration 20 / LogL: -78163.434 / Time: 0h:2m:39s
+BETTER TREE FOUND at iteration 1: -78453.861
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -78453.279
+Iteration 10 / LogL: -78455.325 / Time: 0h:1m:59s
+Iteration 20 / LogL: -78468.496 / Time: 0h:2m:12s
 Finish initializing candidate tree set (20)
-Current best tree score: -78147.737 / CPU time: 69.953
+Current best tree score: -78453.279 / CPU time: 41.341
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
+Iteration 30 / LogL: -78454.053 / Time: 0h:2m:18s (0h:5m:44s left)
+Iteration 40 / LogL: -78454.234 / Time: 0h:2m:22s (0h:3m:46s left)
+Iteration 50 / LogL: -78825.871 / Time: 0h:2m:26s (0h:2m:35s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 26: -78147.033
-Iteration 30 / LogL: -78149.146 / Time: 0h:2m:50s (0h:9m:24s left)
-Iteration 40 / LogL: -78147.402 / Time: 0h:3m:0s (0h:6m:38s left)
-Iteration 50 / LogL: -85944.327 / Time: 0h:3m:8s (0h:4m:52s left)
+BETTER TREE FOUND at iteration 52: -78451.545
+Iteration 60 / LogL: -78477.053 / Time: 0h:2m:31s (0h:3m:56s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 60: -78147.005
-Iteration 60 / LogL: -78147.005 / Time: 0h:3m:18s (0h:5m:36s left)
-Iteration 70 / LogL: -78176.762 / Time: 0h:3m:26s (0h:4m:29s left)
+BETTER TREE FOUND at iteration 66: -78451.460
+Iteration 70 / LogL: -78495.202 / Time: 0h:2m:37s (0h:3m:39s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 72: -78146.801
-Iteration 80 / LogL: -78357.727 / Time: 0h:3m:34s (0h:4m:9s left)
+BETTER TREE FOUND at iteration 71: -78451.341
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 86: -78146.766
+BETTER TREE FOUND at iteration 74: -78451.315
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 88: -78146.736
-Iteration 90 / LogL: -78376.164 / Time: 0h:3m:44s (0h:4m:7s left)
+BETTER TREE FOUND at iteration 75: -78451.178
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 100: -78146.504
-Iteration 100 / LogL: -78146.504 / Time: 0h:3m:54s (0h:3m:57s left)
+BETTER TREE FOUND at iteration 77: -78451.105
+Iteration 80 / LogL: -78608.204 / Time: 0h:2m:43s (0h:3m:20s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 106: -78146.488
-Iteration 110 / LogL: -78820.712 / Time: 0h:4m:5s (0h:3m:36s left)
+BETTER TREE FOUND at iteration 86: -78451.036
+Iteration 90 / LogL: -78476.380 / Time: 0h:2m:48s (0h:3m:1s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 116: -78146.379
-Iteration 120 / LogL: -78147.437 / Time: 0h:4m:14s (0h:3m:25s left)
+BETTER TREE FOUND at iteration 93: -78450.914
+Iteration 100 / LogL: -78507.612 / Time: 0h:2m:52s (0h:2m:42s left)
+Iteration 110 / LogL: -78451.357 / Time: 0h:2m:58s (0h:2m:15s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 124: -78146.318
-Iteration 130 / LogL: -78158.693 / Time: 0h:4m:24s (0h:3m:12s left)
-Iteration 140 / LogL: -78354.125 / Time: 0h:4m:31s (0h:2m:44s left)
-Iteration 150 / LogL: -78158.125 / Time: 0h:4m:40s (0h:2m:19s left)
-Iteration 160 / LogL: -78157.670 / Time: 0h:4m:50s (0h:1m:56s left)
+BETTER TREE FOUND at iteration 115: -78450.776
+Iteration 120 / LogL: -78460.345 / Time: 0h:3m:2s (0h:2m:25s left)
+Iteration 130 / LogL: -78478.269 / Time: 0h:3m:8s (0h:2m:4s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 166: -78146.254
+BETTER TREE FOUND at iteration 133: -78450.744
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 168: -78146.217
-Iteration 170 / LogL: -78146.325 / Time: 0h:4m:57s (0h:2m:52s left)
+BETTER TREE FOUND at iteration 134: -78450.583
+Iteration 140 / LogL: -78451.329 / Time: 0h:3m:14s (0h:2m:11s left)
+Iteration 150 / LogL: -78848.872 / Time: 0h:3m:22s (0h:1m:53s left)
+Iteration 160 / LogL: -78450.585 / Time: 0h:3m:27s (0h:1m:36s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 176: -78146.152
-Iteration 180 / LogL: -78146.651 / Time: 0h:5m:6s (0h:2m:44s left)
-Iteration 190 / LogL: -78164.563 / Time: 0h:5m:14s (0h:2m:23s left)
+BETTER TREE FOUND at iteration 167: -78450.512
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 195: -78146.118
+BETTER TREE FOUND at iteration 168: -78450.421
+Iteration 170 / LogL: -78481.445 / Time: 0h:3m:32s (0h:2m:3s left)
+Iteration 180 / LogL: -78450.657 / Time: 0h:3m:39s (0h:1m:47s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 196: -78146.038
+BETTER TREE FOUND at iteration 190: -78450.290
+Iteration 190 / LogL: -78450.290 / Time: 0h:3m:43s (0h:1m:58s left)
+Iteration 200 / LogL: -78632.693 / Time: 0h:3m:49s (0h:1m:43s left)
+Iteration 210 / LogL: -78532.168 / Time: 0h:3m:54s (0h:1m:29s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 199: -78145.985
-Iteration 200 / LogL: -78279.741 / Time: 0h:5m:22s (0h:2m:40s left)
+BETTER TREE FOUND at iteration 212: -78450.271
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 208: -78145.974
-Iteration 210 / LogL: -78146.022 / Time: 0h:5m:29s (0h:2m:34s left)
+BETTER TREE FOUND at iteration 216: -78450.165
+Iteration 220 / LogL: -78483.922 / Time: 0h:3m:58s (0h:1m:44s left)
+Iteration 230 / LogL: -78773.271 / Time: 0h:4m:3s (0h:1m:31s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 217: -78145.949
-Iteration 220 / LogL: -78145.953 / Time: 0h:5m:40s (0h:2m:30s left)
+BETTER TREE FOUND at iteration 234: -78450.155
+Iteration 240 / LogL: -78480.447 / Time: 0h:4m:9s (0h:1m:38s left)
+BETTER TREE FOUND at iteration 248: -78450.150
+Iteration 250 / LogL: -78450.174 / Time: 0h:4m:15s (0h:1m:40s left)
+Iteration 260 / LogL: -78671.141 / Time: 0h:4m:20s (0h:1m:28s left)
+Iteration 270 / LogL: -78462.439 / Time: 0h:4m:25s (0h:1m:16s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 228: -78145.882
-Iteration 230 / LogL: -78145.950 / Time: 0h:5m:47s (0h:2m:28s left)
-BETTER TREE FOUND at iteration 231: -78145.874
-Iteration 240 / LogL: -78299.524 / Time: 0h:5m:54s (0h:2m:15s left)
-Iteration 250 / LogL: -78146.421 / Time: 0h:6m:7s (0h:1m:59s left)
+BETTER TREE FOUND at iteration 275: -78450.105
+Iteration 280 / LogL: -78558.477 / Time: 0h:4m:29s (0h:1m:31s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 254: -78145.847
+BETTER TREE FOUND at iteration 289: -78450.081
+Iteration 290 / LogL: -78450.176 / Time: 0h:4m:35s (0h:1m:34s left)
+BETTER TREE FOUND at iteration 293: -78450.072
+BETTER TREE FOUND at iteration 297: -78450.072
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 256: -78145.759
+BETTER TREE FOUND at iteration 299: -78449.944
+Iteration 300 / LogL: -78471.791 / Time: 0h:4m:40s (0h:1m:32s left)
+Iteration 310 / LogL: -78450.005 / Time: 0h:4m:45s (0h:1m:22s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 260: -78145.709
-Iteration 260 / LogL: -78145.709 / Time: 0h:6m:18s (0h:2m:25s left)
-Iteration 270 / LogL: -78145.843 / Time: 0h:6m:27s (0h:2m:9s left)
+BETTER TREE FOUND at iteration 315: -78449.888
+Iteration 320 / LogL: -78651.324 / Time: 0h:4m:51s (0h:1m:26s left)
+Iteration 330 / LogL: -78450.192 / Time: 0h:4m:57s (0h:1m:16s left)
+Iteration 340 / LogL: -78449.938 / Time: 0h:5m:3s (0h:1m:7s left)
+Iteration 350 / LogL: -78479.020 / Time: 0h:5m:8s (0h:0m:57s left)
+Iteration 360 / LogL: -78449.992 / Time: 0h:5m:12s (0h:0m:47s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 279: -78145.645
-Iteration 280 / LogL: -78145.831 / Time: 0h:6m:36s (0h:2m:20s left)
-Iteration 290 / LogL: -78165.299 / Time: 0h:6m:44s (0h:2m:4s left)
-Iteration 300 / LogL: -78155.621 / Time: 0h:6m:53s (0h:1m:49s left)
+BETTER TREE FOUND at iteration 362: -78449.710
+Iteration 370 / LogL: -78459.115 / Time: 0h:5m:19s (0h:1m:19s left)
+Iteration 380 / LogL: -78475.679 / Time: 0h:5m:24s (0h:1m:10s left)
+Iteration 390 / LogL: -78449.908 / Time: 0h:5m:29s (0h:1m:1s left)
+Iteration 400 / LogL: -78449.937 / Time: 0h:5m:35s (0h:0m:52s left)
+Iteration 410 / LogL: -78449.809 / Time: 0h:5m:40s (0h:0m:43s left)
+Iteration 420 / LogL: -78449.810 / Time: 0h:5m:47s (0h:0m:34s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 308: -78145.558
-Iteration 310 / LogL: -78152.974 / Time: 0h:7m:3s (0h:2m:14s left)
-Iteration 320 / LogL: -78150.913 / Time: 0h:7m:10s (0h:1m:58s left)
-Iteration 330 / LogL: -78153.018 / Time: 0h:7m:19s (0h:1m:44s left)
+BETTER TREE FOUND at iteration 425: -78449.634
+Iteration 430 / LogL: -78610.808 / Time: 0h:5m:54s (0h:1m:18s left)
+Iteration 440 / LogL: -78449.650 / Time: 0h:5m:59s (0h:1m:9s left)
+Iteration 450 / LogL: -78449.812 / Time: 0h:6m:7s (0h:1m:1s left)
+Iteration 460 / LogL: -78479.778 / Time: 0h:6m:13s (0h:0m:52s left)
+Iteration 470 / LogL: -78573.947 / Time: 0h:6m:19s (0h:0m:44s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 333: -78145.510
-Iteration 340 / LogL: -78145.535 / Time: 0h:7m:24s (0h:2m:1s left)
+BETTER TREE FOUND at iteration 474: -78449.592
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 342: -78145.397
-Iteration 350 / LogL: -78175.215 / Time: 0h:7m:32s (0h:1m:59s left)
-Iteration 360 / LogL: -78145.455 / Time: 0h:7m:42s (0h:1m:45s left)
+BETTER TREE FOUND at iteration 476: -78449.562
+Iteration 480 / LogL: -78466.632 / Time: 0h:6m:26s (0h:1m:17s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 364: -78145.381
+BETTER TREE FOUND at iteration 483: -78449.550
+BETTER TREE FOUND at iteration 488: -78449.547
+Iteration 490 / LogL: -78471.615 / Time: 0h:6m:32s (0h:1m:18s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 369: -78145.329
-Iteration 370 / LogL: -78347.741 / Time: 0h:7m:50s (0h:2m:6s left)
-Iteration 380 / LogL: -78145.444 / Time: 0h:7m:59s (0h:1m:52s left)
-Iteration 390 / LogL: -78354.095 / Time: 0h:8m:6s (0h:1m:38s left)
-Iteration 400 / LogL: -78145.423 / Time: 0h:8m:14s (0h:1m:25s left)
-Iteration 410 / LogL: -78156.598 / Time: 0h:8m:25s (0h:1m:12s left)
-Iteration 420 / LogL: -78161.908 / Time: 0h:8m:35s (0h:1m:0s left)
-Iteration 430 / LogL: -78146.465 / Time: 0h:8m:45s (0h:0m:47s left)
-Iteration 440 / LogL: -78178.376 / Time: 0h:8m:54s (0h:0m:35s left)
+BETTER TREE FOUND at iteration 498: -78449.476
+Iteration 500 / LogL: -78449.640 / Time: 0h:6m:38s (0h:1m:18s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 449: -78145.282
+BETTER TREE FOUND at iteration 505: -78449.463
+Iteration 510 / LogL: -78449.500 / Time: 0h:6m:46s (0h:1m:15s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 450: -78145.261
-Iteration 450 / LogL: -78145.261 / Time: 0h:9m:5s (0h:2m:1s left)
-Iteration 460 / LogL: -78159.177 / Time: 0h:9m:15s (0h:1m:48s left)
-Iteration 470 / LogL: -78974.844 / Time: 0h:9m:25s (0h:1m:36s left)
-Iteration 480 / LogL: -78162.257 / Time: 0h:9m:34s (0h:1m:23s left)
-Iteration 490 / LogL: -78157.665 / Time: 0h:9m:45s (0h:1m:11s left)
+BETTER TREE FOUND at iteration 516: -78449.389
+Iteration 520 / LogL: -78470.403 / Time: 0h:6m:52s (0h:1m:16s left)
+Iteration 530 / LogL: -78528.524 / Time: 0h:6m:58s (0h:1m:7s left)
+Iteration 540 / LogL: -78605.998 / Time: 0h:7m:4s (0h:0m:59s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 493: -78145.219
-Iteration 500 / LogL: -78145.317 / Time: 0h:9m:55s (0h:1m:50s left)
-Iteration 510 / LogL: -78146.380 / Time: 0h:10m:3s (0h:1m:38s left)
-BETTER TREE FOUND at iteration 511: -78145.218
-Iteration 520 / LogL: -78145.242 / Time: 0h:10m:13s (0h:1m:47s left)
+BETTER TREE FOUND at iteration 547: -78449.314
+Iteration 550 / LogL: -78459.339 / Time: 0h:7m:9s (0h:1m:15s left)
+Iteration 560 / LogL: -78517.489 / Time: 0h:7m:14s (0h:1m:7s left)
+Iteration 570 / LogL: -78822.458 / Time: 0h:7m:19s (0h:0m:59s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 530: -78145.202
-Iteration 530 / LogL: -78145.202 / Time: 0h:10m:23s (0h:1m:57s left)
-Iteration 540 / LogL: -78172.361 / Time: 0h:10m:32s (0h:1m:45s left)
-Iteration 550 / LogL: -78536.372 / Time: 0h:10m:41s (0h:1m:33s left)
-Iteration 560 / LogL: -78813.575 / Time: 0h:10m:49s (0h:1m:21s left)
+BETTER TREE FOUND at iteration 571: -78449.226
+Iteration 580 / LogL: -78636.197 / Time: 0h:7m:25s (0h:1m:9s left)
+Iteration 590 / LogL: -78454.240 / Time: 0h:7m:30s (0h:1m:2s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 563: -78145.180
+BETTER TREE FOUND at iteration 594: -78449.138
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 564: -78145.170
-Iteration 570 / LogL: -78145.341 / Time: 0h:11m:0s (0h:1m:49s left)
+BETTER TREE FOUND at iteration 595: -78449.089
+Iteration 600 / LogL: -78449.185 / Time: 0h:7m:36s (0h:1m:12s left)
+Iteration 610 / LogL: -78829.700 / Time: 0h:7m:45s (0h:1m:4s left)
+Iteration 620 / LogL: -78462.325 / Time: 0h:7m:50s (0h:0m:56s left)
+Iteration 630 / LogL: -78637.935 / Time: 0h:7m:58s (0h:0m:49s left)
+Iteration 640 / LogL: -78479.804 / Time: 0h:8m:2s (0h:0m:41s left)
+Iteration 650 / LogL: -78454.024 / Time: 0h:8m:7s (0h:0m:33s left)
+Iteration 660 / LogL: -78454.504 / Time: 0h:8m:13s (0h:0m:26s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 575: -78145.159
+BETTER TREE FOUND at iteration 661: -78449.058
+Iteration 670 / LogL: -78638.247 / Time: 0h:8m:17s (0h:1m:7s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 578: -78145.087
-Iteration 580 / LogL: -78145.739 / Time: 0h:11m:7s (0h:1m:53s left)
-Iteration 590 / LogL: -78157.602 / Time: 0h:11m:15s (0h:1m:40s left)
-Iteration 600 / LogL: -78174.175 / Time: 0h:11m:23s (0h:1m:29s left)
+BETTER TREE FOUND at iteration 674: -78449.042
+Iteration 680 / LogL: -78450.656 / Time: 0h:8m:22s (0h:1m:9s left)
+Iteration 690 / LogL: -78454.004 / Time: 0h:8m:26s (0h:1m:1s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 608: -78145.060
-Iteration 610 / LogL: -78145.186 / Time: 0h:11m:32s (0h:1m:51s left)
-Iteration 620 / LogL: -78517.922 / Time: 0h:11m:39s (0h:1m:39s left)
+BETTER TREE FOUND at iteration 697: -78449.004
+Iteration 700 / LogL: -78683.665 / Time: 0h:8m:32s (0h:1m:11s left)
+Iteration 710 / LogL: -78449.085 / Time: 0h:8m:38s (0h:1m:3s left)
+Iteration 720 / LogL: -78602.036 / Time: 0h:8m:44s (0h:0m:56s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 628: -78145.024
-Iteration 630 / LogL: -78145.241 / Time: 0h:11m:48s (0h:1m:50s left)
-Iteration 640 / LogL: -78146.248 / Time: 0h:11m:57s (0h:1m:38s left)
-Iteration 650 / LogL: -78145.130 / Time: 0h:12m:6s (0h:1m:27s left)
-Iteration 660 / LogL: -78145.035 / Time: 0h:12m:15s (0h:1m:15s left)
-Iteration 670 / LogL: -78154.240 / Time: 0h:12m:23s (0h:1m:4s left)
-Iteration 680 / LogL: -78166.502 / Time: 0h:12m:33s (0h:0m:53s left)
-Iteration 690 / LogL: -78154.263 / Time: 0h:12m:41s (0h:0m:41s left)
-BETTER TREE FOUND at iteration 700: -78145.014
-Iteration 700 / LogL: -78145.014 / Time: 0h:12m:49s (0h:1m:50s left)
-Iteration 710 / LogL: -78145.073 / Time: 0h:12m:57s (0h:1m:38s left)
-Iteration 720 / LogL: -78145.059 / Time: 0h:13m:7s (0h:1m:27s left)
-Iteration 730 / LogL: -78145.090 / Time: 0h:13m:17s (0h:1m:16s left)
+BETTER TREE FOUND at iteration 722: -78448.942
+Iteration 730 / LogL: -78449.040 / Time: 0h:8m:50s (0h:1m:7s left)
+Iteration 740 / LogL: -78449.547 / Time: 0h:8m:55s (0h:0m:59s left)
+Iteration 750 / LogL: -78467.921 / Time: 0h:9m:1s (0h:0m:52s left)
+Iteration 760 / LogL: -78450.778 / Time: 0h:9m:6s (0h:0m:44s left)
+Iteration 770 / LogL: -78706.385 / Time: 0h:9m:10s (0h:0m:37s left)
+BETTER TREE FOUND at iteration 771: -78448.941
+Iteration 780 / LogL: -78639.492 / Time: 0h:9m:17s (0h:1m:5s left)
+Iteration 790 / LogL: -78463.918 / Time: 0h:9m:20s (0h:0m:57s left)
+Iteration 800 / LogL: -78829.472 / Time: 0h:9m:25s (0h:0m:50s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 737: -78144.986
-Iteration 740 / LogL: -78156.406 / Time: 0h:13m:27s (0h:1m:45s left)
-Iteration 750 / LogL: -78177.963 / Time: 0h:13m:36s (0h:1m:34s left)
-Iteration 760 / LogL: -78156.205 / Time: 0h:13m:46s (0h:1m:23s left)
-Iteration 770 / LogL: -78276.164 / Time: 0h:13m:53s (0h:1m:12s left)
+BETTER TREE FOUND at iteration 801: -78448.913
+Iteration 810 / LogL: -78459.061 / Time: 0h:9m:31s (0h:1m:4s left)
+Iteration 820 / LogL: -78450.780 / Time: 0h:9m:36s (0h:0m:57s left)
+Iteration 830 / LogL: -78449.064 / Time: 0h:9m:42s (0h:0m:49s left)
+Iteration 840 / LogL: -78451.581 / Time: 0h:9m:48s (0h:0m:42s left)
+Iteration 850 / LogL: -78449.061 / Time: 0h:9m:52s (0h:0m:35s left)
+Iteration 860 / LogL: -78664.179 / Time: 0h:9m:57s (0h:0m:28s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 775: -78144.940
-Iteration 780 / LogL: -78145.129 / Time: 0h:14m:2s (0h:1m:42s left)
-Iteration 790 / LogL: -78156.188 / Time: 0h:14m:11s (0h:1m:31s left)
-Iteration 800 / LogL: -78144.991 / Time: 0h:14m:22s (0h:1m:20s left)
-Iteration 810 / LogL: -78269.261 / Time: 0h:14m:31s (0h:1m:10s left)
-Iteration 820 / LogL: -78145.023 / Time: 0h:14m:40s (0h:0m:59s left)
-Iteration 830 / LogL: -78151.940 / Time: 0h:14m:49s (0h:0m:48s left)
+BETTER TREE FOUND at iteration 870: -78448.889
+Iteration 870 / LogL: -78448.889 / Time: 0h:10m:4s (0h:1m:9s left)
+Iteration 880 / LogL: -78448.965 / Time: 0h:10m:8s (0h:1m:2s left)
+Iteration 890 / LogL: -78474.618 / Time: 0h:10m:12s (0h:0m:55s left)
+Iteration 900 / LogL: -78989.864 / Time: 0h:10m:15s (0h:0m:47s left)
+Iteration 910 / LogL: -78449.048 / Time: 0h:10m:21s (0h:0m:41s left)
+Iteration 920 / LogL: -78472.758 / Time: 0h:10m:26s (0h:0m:34s left)
+Iteration 930 / LogL: -78448.916 / Time: 0h:10m:31s (0h:0m:27s left)
+Iteration 940 / LogL: -78453.810 / Time: 0h:10m:36s (0h:0m:20s left)
+Iteration 950 / LogL: -78448.963 / Time: 0h:10m:41s (0h:0m:13s left)
+Iteration 960 / LogL: -78479.144 / Time: 0h:10m:48s (0h:0m:6s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 837: -78144.923
+BETTER TREE FOUND at iteration 962: -78448.870
+Iteration 970 / LogL: -78458.227 / Time: 0h:10m:54s (0h:1m:2s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 840: -78144.907
-Iteration 840 / LogL: -78144.907 / Time: 0h:14m:58s (0h:1m:47s left)
-Iteration 850 / LogL: -78197.837 / Time: 0h:15m:8s (0h:1m:36s left)
-Iteration 860 / LogL: -78164.488 / Time: 0h:15m:18s (0h:1m:25s left)
+BETTER TREE FOUND at iteration 977: -78448.798
+Iteration 980 / LogL: -78576.109 / Time: 0h:10m:59s (0h:1m:5s left)
+Iteration 990 / LogL: -78460.038 / Time: 0h:11m:3s (0h:0m:58s left)
+Iteration 1000 / LogL: -78606.707 / Time: 0h:11m:8s (0h:0m:51s left)
+Iteration 1010 / LogL: -78450.758 / Time: 0h:11m:13s (0h:0m:44s left)
+BETTER TREE FOUND at iteration 1020: -78448.791
+Iteration 1020 / LogL: -78448.791 / Time: 0h:11m:20s (0h:1m:6s left)
+Iteration 1030 / LogL: -79277.005 / Time: 0h:11m:25s (0h:0m:59s left)
+Iteration 1040 / LogL: -78474.825 / Time: 0h:11m:29s (0h:0m:53s left)
+Iteration 1050 / LogL: -78448.798 / Time: 0h:11m:34s (0h:0m:46s left)
+Iteration 1060 / LogL: -78448.829 / Time: 0h:11m:42s (0h:0m:39s left)
+Iteration 1070 / LogL: -78568.959 / Time: 0h:11m:48s (0h:0m:33s left)
+Iteration 1080 / LogL: -78465.510 / Time: 0h:11m:53s (0h:0m:26s left)
+Iteration 1090 / LogL: -78677.897 / Time: 0h:11m:56s (0h:0m:19s left)
+Iteration 1100 / LogL: -78458.045 / Time: 0h:12m:1s (0h:0m:13s left)
+Iteration 1110 / LogL: -78689.304 / Time: 0h:12m:5s (0h:0m:6s left)
+BETTER TREE FOUND at iteration 1115: -78448.784
+Iteration 1120 / LogL: -78448.870 / Time: 0h:12m:11s (0h:1m:2s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 864: -78144.874
-Iteration 870 / LogL: -78526.153 / Time: 0h:15m:27s (0h:1m:40s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 875: -78144.857
-Iteration 880 / LogL: -78159.541 / Time: 0h:15m:36s (0h:1m:41s left)
-Iteration 890 / LogL: -78144.866 / Time: 0h:15m:47s (0h:1m:30s left)
-Iteration 900 / LogL: -78516.930 / Time: 0h:15m:56s (0h:1m:19s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 902: -78144.836
-Iteration 910 / LogL: -78152.419 / Time: 0h:16m:3s (0h:1m:37s left)
-Iteration 920 / LogL: -78311.522 / Time: 0h:16m:13s (0h:1m:26s left)
-Iteration 930 / LogL: -78144.889 / Time: 0h:16m:25s (0h:1m:16s left)
-Iteration 940 / LogL: -78144.929 / Time: 0h:16m:34s (0h:1m:5s left)
-Iteration 950 / LogL: -78144.992 / Time: 0h:16m:43s (0h:0m:54s left)
-Iteration 960 / LogL: -78516.983 / Time: 0h:16m:53s (0h:0m:44s left)
-Iteration 970 / LogL: -78173.459 / Time: 0h:17m:1s (0h:0m:33s left)
-Iteration 980 / LogL: -78166.270 / Time: 0h:17m:9s (0h:0m:23s left)
-Iteration 990 / LogL: -78308.973 / Time: 0h:17m:16s (0h:0m:12s left)
-Iteration 1000 / LogL: -78144.864 / Time: 0h:17m:26s (0h:0m:2s left)
-TREE SEARCH COMPLETED AFTER 1003 ITERATIONS / Time: 0h:17m:29s
+BETTER TREE FOUND at iteration 1126: -78448.726
+Iteration 1130 / LogL: -78453.670 / Time: 0h:12m:18s (0h:1m:2s left)
+Iteration 1140 / LogL: -78448.895 / Time: 0h:12m:24s (0h:0m:56s left)
+Iteration 1150 / LogL: -78820.007 / Time: 0h:12m:31s (0h:0m:49s left)
+Iteration 1160 / LogL: -78543.507 / Time: 0h:12m:37s (0h:0m:43s left)
+Iteration 1170 / LogL: -78448.806 / Time: 0h:12m:43s (0h:0m:36s left)
+Iteration 1180 / LogL: -78448.923 / Time: 0h:12m:49s (0h:0m:30s left)
+Iteration 1190 / LogL: -78465.215 / Time: 0h:12m:55s (0h:0m:23s left)
+Iteration 1200 / LogL: -78448.967 / Time: 0h:13m:2s (0h:0m:16s left)
+Iteration 1210 / LogL: -78476.903 / Time: 0h:13m:7s (0h:0m:10s left)
+Iteration 1220 / LogL: -78448.779 / Time: 0h:13m:13s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 1227 ITERATIONS / Time: 0h:13m:16s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -78144.836
-Optimal log-likelihood: -78144.836
-Rate parameters:  A-C: 1.32721  A-G: 4.60685  A-T: 2.43372  C-G: 0.80481  C-T: 8.87197  G-T: 1.00000
+1. Initial log-likelihood: -78448.726
+Optimal log-likelihood: -78448.726
+Rate parameters:  A-C: 1.32722  A-G: 4.54843  A-T: 2.39841  C-G: 0.78658  C-T: 8.77637  G-T: 1.00000
 Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
-Gamma shape alpha: 0.411
-Parameters optimization took 1 rounds (0.219 sec)
-BEST SCORE FOUND : -78144.836
-Total tree length: 0.327
+Gamma shape alpha: 0.409
+Parameters optimization took 1 rounds (0.134 sec)
+BEST SCORE FOUND : -78448.726
+Total tree length: 0.328
 
-Total number of iterations: 1003
-CPU time used for tree search: 7505.354 sec (2h:5m:5s)
-Wall-clock time used for tree search: 959.307 sec (0h:15m:59s)
-Total CPU time used: 7860.686 sec (2h:11m:0s)
-Total wall-clock time used: 1049.417 sec (0h:17m:29s)
+Total number of iterations: 1227
+CPU time used for tree search: 6217.850 sec (1h:43m:37s)
+Wall-clock time used for tree search: 705.328 sec (0h:11m:45s)
+Total CPU time used: 6622.456 sec (1h:50m:22s)
+Total wall-clock time used: 796.468 sec (0h:13m:16s)
 
 Analysis results written to: 
   IQ-TREE report:                /home/a1moshir/COVID-19/output_files/sequences_safe.aln.iqtree
@@ -645,4 +682,4 @@ Analysis results written to:
   Likelihood distances:          /home/a1moshir/COVID-19/output_files/sequences_safe.aln.mldist
   Screen log file:               /home/a1moshir/COVID-19/output_files/sequences_safe.aln.log
 
-Date and Time: Tue Mar  3 23:15:40 2020
+Date and Time: Wed Mar  4 08:06:55 2020

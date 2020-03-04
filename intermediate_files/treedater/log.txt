@@ -1,7 +1,7 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
-Note: Minimum temporal branch length  (*minblen*) set to 0.05. Increase *minblen* in the event of convergence failures. 
+Note: Minimum temporal branch length  (*minblen*) set to 0.048936170212766. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 1.57802509026724e-08,2.26639301474704e-07,3.99516601712092e-06,4.07949157399719e-06 
+Initial guesses of substitution rate: 7.82476275624695e-07,9.17757584576745e-07,4.03697069106723e-06,4.28427812389642e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -25,24 +25,24 @@ The following steps may help to fix or alleviate common problems:
 * A poor fit may be due to a small number of lineages with unusual / outlying branch lengths which can occur due to sequencing error or poor alignment. Try the *outlierTips* command to identify and remove these lineages. 
 * Check that there is adequate variance in sample times in order to estimate a molecular clock by doing a root-to-tip regression. Try the *rootToTipRegressionPlot* command. If the clock rate can not be reliably estimated, you can fix the value to a range using the _meanRateLimits_ option which would estimate a time tree given the previous estimate of clock rates. 
 
-Phylogenetic tree with 178 tips and 177 internal nodes.
+Phylogenetic tree with 188 tips and 187 internal nodes.
 
 Tip labels:
-	BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665, BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666, BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667, BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935, BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933, BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932, ...
+	BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665, BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666, BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667, BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932, BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935, BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737375.417876908 
+737377.818080058 
 
  Time to common ancestor (before most recent sample) 
-106.582123091677 
+107.181919941679 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.32532303530902e-05 
+1.38267145806096e-05 
 
  Unadjusted mean substitution rate 
-1.32532303530902e-05 
+1.38267145806096e-05 
 
  Clock model  
 strict 

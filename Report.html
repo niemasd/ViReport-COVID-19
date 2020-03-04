@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>ViReport v0.0.1 &mdash; 2020-03-03</h1>
+<h1>ViReport v0.0.1 &mdash; 2020-03-04</h1>
 <p>
 
 </p>
 <h2>Input Dataset</h2>
 <p>
-The analysis was conducted on a dataset containing 188 sequences. The average sequence length was 29802.441489361703, with a standard deviation of 398.1848733754408. The earliest sample date was 2013-07-24, the median sample date was 2020-01-23, and the most recent sample date was 2020-02-28. 
+The analysis was conducted on a dataset containing 198 sequences. The average sequence length was 29804.803030303032, with a standard deviation of 388.27002552101544. The earliest sample date was 2013-07-24, the median sample date was 2020-01-24, and the most recent sample date was 2020-03-02. 
 </p>
 
 <figure>
@@ -29,7 +29,7 @@ The analysis was conducted on a dataset containing 188 sequences. The average se
 </p>
 <h2>Preprocessed Dataset</h2>
 <p>
-The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 188 sequences. The average sequence length was 29802.441489361703, with a standard deviation of 398.1848733754408. The earliest sample date was 2013-07-24, the median sample date was 2020-01-23, and the most recent sample date was 2020-02-28. 
+The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 198 sequences. The average sequence length was 29804.803030303032, with a standard deviation of 388.27002552101544. The earliest sample date was 2013-07-24, the median sample date was 2020-01-24, and the most recent sample date was 2020-03-02. 
 </p>
 
 <figure>
@@ -51,7 +51,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 </p>
 <h2>Multiple Sequence Alignment</h2>
 <p>
-Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode. There were 30379 positions (16955 invariant) and 166 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.00023931959492795083, with a standard deviation of 0.000241191693733296. 
+Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode. There were 30382 positions (16946 invariant) and 176 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.00025493722888269475, with a standard deviation of 0.00024068848673929053. 
 </p>
 
 <figure>
@@ -64,7 +64,7 @@ Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) i
 </p>
 <h2>Phylogenetic Inference</h2>
 <p>
-A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017). The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0030542688, and the average pairwise phylogenetic distance was 0.00036952013843712307, with a standard deviation of 0.0003455742429518303. 
+A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017). The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0030477947, and the average pairwise phylogenetic distance was 0.00037938240956309025, with a standard deviation of 0.00033651889463044856. 
 </p>
 
 <figure>
@@ -86,7 +86,7 @@ A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) 
 </p>
 <h2>Phylogenetic Dating</h2>
 <p>
-The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 0.2920058166923287 days, so given that the most recent sample was collected on 2020-02-28, the estimated time of the most recent common ancestor (tMRCA) was 2020-02-27. 
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 0.29364909573638365 days, so given that the most recent sample was collected on 2020-03-02, the estimated time of the most recent common ancestor (tMRCA) was 2020-03-01. 
 </p>
 
 <figure>
@@ -99,7 +99,7 @@ The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height 
 </p>
 <h2>Transmission Clustering</h2>
 <p>
-Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 113, and the total number of clusters (excluding singletons) was 22. The average cluster size (excluding singletons) was 2.9545454545454546, with a standard deviation of 1.0214638661020106, and the maximum and minimum cluster sizes were 5 and 2, respectively. 
+Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 119, and the total number of clusters (excluding singletons) was 23. The average cluster size (excluding singletons) was 3, with a standard deviation of 1.3513278493843524, and the maximum and minimum cluster sizes were 7 and 2, respectively. 
 </p>
 
 <figure>
