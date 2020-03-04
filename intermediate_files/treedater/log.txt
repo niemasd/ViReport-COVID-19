@@ -1,7 +1,7 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
 Note: Minimum temporal branch length  (*minblen*) set to 0.05. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 2.13128653298303e-08,3.47093324890304e-06,3.57687336567705e-06 
+Initial guesses of substitution rate: 1.57802509026724e-08,2.26639301474704e-07,3.99516601712092e-06,4.07949157399719e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -33,16 +33,16 @@ Tip labels:
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737380.549964804 
+737375.417876908 
 
  Time to common ancestor (before most recent sample) 
-101.450035195798 
+106.582123091677 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.38835034536883e-05 
+1.32532303530902e-05 
 
  Unadjusted mean substitution rate 
-1.38835034536883e-05 
+1.32532303530902e-05 
 
  Clock model  
 strict 

@@ -67,10 +67,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_s
 equence_lengths.pdf>]
-<./figs/tree_mutations.pdf, id=53, 722.7pt x 2058.24966pt>
+<./figs/tree_mutations.pdf, id=53, 722.7pt x 2121.48592pt>
 <use ./figs/tree_mutations.pdf>
 
-LaTeX Warning: Float too large for page by 23.93933pt on input line 85.
+LaTeX Warning: Float too large for page by 23.9495pt on input line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -80,10 +80,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=55, 722.7pt x 2058.24966pt>
+<./figs/tree_time.pdf, id=55, 722.7pt x 2121.48592pt>
 <use ./figs/tree_time.pdf>
 
-LaTeX Warning: Float too large for page by 23.93933pt on input line 106.
+LaTeX Warning: Float too large for page by 23.9495pt on input line 106.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -110,5 +110,5 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (8 pages, 186791 bytes).
+Output written on main.pdf (8 pages, 187125 bytes).
 Transcript written on main.log.
