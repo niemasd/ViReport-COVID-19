@@ -1,1 +1,1 @@
-pdflatex /home/a1moshir/COVID-19/report_files/main.tex
+pdflatex /home/a1moshir/COVID19_2020-03-05/report_files/main.tex

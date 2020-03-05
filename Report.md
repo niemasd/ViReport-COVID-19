@@ -1,9 +1,9 @@
-# ViReport v0.0.1 &mdash; 2020-03-04
+# ViReport v0.0.1 &mdash; 2020-03-05
 
 ## Input Dataset
-The analysis was conducted on a dataset containing 198 sequences.
-The average sequence length was 29804.803030303032,
-with a standard deviation of 388.27002552101544.
+The analysis was conducted on a dataset containing 204 sequences.
+The average sequence length was 29805.32843137255,
+with a standard deviation of 382.940551081033.
 The earliest sample date was 2013-07-24,
 the median sample date was 2020-01-24,
 and the most recent sample date was 2020-03-02.
@@ -24,9 +24,9 @@ and the most recent sample date was 2020-03-02.
 
 ## Preprocessed Dataset
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores.
-After preprocessing, the dataset contained 198 sequences.
-The average sequence length was 29804.803030303032,
-with a standard deviation of 388.27002552101544.
+After preprocessing, the dataset contained 204 sequences.
+The average sequence length was 29805.32843137255,
+with a standard deviation of 382.940551081033.
 The earliest sample date was 2013-07-24,
 the median sample date was 2020-01-24,
 and the most recent sample date was 2020-03-02.
@@ -47,10 +47,10 @@ and the most recent sample date was 2020-03-02.
 
 ## Multiple Sequence Alignment
 Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode.
-There were 30382 positions (16946 invariant) and 176 unique sequences in the multiple sequence alignment.
+There were 30378 positions (16931 invariant) and 182 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
-The average pairwise sequence distance was 0.00025493722888269475,
-with a standard deviation of 0.00024068848673929053.
+The average pairwise sequence distance was 0.0002578973033545222,
+with a standard deviation of 0.000238094557225183.
 
 
 <figure>
@@ -63,9 +63,9 @@ with a standard deviation of 0.00024068848673929053.
 A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017).
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0030477947,
-and the average pairwise phylogenetic distance was 0.00037938240956309025,
-with a standard deviation of 0.00033651889463044856.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0029907718,
+and the average pairwise phylogenetic distance was 0.00039118764729448215,
+with a standard deviation of 0.0003288812877214222.
 
 
 <figure>
@@ -83,7 +83,7 @@ with a standard deviation of 0.00033651889463044856.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 0.29364909573638365 days,
+The height of the dated tree was 0.2815597481807123 days,
 so given that the most recent sample was collected on 2020-03-02,
 the estimated time of the most recent common ancestor (tMRCA) was 2020-03-01.
 
@@ -96,11 +96,11 @@ the estimated time of the most recent common ancestor (tMRCA) was 2020-03-01.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 119,
-and the total number of clusters (excluding singletons) was 23.
-The average cluster size (excluding singletons) was 3,
-with a standard deviation of 1.3513278493843524,
-and the maximum and minimum cluster sizes were 7 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 95,
+and the total number of clusters (excluding singletons) was 26.
+The average cluster size (excluding singletons) was 3.8076923076923075,
+with a standard deviation of 4.028926472487437,
+and the maximum and minimum cluster sizes were 23 and 2, respectively.
 
 
 <figure>
