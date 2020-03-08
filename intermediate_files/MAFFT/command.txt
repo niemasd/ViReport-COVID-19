@@ -1,1 +1,1 @@
-mafft --thread -1 --auto /home/a1moshir/COVID19_2020-03-06/output_files/sequences_safe.fas
+mafft --thread -1 --auto /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.fas
