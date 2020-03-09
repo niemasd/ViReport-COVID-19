@@ -1,7 +1,7 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
 Note: Minimum temporal branch length  (*minblen*) set to 0.0338129496402878. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 5.26031609359422e-07,1.24054552522501e-06,2.59505941874328e-06,3.37191661171315e-06 
+Initial guesses of substitution rate: 5.45973682440444e-07,1.71337974438648e-06,2.59363572112554e-06,3.85640090707155e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -28,21 +28,21 @@ The following steps may help to fix or alleviate common problems:
 Phylogenetic tree with 278 tips and 277 internal nodes.
 
 Tip labels:
-	BetaCoVUSA_WA2_2020_EPI_ISL_412970, BetaCoV_USA_WA8_UW5_2020_EPI_ISL_413486, BetaCoV_USA_WA_S2_2020_EPI_ISL_413456, BetaCoV_USA_WA6_UW3_2020_EPI_ISL_413457, BetaCoV_USA_WA9_UW6_2020_EPI_ISL_413487, hCoV_19_USA_WA11_UW7_2020_EPI_ISL_413562, ...
+	BetaCoVUSA_WA2_2020_EPI_ISL_412970, BetaCoV_USA_WA8_UW5_2020_EPI_ISL_413486, BetaCoV_USA_WA6_UW3_2020_EPI_ISL_413457, BetaCoV_USA_WA9_UW6_2020_EPI_ISL_413487, hCoV_19_USA_WA11_UW7_2020_EPI_ISL_413562, hCoV_19_USA_WA13_UW9_2020_EPI_ISL_413601, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737363.516244164 
+737333.918695881 
 
  Time to common ancestor (before most recent sample) 
-123.483755836147 
+153.081304118503 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.00726284437047e-05 
+8.22550791460893e-06 
 
  Unadjusted mean substitution rate 
-1.00726284437047e-05 
+8.22550791460893e-06 
 
  Clock model  
 strict 
