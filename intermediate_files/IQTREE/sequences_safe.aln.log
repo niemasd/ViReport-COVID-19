@@ -3,306 +3,333 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    comet-ln2.sdsc.edu (AVX2, FMA3, 62 GB RAM)
-Command: iqtree -m MFP -nt AUTO -s /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln
-Seed:    832613 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Sun Mar  8 16:51:55 2020
+Command: iqtree -m MFP -nt AUTO -s /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln
+Seed:    903964 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar  9 12:33:15 2020
 Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
 
-Reading alignment file /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln ... Fasta format detected
+Reading alignment file /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln ... Fasta format detected
 Alignment most likely contains DNA/RNA sequences
-WARNING: 128 sites contain only gaps or ambiguous characters.
-Alignment has 288 sequences with 30205 columns, 3765 distinct patterns
-5588 parsimony-informative, 915 singleton sites, 23702 constant sites
+WARNING: 125 sites contain only gaps or ambiguous characters.
+Alignment has 315 sequences with 30196 columns, 4717 distinct patterns
+5597 parsimony-informative, 919 singleton sites, 23680 constant sites
                                                                         Gap/Ambiguity  Composition  p-value
-   1  BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119                              1.04%    passed     99.97%
-   2  BetaCoV_Wuhan_IVDC_HB_04_2020_EPI_ISL_402120                              1.02%    passed     99.90%
-   3  BetaCoV_Wuhan_IVDC_HB_05_2019_EPI_ISL_402121                              1.04%    passed     99.95%
-   4  BetaCoV_Wuhan_IPBCAMS_WH_01_2019_EPI_ISL_402123                           1.01%    passed     99.91%
-   5  BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124                                   1.04%    passed     99.97%
-   6  BetaCoV_Wuhan_Hu_1_2019_EPI_ISL_402125                                    1.00%    passed     99.79%
-   7  BetaCoV_Wuhan_WIV02_2019_EPI_ISL_402127                                   1.26%    passed     99.89%
-   8  BetaCoV_Wuhan_WIV05_2019_EPI_ISL_402128                                   1.17%    passed     99.94%
-   9  BetaCoV_Wuhan_WIV06_2019_EPI_ISL_402129                                   1.16%    passed     99.95%
-  10  BetaCoV_Wuhan_WIV07_2019_EPI_ISL_402130                                   1.15%    passed     99.95%
-  11  BetaCoV_bat_Yunnan_RaTG13_2013_EPI_ISL_402131                             1.16%    passed     98.96%
-  12  BetaCoV_Wuhan_HBCDC_HB_01_2019_EPI_ISL_402132                             1.18%    passed     99.95%
-  13  IPBCAMS_WH_05_2020_EPI_ISL_403928                                         1.07%    passed     99.99%
-  14  BetaCoV_Wuhan_IPBCAMS_WH_04_2019_EPI_ISL_403929                           1.04%    passed     99.98%
-  15  BetaCoV_Wuhan_IPBCAMS_WH_03_2019_EPI_ISL_403930                           1.01%    passed     99.89%
-  16  BetaCoV_Wuhan_IPBCAMS_WH_02_2019_EPI_ISL_403931                           1.05%    passed     99.98%
-  17  BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932                             1.19%    passed     99.95%
-  18  BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933                             1.19%    passed     99.95%
-  19  BetaCoV_Guangdong_20SF014_2020_EPI_ISL_403934                             1.19%    passed     99.95%
-  20  BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935                             1.19%    passed     99.95%
-  21  BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936                             1.19%    passed     99.95%
-  22  BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937                             1.19%    passed     99.95%
-  23  BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962                                 1.18%    passed     99.93%
-  24  BetaCoV_Nonthaburi_74_2020_EPI_ISL_403963                                 1.15%    passed     99.97%
-  25  BetaCoV_Zhejiang_WZ_01_2020_EPI_ISL_404227                                1.21%    passed     99.93%
-  26  BetaCoV_Zhejiang_WZ_02_2020_EPI_ISL_404228                                1.15%    passed    100.00%
-  27  BetaCoV_USA_IL1_2020_EPI_ISL_404253                                       1.10%    passed     99.99%
-  28  BetaCoV_USA_WA1_2020_EPI_ISL_404895                                       1.07%    passed     99.99%
-  29  BetaCoV_Shenzhen_HKU_SZ_005_2020_EPI_ISL_405839                           1.04%    passed     99.97%
-  30  BetaCoV_Shenzhen_HKU_SZ_002_2020_EPI_ISL_406030                           1.22%    passed     99.91%
-  31  BetaCoV_Taiwan_2_2020_EPI_ISL_406031                                      1.08%    passed     99.99%
-  32  BetaCoV_USA_CA1_2020_EPI_ISL_406034                                       1.07%    passed    100.00%
-  33  BetaCoV_USA_CA2_2020_EPI_ISL_406036                                       1.07%    passed     99.99%
-  34  BetaCoV_USA_AZ1_2020_EPI_ISL_406223                                       1.07%    passed     99.99%
-  35  BetaCoV_Guangdong_20SF174_2020_EPI_ISL_406531                             1.31%    passed     99.97%
-  36  BetaCoV_Guangzhou_20SF206_2020_EPI_ISL_406533                             1.21%    passed     99.92%
-  37  BetaCoV_Foshan_20SF207_2020_EPI_ISL_406534                                1.21%    passed     99.92%
-  38  BetaCoV_Foshan_20SF210_2020_EPI_ISL_406535                                1.21%    passed     99.93%
-  39  BetaCoV_Foshan_20SF211_2020_EPI_ISL_406536                                1.33%    passed     99.97%
-  40  BetaCoV_Guangdong_20SF201_2020_EPI_ISL_406538                             1.21%    passed     99.94%
-  41  BetaCoV_Shenzhen_SZTH_001_2020_EPI_ISL_406592                             1.04%    passed     99.99%
-  42  BetaCoV_Shenzhen_SZTH_002_2020_EPI_ISL_406593                             1.04%    passed     99.97%
-  43  BetaCoV_Shenzhen_SZTH_003_2020_EPI_ISL_406594                             1.02%    passed     99.94%
-  44  BetaCoV_Shenzhen_SZTH_004_2020_EPI_ISL_406595                             1.02%    passed     99.98%
-  45  BetaCoV_France_IDF0372_2020_EPI_ISL_406596                                1.17%    passed     99.94%
-  46  BetaCoV_France_IDF0373_2020_EPI_ISL_406597                                1.31%    passed     99.98%
-  47  BetaCoV_China_WHU01_2020_EPI_ISL_406716                                   1.07%    passed    100.00%
-  48  BetaCoV_China_WHU02_2020_EPI_ISL_406717                                   1.07%    passed    100.00%
-  49  BetaCov_Wuhan_WH01_2019_EPI_ISL_406798                                    1.12%    passed     99.94%
-  50  BetaCov_Wuhan_WH02_2019_EPI_ISL_406799                                   36.23%    passed     38.76%
-  51  BetaCov_Wuhan_WH03_2020_EPI_ISL_406800                                    1.12%    passed     99.99%
-  52  BetaCov_Wuhan_WH04_2020_EPI_ISL_406801                                    1.10%    passed    100.00%
-  53  BetaCoV_Australia_VIC01_2020_EPI_ISL_406844                               1.03%    passed     99.74%
-  54  BetaCoV_Germany_BavPat1_2020_EPI_ISL_406862                               1.40%    passed     99.87%
-  55  BetaCoV_Zhejiang_Hangzhou_1_2020_EPI_ISL_406970                           1.23%    passed     99.98%
-  56  BetaCoV_Singapore_1_2020_EPI_ISL_406973                                   1.19%    passed     99.96%
-  57  BetaCoV_England_01_2020_EPI_ISL_407071                                    1.22%    passed     99.94%
-  58  BetaCoV_England_02_2020_EPI_ISL_407073                                    1.22%    passed     99.92%
-  59  BetaCoV_Finland_1_2020_EPI_ISL_407079                                     1.72%    passed     99.75%
-  60  BetaCoV_Japan_AI_I_004_2020_EPI_ISL_407084                                1.18%    passed     99.97%
-  61  BetaCoV_Korea_KCDC03_2020_EPI_ISL_407193                                  1.28%    passed     99.96%
-  62  BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214                                   1.07%    passed     99.99%
-  63  BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215                                    1.07%    passed     99.99%
-  64  BetaCoV_Hangzhou_HZCDC0001_2020_EPI_ISL_407313                            1.22%    passed     99.94%
-  65  BetaCoV_Australia_NSW01_2020_EPI_ISL_407893                               1.40%    passed     99.93%
-  66  BetaCoV_Australia_QLD01_2020_EPI_ISL_407894                               1.22%    passed     99.96%
-  67  BetaCoV_Australia_QLD02_2020_EPI_ISL_407896                               1.13%    passed     99.94%
-  68  BetaCoV_Belgium_GHB_03021_2020_EPI_ISL_407976                             1.15%    passed    100.00%
-  69  BetaCoV_Singapore_2_2020_EPI_ISL_407987                                   1.20%    passed     99.96%
-  70  BetaCoV_Singapore_3_2020_EPI_ISL_407988                                   1.20%    passed     99.96%
-  71  BetaCoV_USA_CA3_2020_EPI_ISL_408008                                       1.07%    passed     99.99%
-  72  BetaCoV_USA_CA4_2020_EPI_ISL_408009                                       1.07%    passed     99.99%
-  73  BetaCoV_USA_CA5_2020_EPI_ISL_408010                                       1.07%    passed     99.99%
-  74  BetaCoV_France_IDF0515_2020_EPI_ISL_408430                                1.13%    passed     99.91%
-  75  BetaCov_France_IDF0626_2020_EPI_ISL_408431                                1.17%    passed     99.94%
-  76  BetaCoV_Chongqing_YC01_2020_EPI_ISL_408478                                1.04%    passed     99.94%
-  77  BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479                                1.04%    passed     99.97%
-  78  BetaCoV_Yunnan_IVDC_YN_003_2020_EPI_ISL_408480                            1.06%    passed     99.99%
-  79  BetaCoV_Chongqing_IVDC_CQ_001_2020_EPI_ISL_408481                         1.06%    passed     99.99%
-  80  BetaCoV_Shandong_IVDC_SD_001_2020_EPI_ISL_408482                          1.08%    passed     99.97%
-  81  BetaCoV_Shanghai_IVDC_SH_001_2020_EPI_ISL_408483                          2.10%    passed     99.39%
-  82  BetaCoV_Sichuan_IVDC_SC_001_2020_EPI_ISL_408484                           1.09%    passed     99.98%
-  83  BetaCoV_Beijing_IVDC_BJ_005_2020_EPI_ISL_408485                           1.06%    passed     99.86%
-  84  BetaCoV_Jiangxi_IVDC_JX_002_2020_EPI_ISL_408486                           1.09%    passed     99.98%
-  85  BetaCoV_Henan_IVDC_HeN_002_2020_EPI_ISL_408487                            3.33%    passed     90.95%
-  86  BetaCoV_Jiangsu_IVDC_JS_001_2020_EPI_ISL_408488                           1.29%    passed     99.94%
-  87  BetaCoV_Taiwan_NTU01_2020_EPI_ISL_408489                                  2.43%    passed     99.69%
-  88  BetaCoV_Wuhan_IVDC_HB_envF13_2020_EPI_ISL_408511                          5.48%    passed     81.04%
-  89  BetaCoV_Wuhan_IVDC_HB_envF54_2020_EPI_ISL_408512                         16.15%    passed     57.29%
-  90  BetaCoV_Wuhan_IVDC_HB_envF13_20_2020_EPI_ISL_408514                       1.04%    passed     99.95%
-  91  BetaCoV_Wuhan_IVDC_HB_envF13_21_2020_EPI_ISL_408515                       1.04%    passed     99.98%
-  92  BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665                               1.08%    passed     99.99%
-  93  BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666                               1.08%    passed     99.99%
-  94  BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667                               1.08%    passed     99.99%
-  95  BetaCoV_Vietnam_VR03_38142_2020_EPI_ISL_408668                            1.05%    passed     99.97%
-  96  BetaCoV_Japan_KY_V_029_2020_EPI_ISL_408669                                1.08%    passed     99.99%
-  97  BetaCoV_USA_WI1_2020_EPI_ISL_408670                                       1.08%    passed    100.00%
-  98  BetaCoV_Sydney_2_2020_EPI_ISL_408976                                      1.54%    passed     99.84%
-  99  BetaCoV_Sydney_3_2020_EPI_ISL_408977                                      1.40%    passed     99.93%
- 100  BetaCoV_Wuhan_WH05_2020_EPI_ISL_408978                                    6.59%    passed     35.28%
- 101  BetaCoV_USA_MA1_2020_EPI_ISL_409067                                       1.07%    passed     99.98%
- 102  BetaCoV_USA_CA6_2020_EPI_ISL_410044                                       1.15%    passed    100.00%
- 103  BetaCoV_USA_IL2_2020_EPI_ISL_410045                                       1.07%    passed    100.00%
- 104  BetaCov_Taiwan_NTU02_2020_EPI_ISL_410218                                  1.11%    passed     99.95%
- 105  BetaCoV_Nepal_61_2020_EPI_ISL_410301                                      1.30%    passed     99.97%
- 106  BetaCoV_France_RA739_2020_EPI_ISL_410486                                  4.19%    passed     99.71%
- 107  BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531                              1.08%    passed    100.00%
- 108  BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532                              1.08%    passed    100.00%
- 109  BetaCoV_Singapore_4_2020_EPI_ISL_410535                                   2.64%    passed     99.05%
- 110  BetaCoV_Singapore_5_2020_EPI_ISL_410536                                   1.20%    passed     99.96%
- 111  BetaCoV_Singapore_6_2020_EPI_ISL_410537                                   1.24%    passed     99.95%
- 112  BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538                          1.32%    passed     17.07%
- 113  BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539                          1.34%    passed     18.49%
- 114  BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540                          1.32%    passed     19.21%
- 115  BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541                          1.33%    passed     15.47%
- 116  BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542                          1.39%    passed     18.28%
- 117  BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543                          9.42%    passed     10.36%
- 118  BetaCoV_pangolin_Guangdong_P2S_2019_EPI_ISL_410544                       28.89%    passed      5.28%
- 119  BetaCoV_Italy_INMI1_isl_2020_EPI_ISL_410545                               1.12%    passed     99.94%
- 120  BetaCoV_Italy_INMI1_cs_2020_EPI_ISL_410546                                1.39%    passed     99.93%
- 121  BetaCoV_Singapore_7_2020_EPI_ISL_410713                                   1.04%    passed     99.96%
- 122  BetaCoV_Singapore_8_2020_EPI_ISL_410714                                   1.48%    passed     99.86%
- 123  BetaCoV_Singapore_9_2020_EPI_ISL_410715                                   1.04%    passed     99.96%
- 124  BetaCoV_Singapore_10_2020_EPI_ISL_410716                                  1.05%    passed     99.97%
- 125  BetaCoV_Australia_QLD03_2020_EPI_ISL_410717                               1.13%    passed     99.98%
- 126  BetaCoV_Australia_QLD04_2020_EPI_ISL_410718                               1.13%    passed     99.97%
- 127  BetaCoV_Singapore_11_2020_EPI_ISL_410719                                  1.19%    passed     99.93%
- 128  BetaCoV_France_IDF0372_2020_EPI_ISL_410720                                1.10%    passed     99.98%
- 129  BetaCoV_pangolin_Guandong_1_2020_EPI_ISL_410721                           1.78%    passed     59.76%
- 130  BetaCoV_France_IDF0515_isl_2020_EPI_ISL_410984                            1.11%    passed     99.95%
- 131  BetaCoV_Fujian_8_2020_EPI_ISL_411060                                      1.11%    passed     99.97%
- 132  BetaCoV_Fujian_13_2020_EPI_ISL_411066                                     1.04%    passed     99.95%
- 133  BetaCoV_France_IDF0571_2020_EPI_ISL_411218                                1.10%    passed     99.96%
- 134  BetaCoV_France_IDF0386_2020_EPI_ISL_411219                                1.10%    passed     99.97%
- 135  BetaCoV_France_IDF0386_2020_EPI_ISL_411220                                1.08%    passed     99.99%
- 136  BetaCoV_Cambodia_0012_2020_EPI_ISL_411902                                 1.10%    passed     99.98%
- 137  BetaCoV_Taiwan_CGMH_CGU_01_2020_EPI_ISL_411915                            1.14%    passed     99.99%
- 138  BetaCoV_Taiwan_3_2020_EPI_ISL_411926                                      1.04%    passed     99.98%
- 139  BetaCoV_Taiwan_4_2020_EPI_ISL_411927                                      1.04%    passed     99.98%
- 140  BetaCoV_South_Korea_SNU01_2020_EPI_ISL_411929                             1.00%    passed     99.67%
- 141  BetaCoV_Jiangsu_JS01_2020_EPI_ISL_411950                                  1.04%    passed     99.94%
- 142  BetaCoV_Sweden_01_2020_EPI_ISL_411951                                     1.06%    passed    100.00%
- 143  BetaCoV_Jiangsu_JS02_2020_EPI_ISL_411952                                  1.04%    passed     99.92%
- 144  BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953                                  1.04%    passed     99.97%
- 145  BetaCoV_USA_CA7_2020_EPI_ISL_411954                                       1.07%    passed     99.99%
- 146  BetaCoV_USA_CA8_2020_EPI_ISL_411955                                       1.07%    passed    100.00%
- 147  BetaCoV_USA_TX1_2020_EPI_ISL_411956                                       1.07%    passed    100.00%
- 148  BetaCoV_China_WH_09_2020_EPI_ISL_411957                                   0.97%    passed     99.99%
- 149  BetaCoV_Hefei_2_2020_EPI_ISL_412026                                       1.11%    passed     99.97%
- 150  BetaCoV_Hong_Kong_VM20001061_2020_EPI_ISL_412028                          1.18%    passed     99.94%
- 151  BetaCoV_Hong_Kong_VM20001988_2020_EPI_ISL_412029                          1.36%    passed     99.90%
- 152  BetaCoV_Hong_Kong_VB20026565_2020_EPI_ISL_412030                          1.20%    passed     99.96%
- 153  BetaCoV_England_03_2020_EPI_ISL_412116                                    1.21%    passed     99.96%
- 154  BetaCoV_Jingzhou_HBCDC_HB_01_2020_EPI_ISL_412459                          1.18%    passed     99.90%
- 155  BetaCoV_pangolin_China_MP789_2019_EPI_ISL_412860                         16.10%    passed     28.49%
- 156  BetaCoV_USA_CA9_2020_EPI_ISL_412862                                       1.07%    passed     99.99%
- 157  BetaCoV_Korea_KCDC05_2020_EPI_ISL_412869                                  1.38%    passed     99.96%
- 158  BetaCoV_Korea_KCDC06_2020_EPI_ISL_412870                                  1.38%    passed     99.96%
- 159  BetaCoV_Korea_KCDC07_2020_EPI_ISL_412871                                  1.38%    passed     99.92%
- 160  BetaCoV_Korea_KCDC12_2020_EPI_ISL_412872                                  1.38%    passed     99.91%
- 161  BetaCoV_Korea_KCDC24_2020_EPI_ISL_412873                                  1.38%    passed     99.94%
- 162  _BetaCoV_Wuhan_HBCDC_HB_02_2019_EPI_ISL_412898                            1.18%    passed     99.92%
- 163  _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899                            1.18%    passed     99.93%
- 164  _BetaCoV_Wuhan_HBCDC_HB_04_2019_EPI_ISL_412900                            3.32%    passed     96.41%
- 165  BetaCoV_Germany_Baden_Wuerttemberg_1_2020_EPI_ISL_412912                  1.49%    passed     99.93%
- 166  BetaCoV_Brazil_SPBR_01_2020_EPI_ISL_412964                                5.01%    passed     95.03%
- 167  BetaCoV_Canada_BC_37_0_2_2020_EPI_ISL_412965                              2.29%    passed     99.96%
- 168  BetaCoV_China_IQTC01_2020_EPI_ISL_412966                                  1.04%    passed     99.98%
- 169  BetaCoV_China_IQTC02_2020_EPI_ISL_412967                                  0.92%    passed     99.96%
- 170  BetaCoV_Japan_Hu_DP_Kng_19_020_2020_EPI_ISL_412968                        1.00%    passed     99.97%
- 171  BetaCoV_Japan_Hu_DP_Kng_19_027_2020_EPI_ISL_412969                        1.00%    passed     99.99%
- 172  BetaCoVUSA_WA2_2020_EPI_ISL_412970                                        1.18%    passed     99.92%
- 173  BetaCoV_Finland_FIN_25_2020_EPI_ISL_412971                                2.75%    passed     98.90%
- 174  BetaCoV_Mexico_CDMX_InDRE_01_2020_EPI_ISL_412972                          1.19%    passed     99.93%
- 175  BetaCoV_Italy_CDG1_2020_EPI_ISL_412973                                    1.01%    passed     99.76%
- 176  BetaCoV_Italy_SPL1_2020__EPI_ISL_412974                                   1.00%    passed     99.77%
- 177  BetaCoV_Australia_NSW05_2020_EPI_ISL_412975                               1.40%    passed     99.96%
- 178  _BetaCoV_Wuhan_HBCDC_HB_02_2020_EPI_ISL_412978                            1.19%    passed     99.94%
- 179  _BetaCoV_Wuhan_HBCDC_HB_03_2020_EPI_ISL_412979                            1.18%    passed     99.93%
- 180  _BetaCoV_Wuhan_HBCDC_HB_04_2020_EPI_ISL_412980                            1.19%    passed     99.91%
- 181  _BetaCoV_Wuhan_HBCDC_HB_05_2020_EPI_ISL_412981                            1.20%    passed     99.93%
- 182  _BetaCoV_Wuhan_HBCDC_HB_06_2020_EPI_ISL_412982                            1.22%    passed     99.94%
- 183  BetaCoV_Tianmen_HBCDC_HB_07_2020_EPI_ISL_412983                           1.69%    passed     99.87%
- 184  BetaCoV_Canada_ON_PHL2445_2020_EPI_ISL_413014                             1.17%    passed     99.84%
- 185  BetaCoV_Canada_ON_VIDO_01_2020_EPI_ISL_413015                             1.08%    passed     99.93%
- 186  BetaCov_Brazil_SPBR_02_2020_EPI_ISL_413016                                1.40%    passed     99.92%
- 187  BetaCoV_South_Korea_KUMC01_2020_EPI_ISL_413017                            1.07%    passed     99.79%
- 188  BetaCoV_South_Korea_KUMC02_2020_EPI_ISL_413018                            1.15%    passed     99.94%
- 189  BetaCoV_Switzerland_1000477102_2020_EPI_ISL_413019                        1.08%    passed     99.94%
- 190  BetaCoV_Switzerland_1000477377_2020_EPI_ISL_413020                        1.16%    passed     99.93%
- 191  BetaCoV_Switzerland_1000477757_2020_EPI_ISL_413021                        1.10%    passed     99.97%
- 192  BetaCoV_Switzerland_1000477796_2020_EPI_ISL_413022                        1.19%    passed     99.96%
- 193  BetaCoV_Switzerland_1000477797_2020_EPI_ISL_413023                        1.38%    passed     99.87%
- 194  BetaCoV_Switzerland_1000477806_2020_EPI_ISL_413024                        1.11%    passed     99.96%
- 195  BetaCoV_USA_WA3_UW1_2020_EPI_ISL_413025                                   1.00%    passed     99.55%
- 196  BetaCoV_Australia_NSW06_2020_EPI_ISL_413213                               1.40%    passed     99.93%
- 197  BetaCoV_Australia_NSW07_2020_EPI_ISL_413214                               1.40%    passed     99.97%
- 198  BetaCoV_Scotland_CVR01_2020_EPI_ISL_413221                                3.24%    passed     99.93%
- 199  BetaCoV_USA_WA_S2_2020_EPI_ISL_413456                                     1.15%    passed     99.94%
- 200  BetaCoV_USA_WA6_UW3_2020_EPI_ISL_413457                                   1.00%    passed     99.87%
- 201  BetaCoV_USA_WA7_UW4_2020_EPI_ISL_413458                                   1.00%    passed     99.81%
- 202  BetaCoV_Japan_TK_20_31_3_2020_EPI_ISL_413459                              1.89%    passed     99.59%
- 203  BetaCoV_Anhui_SZ005_2020_EPI_ISL_413485                                   1.14%    passed     99.93%
- 204  BetaCoV_USA_WA8_UW5_2020_EPI_ISL_413486                                   1.57%    passed     99.47%
- 205  BetaCoV_USA_WA9_UW6_2020_EPI_ISL_413487                                   3.02%    passed     85.60%
- 206  BetaCoV_Germany_NRW_01_2020_EPI_ISL_413488                                1.52%    passed     99.91%
- 207  BetaCoV_Italy_UniSR1_2020_EPI_ISL_413489                                  1.06%    passed     99.99%
- 208  BetaCoV_New_Zealand_01_2020_EPI_ISL_413490                                1.42%    passed     99.98%
- 209  hCoV_19_South_Korea_KUMC03_2020_EPI_ISL_413513                            1.15%    passed     99.96%
- 210  hCoV_19_South_Korea_KUMC04_2020_EPI_ISL_413514                            1.15%    passed     99.96%
- 211  hCoV_19_South_Korea_KUMC05_2020_EPI_ISL_413515                            1.16%    passed     99.95%
- 212  hCoV_19_South_Korea_KUMC06_2020_EPI_ISL_413516                            1.15%    passed     99.96%
- 213  BetaCoV_Beijing_105_2020_EPI_ISL_413518                                   1.00%    passed     99.79%
- 214  BetaCoV_Beijing_231_2020_EPI_ISL_413519                                   1.00%    passed     99.79%
- 215  BetaCoV_Beijing_233_2020_EPI_ISL_413520                                   1.00%    passed     99.82%
- 216  BetaCoV_Beijing_235_2020_EPI_ISL_413521                                   1.00%    passed     99.79%
- 217  BetaCoV_India_1_27_2020_EPI_ISL_413522                                    1.16%    passed     99.96%
- 218  BetaCoV_India_1_31_2020_EPI_ISL_413523                                    1.17%    passed     99.93%
- 219  hCoV_19_Nigeria_Lagos01_2020_EPI_ISL_413550                               2.61%    passed     97.72%
- 220  hCoV_19_Wales_PHW1_2020_EPI_ISL_413555                                    1.40%    passed     99.84%
- 221  hCoV_19_Wales_PHW2_2020_EPI_ISL_413556                                    2.29%    passed     99.94%
- 222  hCoV_19_USA_CA_CDPH_UC1_2020_EPI_ISL_413557                               1.25%    passed     99.99%
- 223  hCoV_19_USA_CA_CDPH_UC2_2020_EPI_ISL_413558                               1.13%    passed     99.81%
- 224  hCoV_19_USA_CA_CDPH_UC3_2020_EPI_ISL_413559                               1.25%    passed     99.92%
- 225  hCoV_19_USA_WA_S3_2020_EPI_ISL_413560                                     1.12%    passed     99.93%
- 226  hCoV_19_USA_CA_CDPH_UC4_2020_EPI_ISL_413561                               1.34%    passed     99.94%
- 227  hCoV_19_USA_WA11_UW7_2020_EPI_ISL_413562                                  1.99%    passed     97.04%
- 228  hCoV_19_USA_WA12_UW8_2020_EPI_ISL_413563                                  1.02%    passed     99.83%
- 229  hCoV_19_Netherlands_Andel_1365066_2020_EPI_ISL_413564                     2.06%    passed     99.98%
- 230  hCoV_19_Netherlands_Berlicum_1363564_2020_EPI_ISL_413565                  3.33%    passed     98.41%
- 231  hCoV_19_Netherlands_Blaricum_1364780_2020_EPI_ISL_413566                  1.39%    passed     99.78%
- 232  hCoV_19_Netherlands_Coevorden_1363618_2020_EPI_ISL_413567                 2.88%    passed     99.95%
- 233  hCoV_19_Netherlands_Dalen_1363624_2020_EPI_ISL_413568                     2.06%    passed     99.97%
- 234  hCoV_19_Netherlands_Delft_1363424_2020_EPI_ISL_413569                     2.84%    passed     99.99%
- 235  hCoV_19_Netherlands_Diemen_1363454_2020_EPI_ISL_413570                    2.84%    passed     99.99%
- 236  hCoV_19_Netherlands_Eindhoven_1363782_2020_EPI_ISL_413571                 2.05%    passed     99.90%
- 237  hCoV_19_Netherlands_Haarlem_1363688_2020_EPI_ISL_413572                   1.39%    passed     99.78%
- 238  hCoV_19_Netherlands_Hardinxveld_Giessendam_1364806_2020_EPI_ISL_413573    1.40%    passed     99.90%
- 239  hCoV_19_Netherlands_Helmond_1363548_2020_EPI_ISL_413574                   2.05%    passed     99.95%
- 240  hCoV_19_NetherlandsL_Houten_1363498_2020_EPI_ISL_413575                   2.84%    passed    100.00%
- 241  hCoV_19_Netherlands_Loon_op_zand_1363512_2020_EPI_ISL_413576              2.88%    passed     99.95%
- 242  hCoV_19_Netherlands_Naarden_1364774_2020_EPI_ISL_413577                   1.40%    passed     99.92%
- 243  hCoV_19_Netherlands_Nieuwendijk_1363582_2020_EPI_ISL_413578               3.86%    passed     99.87%
- 244  hCoV_19_Netherlands_Nootdorp_1364222_2020_EPI_ISL_413579                  1.39%    passed     99.87%
- 245  hCoV_19_Netherlands_Oisterwijk_1364072_2020_EPI_ISL_413580                1.40%    passed     99.90%
- 246  hCoV_19_Netherlands_Oss_1363500_2020_EPI_ISL_413581                       3.52%    passed     99.90%
- 247  hCoV_19_Netherlands_Rotterdam_1363790_2020_EPI_ISL_413582                 1.40%    passed     99.88%
- 248  hCoV_19_Netherlands_Rotterdam_1364040_2020_EPI_ISL_413583                 1.40%    passed     99.92%
- 249  hCoV_19_Netherlands_Rotterdam_1364740_2020_EPI_ISL_413584                 1.39%    passed     99.84%
- 250  hCoV_19_Netherlands_Tilburg__2020_EPI_ISL_413585                          3.62%    passed     99.75%
- 251  hCoV_19_Netherlands_Tilburg_1363354_2020_EPI_ISL_413586                   4.67%    passed     99.99%
- 252  hCoV_19_Netherlands_Tilburg_1364286_2020_EPI_ISL_413587                   1.39%    passed     99.87%
- 253  hCoV_19_Netherlands_Utrecht_1363564_2020_EPI_ISL_413588                   2.05%    passed     99.85%
- 254  hCoV_19_Netherlands_Utrecht_1363628_2020_EPI_ISL_413589                   1.39%    passed     99.73%
- 255  hCoV_19_Netherlands_Utrecht_1364066_2020_EPI_ISL_413590                   1.40%    passed     99.90%
- 256  hCoV_19_Netherlands_Zeewolde_1365080_2020_EPI_ISL_413591                  1.39%    passed     99.78%
- 257  hCoV_19_Taiwan_NTU03_2020_EPI_ISL_413592                                  1.12%    passed     99.88%
- 258  hCoV_19_Luxemburg_Lux1_2020_EPI_ISL_413593                                1.39%    passed     99.74%
- 259  hCoV_19_Australia_NSW08_2020_EPI_ISL_413594                               2.64%    passed     99.00%
- 260  hCoV_19_Australia_NSW09_2020_EPI_ISL_413595                               2.64%    passed     98.43%
- 261  hCoV_19_Australia_NSW10_2020_EPI_ISL_413596                               2.64%    passed     99.06%
- 262  hCoV_19_Australia_NSW11_2020_EPI_ISL_413597                               2.64%    passed     98.82%
- 263  hCoV_19_Australia_NSW12_2020_EPI_ISL_413598                               2.64%    passed     98.43%
- 264  hCoV_19_Australia_NSW13_2020_EPI_ISL_413599                               2.64%    passed     98.65%
- 265  hCoV_19_Australia_NSW14_2020_EPI_ISL_413600                               2.64%    passed     99.07%
- 266  hCoV_19_USA_WA13_UW9_2020_EPI_ISL_413601                                  2.90%    passed     90.81%
- 267  hCoV_19_Finland_FIN03032020A_2020_EPI_ISL_413602                          1.31%    passed     99.94%
- 268  hCoV_19_Finland_FIN03032020B_2020_EPI_ISL_413603                          1.22%    passed     99.95%
- 269  hCoV_19_Finland_FIN03032020C_2020_EPI_ISL_413604                          1.42%    passed     99.96%
- 270  hCoV_19_Finland_FIN01032020_2020_EPI_ISL_413605                           2.59%    passed     99.86%
- 271  hCoV_19_USA_CruiseA_1_2020_EPI_ISL_413606                                 1.07%    passed     99.99%
- 272  hCoV_19_USA_CruiseA_2_2020_EPI_ISL_413607                                 1.07%    passed     99.99%
- 273  hCoV_19_USA_CruiseA_3_2020_EPI_ISL_413608                                 1.07%    passed    100.00%
- 274  hCoV_19_USA_CruiseA_4_2020_EPI_ISL_413609                                 1.07%    passed     99.98%
- 275  hCoV_19_USA_CruiseA_5_2020_EPI_ISL_413610                                 1.07%    passed    100.00%
- 276  hCoV_19_USA_CruiseA_6_2020_EPI_ISL_413611                                 1.07%    passed     99.99%
- 277  hCoV_19_USA_CruiseA_7_2020_EPI_ISL_413612                                 1.07%    passed     99.98%
- 278  hCoV_19_USA_CruiseA_8_2020_EPI_ISL_413613                                 1.07%    passed     99.99%
- 279  hCoV_19_USA_CruiseA_9_2020_EPI_ISL_413614                                 1.07%    passed    100.00%
- 280  hCoV_19_USA_CruiseA_10_2020_EPI_ISL_413615                                1.07%    passed    100.00%
- 281  hCoV_19_USA_CruiseA_11_2020_EPI_ISL_413616                                1.07%    passed     99.99%
- 282  hCoV_19_USA_CruiseA_12_2020_EPI_ISL_413617                                1.07%    passed     99.99%
- 283  hCoV_19_USA_CruiseA_13_2020_EPI_ISL_413618                                1.07%    passed    100.00%
- 284  hCoV_19_USA_CruiseA_14_2020_EPI_ISL_413619                                1.07%    passed     99.98%
- 285  hCoV_19_USA_CruiseA_15_2020_EPI_ISL_413620                                1.07%    passed    100.00%
- 286  hCoV_19_USA_CruiseA_16_2020_EPI_ISL_413621                                1.07%    passed    100.00%
- 287  hCoV_19_USA_CruiseA_17_2020_EPI_ISL_413622                                1.07%    passed    100.00%
- 288  hCoV_19_USA_CruiseA_18_2020_EPI_ISL_413623                                1.12%    passed     99.99%
-****  TOTAL                                                                     1.78%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+   1  BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119                              1.01%    passed     99.97%
+   2  BetaCoV_Wuhan_IVDC_HB_04_2020_EPI_ISL_402120                              0.99%    passed     99.90%
+   3  BetaCoV_Wuhan_IVDC_HB_05_2019_EPI_ISL_402121                              1.01%    passed     99.94%
+   4  BetaCoV_Wuhan_IPBCAMS_WH_01_2019_EPI_ISL_402123                           0.98%    passed     99.90%
+   5  BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124                                   1.01%    passed     99.97%
+   6  BetaCoV_Wuhan_Hu_1_2019_EPI_ISL_402125                                    0.97%    passed     99.78%
+   7  BetaCoV_Wuhan_WIV02_2019_EPI_ISL_402127                                   1.23%    passed     99.90%
+   8  BetaCoV_Wuhan_WIV05_2019_EPI_ISL_402128                                   1.14%    passed     99.94%
+   9  BetaCoV_Wuhan_WIV06_2019_EPI_ISL_402129                                   1.13%    passed     99.95%
+  10  BetaCoV_Wuhan_WIV07_2019_EPI_ISL_402130                                   1.12%    passed     99.95%
+  11  BetaCoV_bat_Yunnan_RaTG13_2013_EPI_ISL_402131                             1.13%    passed     98.94%
+  12  BetaCoV_Wuhan_HBCDC_HB_01_2019_EPI_ISL_402132                             1.15%    passed     99.96%
+  13  IPBCAMS_WH_05_2020_EPI_ISL_403928                                         1.04%    passed     99.99%
+  14  BetaCoV_Wuhan_IPBCAMS_WH_04_2019_EPI_ISL_403929                           1.01%    passed     99.98%
+  15  BetaCoV_Wuhan_IPBCAMS_WH_03_2019_EPI_ISL_403930                           0.98%    passed     99.88%
+  16  BetaCoV_Wuhan_IPBCAMS_WH_02_2019_EPI_ISL_403931                           1.02%    passed     99.97%
+  17  BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932                             1.16%    passed     99.95%
+  18  BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933                             1.16%    passed     99.95%
+  19  BetaCoV_Guangdong_20SF014_2020_EPI_ISL_403934                             1.16%    passed     99.96%
+  20  BetaCoV_Guangdong_20SF025_2020_EPI_ISL_403935                             1.16%    passed     99.95%
+  21  BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936                             1.16%    passed     99.95%
+  22  BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937                             1.16%    passed     99.95%
+  23  BetaCoV_Nonthaburi_61_2020_EPI_ISL_403962                                 1.15%    passed     99.94%
+  24  BetaCoV_Nonthaburi_74_2020_EPI_ISL_403963                                 1.12%    passed     99.97%
+  25  BetaCoV_Zhejiang_WZ_01_2020_EPI_ISL_404227                                1.18%    passed     99.94%
+  26  BetaCoV_Zhejiang_WZ_02_2020_EPI_ISL_404228                                1.12%    passed    100.00%
+  27  BetaCoV_USA_IL1_2020_EPI_ISL_404253                                       1.07%    passed     99.99%
+  28  BetaCoV_USA_WA1_2020_EPI_ISL_404895                                       1.04%    passed     99.99%
+  29  BetaCoV_Shenzhen_HKU_SZ_005_2020_EPI_ISL_405839                           1.01%    passed     99.96%
+  30  BetaCoV_Shenzhen_HKU_SZ_002_2020_EPI_ISL_406030                           1.19%    passed     99.91%
+  31  BetaCoV_Taiwan_2_2020_EPI_ISL_406031                                      1.05%    passed     99.99%
+  32  BetaCoV_USA_CA1_2020_EPI_ISL_406034                                       1.04%    passed    100.00%
+  33  BetaCoV_USA_CA2_2020_EPI_ISL_406036                                       1.04%    passed     99.99%
+  34  BetaCoV_USA_AZ1_2020_EPI_ISL_406223                                       1.04%    passed     99.99%
+  35  BetaCoV_Guangdong_20SF174_2020_EPI_ISL_406531                             1.28%    passed     99.97%
+  36  BetaCoV_Guangzhou_20SF206_2020_EPI_ISL_406533                             1.18%    passed     99.92%
+  37  BetaCoV_Foshan_20SF207_2020_EPI_ISL_406534                                1.18%    passed     99.92%
+  38  BetaCoV_Foshan_20SF210_2020_EPI_ISL_406535                                1.18%    passed     99.94%
+  39  BetaCoV_Foshan_20SF211_2020_EPI_ISL_406536                                1.30%    passed     99.97%
+  40  BetaCoV_Guangdong_20SF201_2020_EPI_ISL_406538                             1.18%    passed     99.95%
+  41  BetaCoV_Shenzhen_SZTH_001_2020_EPI_ISL_406592                             1.01%    passed     99.99%
+  42  BetaCoV_Shenzhen_SZTH_002_2020_EPI_ISL_406593                             1.01%    passed     99.96%
+  43  BetaCoV_Shenzhen_SZTH_003_2020_EPI_ISL_406594                             0.99%    passed     99.94%
+  44  BetaCoV_Shenzhen_SZTH_004_2020_EPI_ISL_406595                             0.99%    passed     99.98%
+  45  BetaCoV_France_IDF0372_2020_EPI_ISL_406596                                1.14%    passed     99.94%
+  46  BetaCoV_France_IDF0373_2020_EPI_ISL_406597                                1.28%    passed     99.98%
+  47  BetaCoV_China_WHU01_2020_EPI_ISL_406716                                   1.04%    passed    100.00%
+  48  BetaCoV_China_WHU02_2020_EPI_ISL_406717                                   1.04%    passed    100.00%
+  49  BetaCov_Wuhan_WH01_2019_EPI_ISL_406798                                    1.09%    passed     99.94%
+  50  BetaCov_Wuhan_WH02_2019_EPI_ISL_406799                                   36.21%    passed     38.69%
+  51  BetaCov_Wuhan_WH03_2020_EPI_ISL_406800                                    1.09%    passed     99.99%
+  52  BetaCov_Wuhan_WH04_2020_EPI_ISL_406801                                    1.07%    passed    100.00%
+  53  BetaCoV_Australia_VIC01_2020_EPI_ISL_406844                               1.00%    passed     99.73%
+  54  BetaCoV_Germany_BavPat1_2020_EPI_ISL_406862                               1.37%    passed     99.88%
+  55  BetaCoV_Zhejiang_Hangzhou_1_2020_EPI_ISL_406970                           1.20%    passed     99.98%
+  56  BetaCoV_Singapore_1_2020_EPI_ISL_406973                                   1.16%    passed     99.96%
+  57  BetaCoV_England_01_2020_EPI_ISL_407071                                    1.19%    passed     99.95%
+  58  BetaCoV_England_02_2020_EPI_ISL_407073                                    1.19%    passed     99.93%
+  59  BetaCoV_Finland_1_2020_EPI_ISL_407079                                     1.70%    passed     99.75%
+  60  BetaCoV_Japan_AI_I_004_2020_EPI_ISL_407084                                1.15%    passed     99.97%
+  61  BetaCoV_Korea_KCDC03_2020_EPI_ISL_407193                                  1.25%    passed     99.96%
+  62  BetaCoV_USA_WA1_A12_2020_EPI_ISL_407214                                   1.04%    passed     99.99%
+  63  BetaCoV_USA_WA1_F6_2020_EPI_ISL_407215                                    1.04%    passed     99.99%
+  64  BetaCoV_Hangzhou_HZCDC0001_2020_EPI_ISL_407313                            1.19%    passed     99.94%
+  65  BetaCoV_Australia_NSW01_2020_EPI_ISL_407893                               1.37%    passed     99.94%
+  66  BetaCoV_Australia_QLD01_2020_EPI_ISL_407894                               1.20%    passed     99.96%
+  67  BetaCoV_Australia_QLD02_2020_EPI_ISL_407896                               1.10%    passed     99.95%
+  68  BetaCoV_Belgium_GHB_03021_2020_EPI_ISL_407976                             1.12%    passed    100.00%
+  69  BetaCoV_Singapore_2_2020_EPI_ISL_407987                                   1.17%    passed     99.96%
+  70  BetaCoV_Singapore_3_2020_EPI_ISL_407988                                   1.17%    passed     99.97%
+  71  BetaCoV_USA_CA3_2020_EPI_ISL_408008                                       1.04%    passed     99.99%
+  72  BetaCoV_USA_CA4_2020_EPI_ISL_408009                                       1.04%    passed     99.99%
+  73  BetaCoV_USA_CA5_2020_EPI_ISL_408010                                       1.04%    passed     99.99%
+  74  BetaCoV_France_IDF0515_2020_EPI_ISL_408430                                1.10%    passed     99.91%
+  75  BetaCov_France_IDF0626_2020_EPI_ISL_408431                                1.14%    passed     99.94%
+  76  BetaCoV_Chongqing_YC01_2020_EPI_ISL_408478                                1.01%    passed     99.94%
+  77  BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479                                1.01%    passed     99.97%
+  78  BetaCoV_Yunnan_IVDC_YN_003_2020_EPI_ISL_408480                            1.03%    passed     99.99%
+  79  BetaCoV_Chongqing_IVDC_CQ_001_2020_EPI_ISL_408481                         1.03%    passed     99.99%
+  80  BetaCoV_Shandong_IVDC_SD_001_2020_EPI_ISL_408482                          1.05%    passed     99.97%
+  81  BetaCoV_Shanghai_IVDC_SH_001_2020_EPI_ISL_408483                          2.07%    passed     99.37%
+  82  BetaCoV_Sichuan_IVDC_SC_001_2020_EPI_ISL_408484                           1.06%    passed     99.98%
+  83  BetaCoV_Beijing_IVDC_BJ_005_2020_EPI_ISL_408485                           1.03%    passed     99.85%
+  84  BetaCoV_Jiangxi_IVDC_JX_002_2020_EPI_ISL_408486                           1.06%    passed     99.98%
+  85  BetaCoV_Henan_IVDC_HeN_002_2020_EPI_ISL_408487                            3.30%    passed     90.94%
+  86  BetaCoV_Jiangsu_IVDC_JS_001_2020_EPI_ISL_408488                           1.26%    passed     99.94%
+  87  BetaCoV_Taiwan_NTU01_2020_EPI_ISL_408489                                  2.40%    passed     99.70%
+  88  BetaCoV_Wuhan_IVDC_HB_envF13_2020_EPI_ISL_408511                          5.45%    passed     81.10%
+  89  BetaCoV_Wuhan_IVDC_HB_envF54_2020_EPI_ISL_408512                         16.12%    passed     57.33%
+  90  BetaCoV_Wuhan_IVDC_HB_envF13_20_2020_EPI_ISL_408514                       1.01%    passed     99.95%
+  91  BetaCoV_Wuhan_IVDC_HB_envF13_21_2020_EPI_ISL_408515                       1.01%    passed     99.98%
+  92  BetaCoV_Japan_TY_WK_012_2020_EPI_ISL_408665                               1.05%    passed     99.99%
+  93  BetaCoV_Japan_TY_WK_501_2020_EPI_ISL_408666                               1.05%    passed     99.99%
+  94  BetaCoV_Japan_TY_WK_521_2020_EPI_ISL_408667                               1.05%    passed     99.99%
+  95  BetaCoV_Vietnam_VR03_38142_2020_EPI_ISL_408668                            1.02%    passed     99.96%
+  96  BetaCoV_Japan_KY_V_029_2020_EPI_ISL_408669                                1.05%    passed     99.99%
+  97  BetaCoV_USA_WI1_2020_EPI_ISL_408670                                       1.05%    passed    100.00%
+  98  BetaCoV_Sydney_2_2020_EPI_ISL_408976                                      1.51%    passed     99.85%
+  99  BetaCoV_Sydney_3_2020_EPI_ISL_408977                                      1.37%    passed     99.94%
+ 100  BetaCoV_Wuhan_WH05_2020_EPI_ISL_408978                                    6.56%    passed     35.08%
+ 101  BetaCoV_USA_MA1_2020_EPI_ISL_409067                                       1.04%    passed     99.98%
+ 102  BetaCoV_USA_CA6_2020_EPI_ISL_410044                                       1.12%    passed    100.00%
+ 103  BetaCoV_USA_IL2_2020_EPI_ISL_410045                                       1.04%    passed    100.00%
+ 104  BetaCov_Taiwan_NTU02_2020_EPI_ISL_410218                                  1.08%    passed     99.95%
+ 105  BetaCoV_Nepal_61_2020_EPI_ISL_410301                                      1.28%    passed     99.97%
+ 106  BetaCoV_France_RA739_2020_EPI_ISL_410486                                  4.16%    passed     99.71%
+ 107  BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531                              1.05%    passed    100.00%
+ 108  BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532                              1.05%    passed    100.00%
+ 109  BetaCoV_Singapore_4_2020_EPI_ISL_410535                                   2.61%    passed     99.06%
+ 110  BetaCoV_Singapore_5_2020_EPI_ISL_410536                                   1.17%    passed     99.96%
+ 111  BetaCoV_Singapore_6_2020_EPI_ISL_410537                                   1.22%    passed     99.96%
+ 112  BetaCoV_pangolin_Guangxi_P4L_2017_EPI_ISL_410538                          1.29%    passed     17.00%
+ 113  BetaCoV_pangolin_Guangxi_P1E_2017_EPI_ISL_410539                          1.31%    passed     18.41%
+ 114  BetaCoV_pangolin_Guangxi_P5L_2017_EPI_ISL_410540                          1.29%    passed     19.13%
+ 115  BetaCoV_pangolin_Guangxi_P5E_2017_EPI_ISL_410541                          1.30%    passed     15.40%
+ 116  BetaCoV_pangolin_Guangxi_P2V_2017_EPI_ISL_410542                          1.36%    passed     18.20%
+ 117  BetaCoV_pangolin_Guangxi_P3B_2017_EPI_ISL_410543                          9.39%    passed     10.28%
+ 118  BetaCoV_pangolin_Guangdong_P2S_2019_EPI_ISL_410544                       28.87%    passed      5.25%
+ 119  BetaCoV_Italy_INMI1_isl_2020_EPI_ISL_410545                               1.09%    passed     99.94%
+ 120  BetaCoV_Italy_INMI1_cs_2020_EPI_ISL_410546                                1.36%    passed     99.94%
+ 121  BetaCoV_Singapore_7_2020_EPI_ISL_410713                                   1.01%    passed     99.96%
+ 122  BetaCoV_Singapore_8_2020_EPI_ISL_410714                                   1.45%    passed     99.87%
+ 123  BetaCoV_Singapore_9_2020_EPI_ISL_410715                                   1.01%    passed     99.96%
+ 124  BetaCoV_Singapore_10_2020_EPI_ISL_410716                                  1.02%    passed     99.97%
+ 125  BetaCoV_Australia_QLD03_2020_EPI_ISL_410717                               1.10%    passed     99.98%
+ 126  BetaCoV_Australia_QLD04_2020_EPI_ISL_410718                               1.10%    passed     99.98%
+ 127  BetaCoV_Singapore_11_2020_EPI_ISL_410719                                  1.16%    passed     99.93%
+ 128  BetaCoV_France_IDF0372_2020_EPI_ISL_410720                                1.07%    passed     99.98%
+ 129  BetaCoV_pangolin_Guandong_1_2020_EPI_ISL_410721                           1.76%    passed     59.53%
+ 130  BetaCoV_France_IDF0515_isl_2020_EPI_ISL_410984                            1.08%    passed     99.95%
+ 131  BetaCoV_Fujian_8_2020_EPI_ISL_411060                                      1.08%    passed     99.97%
+ 132  BetaCoV_Fujian_13_2020_EPI_ISL_411066                                     1.01%    passed     99.95%
+ 133  BetaCoV_France_IDF0571_2020_EPI_ISL_411218                                1.07%    passed     99.97%
+ 134  BetaCoV_France_IDF0386_2020_EPI_ISL_411219                                1.07%    passed     99.97%
+ 135  BetaCoV_France_IDF0386_2020_EPI_ISL_411220                                1.05%    passed     99.99%
+ 136  BetaCoV_Cambodia_0012_2020_EPI_ISL_411902                                 1.07%    passed     99.98%
+ 137  BetaCoV_Taiwan_CGMH_CGU_01_2020_EPI_ISL_411915                            1.11%    passed     99.99%
+ 138  BetaCoV_Taiwan_3_2020_EPI_ISL_411926                                      1.01%    passed     99.98%
+ 139  BetaCoV_Taiwan_4_2020_EPI_ISL_411927                                      1.01%    passed     99.98%
+ 140  BetaCoV_South_Korea_SNU01_2020_EPI_ISL_411929                             0.97%    passed     99.66%
+ 141  BetaCoV_Jiangsu_JS01_2020_EPI_ISL_411950                                  1.01%    passed     99.94%
+ 142  BetaCoV_Sweden_01_2020_EPI_ISL_411951                                     1.03%    passed    100.00%
+ 143  BetaCoV_Jiangsu_JS02_2020_EPI_ISL_411952                                  1.01%    passed     99.92%
+ 144  BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953                                  1.01%    passed     99.97%
+ 145  BetaCoV_USA_CA7_2020_EPI_ISL_411954                                       1.04%    passed     99.99%
+ 146  BetaCoV_USA_CA8_2020_EPI_ISL_411955                                       1.04%    passed    100.00%
+ 147  BetaCoV_USA_TX1_2020_EPI_ISL_411956                                       1.04%    passed    100.00%
+ 148  BetaCoV_China_WH_09_2020_EPI_ISL_411957                                   0.94%    passed     99.99%
+ 149  BetaCoV_Hefei_2_2020_EPI_ISL_412026                                       1.08%    passed     99.97%
+ 150  BetaCoV_Hong_Kong_VM20001061_2020_EPI_ISL_412028                          1.15%    passed     99.94%
+ 151  BetaCoV_Hong_Kong_VM20001988_2020_EPI_ISL_412029                          1.33%    passed     99.91%
+ 152  BetaCoV_Hong_Kong_VB20026565_2020_EPI_ISL_412030                          1.17%    passed     99.97%
+ 153  BetaCoV_England_03_2020_EPI_ISL_412116                                    1.18%    passed     99.97%
+ 154  BetaCoV_Jingzhou_HBCDC_HB_01_2020_EPI_ISL_412459                          1.15%    passed     99.91%
+ 155  BetaCoV_pangolin_China_MP789_2019_EPI_ISL_412860                         16.08%    passed     28.33%
+ 156  BetaCoV_USA_CA9_2020_EPI_ISL_412862                                       1.04%    passed     99.99%
+ 157  BetaCoV_Korea_KCDC05_2020_EPI_ISL_412869                                  1.35%    passed     99.96%
+ 158  BetaCoV_Korea_KCDC06_2020_EPI_ISL_412870                                  1.35%    passed     99.96%
+ 159  BetaCoV_Korea_KCDC07_2020_EPI_ISL_412871                                  1.35%    passed     99.92%
+ 160  BetaCoV_Korea_KCDC12_2020_EPI_ISL_412872                                  1.35%    passed     99.91%
+ 161  BetaCoV_Korea_KCDC24_2020_EPI_ISL_412873                                  1.35%    passed     99.94%
+ 162  _BetaCoV_Wuhan_HBCDC_HB_02_2019_EPI_ISL_412898                            1.15%    passed     99.93%
+ 163  _BetaCoV_Wuhan_HBCDC_HB_03_2019_EPI_ISL_412899                            1.15%    passed     99.94%
+ 164  _BetaCoV_Wuhan_HBCDC_HB_04_2019_EPI_ISL_412900                            3.30%    passed     96.39%
+ 165  BetaCoV_Germany_Baden_Wuerttemberg_1_2020_EPI_ISL_412912                  1.46%    passed     99.94%
+ 166  BetaCoV_Brazil_SPBR_01_2020_EPI_ISL_412964                                4.98%    passed     95.06%
+ 167  BetaCoV_Canada_BC_37_0_2_2020_EPI_ISL_412965                              2.27%    passed     99.96%
+ 168  BetaCoV_China_IQTC01_2020_EPI_ISL_412966                                  1.01%    passed     99.98%
+ 169  BetaCoV_China_IQTC02_2020_EPI_ISL_412967                                  0.89%    passed     99.96%
+ 170  BetaCoV_Japan_Hu_DP_Kng_19_020_2020_EPI_ISL_412968                        0.97%    passed     99.97%
+ 171  BetaCoV_Japan_Hu_DP_Kng_19_027_2020_EPI_ISL_412969                        0.97%    passed     99.99%
+ 172  BetaCoVUSA_WA2_2020_EPI_ISL_412970                                        1.15%    passed     99.93%
+ 173  BetaCoV_Finland_FIN_25_2020_EPI_ISL_412971                                2.73%    passed     98.91%
+ 174  BetaCoV_Mexico_CDMX_InDRE_01_2020_EPI_ISL_412972                          1.16%    passed     99.94%
+ 175  BetaCoV_Italy_CDG1_2020_EPI_ISL_412973                                    0.98%    passed     99.75%
+ 176  BetaCoV_Italy_SPL1_2020__EPI_ISL_412974                                   0.97%    passed     99.76%
+ 177  BetaCoV_Australia_NSW05_2020_EPI_ISL_412975                               1.37%    passed     99.96%
+ 178  _BetaCoV_Wuhan_HBCDC_HB_02_2020_EPI_ISL_412978                            1.16%    passed     99.95%
+ 179  _BetaCoV_Wuhan_HBCDC_HB_03_2020_EPI_ISL_412979                            1.15%    passed     99.94%
+ 180  _BetaCoV_Wuhan_HBCDC_HB_04_2020_EPI_ISL_412980                            1.16%    passed     99.92%
+ 181  _BetaCoV_Wuhan_HBCDC_HB_05_2020_EPI_ISL_412981                            1.17%    passed     99.94%
+ 182  _BetaCoV_Wuhan_HBCDC_HB_06_2020_EPI_ISL_412982                            1.19%    passed     99.95%
+ 183  BetaCoV_Tianmen_HBCDC_HB_07_2020_EPI_ISL_412983                           1.66%    passed     99.87%
+ 184  BetaCoV_Canada_ON_PHL2445_2020_EPI_ISL_413014                             1.14%    passed     99.84%
+ 185  BetaCoV_Canada_ON_VIDO_01_2020_EPI_ISL_413015                             1.05%    passed     99.92%
+ 186  BetaCov_Brazil_SPBR_02_2020_EPI_ISL_413016                                1.37%    passed     99.92%
+ 187  BetaCoV_South_Korea_KUMC01_2020_EPI_ISL_413017                            1.04%    passed     99.78%
+ 188  BetaCoV_South_Korea_KUMC02_2020_EPI_ISL_413018                            1.12%    passed     99.95%
+ 189  BetaCoV_Switzerland_1000477102_2020_EPI_ISL_413019                        1.05%    passed     99.94%
+ 190  BetaCoV_Switzerland_1000477377_2020_EPI_ISL_413020                        1.13%    passed     99.94%
+ 191  BetaCoV_Switzerland_1000477757_2020_EPI_ISL_413021                        1.07%    passed     99.97%
+ 192  BetaCoV_Switzerland_1000477796_2020_EPI_ISL_413022                        1.16%    passed     99.96%
+ 193  BetaCoV_Switzerland_1000477797_2020_EPI_ISL_413023                        1.35%    passed     99.88%
+ 194  BetaCoV_Switzerland_1000477806_2020_EPI_ISL_413024                        1.08%    passed     99.97%
+ 195  BetaCoV_USA_WA3_UW1_2020_EPI_ISL_413025                                   0.97%    passed     99.53%
+ 196  BetaCoV_Australia_NSW06_2020_EPI_ISL_413213                               1.37%    passed     99.93%
+ 197  BetaCoV_Australia_NSW07_2020_EPI_ISL_413214                               1.37%    passed     99.97%
+ 198  BetaCoV_Scotland_CVR01_2020_EPI_ISL_413221                                3.22%    passed     99.94%
+ 199  BetaCoV_USA_WA_S2_2020_EPI_ISL_413456                                     1.12%    passed     99.95%
+ 200  BetaCoV_USA_WA6_UW3_2020_EPI_ISL_413457                                   0.97%    passed     99.87%
+ 201  BetaCoV_USA_WA7_UW4_2020_EPI_ISL_413458                                   0.97%    passed     99.80%
+ 202  BetaCoV_Japan_TK_20_31_3_2020_EPI_ISL_413459                              1.86%    passed     99.60%
+ 203  BetaCoV_Anhui_SZ005_2020_EPI_ISL_413485                                   1.11%    passed     99.94%
+ 204  BetaCoV_USA_WA8_UW5_2020_EPI_ISL_413486                                   1.54%    passed     99.47%
+ 205  BetaCoV_USA_WA9_UW6_2020_EPI_ISL_413487                                   2.99%    passed     85.53%
+ 206  BetaCoV_Germany_NRW_01_2020_EPI_ISL_413488                                1.49%    passed     99.92%
+ 207  BetaCoV_Italy_UniSR1_2020_EPI_ISL_413489                                  1.03%    passed     99.98%
+ 208  BetaCoV_New_Zealand_01_2020_EPI_ISL_413490                                1.39%    passed     99.98%
+ 209  hCoV_19_South_Korea_KUMC03_2020_EPI_ISL_413513                            1.12%    passed     99.96%
+ 210  hCoV_19_South_Korea_KUMC04_2020_EPI_ISL_413514                            1.12%    passed     99.96%
+ 211  hCoV_19_South_Korea_KUMC05_2020_EPI_ISL_413515                            1.13%    passed     99.96%
+ 212  hCoV_19_South_Korea_KUMC06_2020_EPI_ISL_413516                            1.12%    passed     99.96%
+ 213  BetaCoV_Beijing_105_2020_EPI_ISL_413518                                   0.97%    passed     99.78%
+ 214  BetaCoV_Beijing_231_2020_EPI_ISL_413519                                   0.97%    passed     99.78%
+ 215  BetaCoV_Beijing_233_2020_EPI_ISL_413520                                   0.97%    passed     99.81%
+ 216  BetaCoV_Beijing_235_2020_EPI_ISL_413521                                   0.97%    passed     99.78%
+ 217  BetaCoV_India_1_27_2020_EPI_ISL_413522                                    1.13%    passed     99.96%
+ 218  BetaCoV_India_1_31_2020_EPI_ISL_413523                                    1.14%    passed     99.94%
+ 219  hCoV_19_Nigeria_Lagos01_2020_EPI_ISL_413550                               2.58%    passed     97.74%
+ 220  hCoV_19_Wales_PHW1_2020_EPI_ISL_413555                                    1.37%    passed     99.85%
+ 221  hCoV_19_Wales_PHW2_2020_EPI_ISL_413556                                    2.26%    passed     99.94%
+ 222  hCoV_19_USA_CA_CDPH_UC1_2020_EPI_ISL_413557                               1.22%    passed     99.99%
+ 223  hCoV_19_USA_CA_CDPH_UC2_2020_EPI_ISL_413558                               1.10%    passed     99.80%
+ 224  hCoV_19_USA_CA_CDPH_UC3_2020_EPI_ISL_413559                               1.23%    passed     99.92%
+ 225  hCoV_19_USA_WA_S3_2020_EPI_ISL_413560                                     1.09%    passed     99.94%
+ 226  hCoV_19_USA_CA_CDPH_UC4_2020_EPI_ISL_413561                               1.31%    passed     99.94%
+ 227  hCoV_19_USA_WA11_UW7_2020_EPI_ISL_413562                                  1.96%    passed     97.02%
+ 228  hCoV_19_USA_WA12_UW8_2020_EPI_ISL_413563                                  0.99%    passed     99.83%
+ 229  hCoV_19_Netherlands_Andel_1365066_2020_EPI_ISL_413564                     2.03%    passed     99.98%
+ 230  hCoV_19_Netherlands_Berlicum_1363564_2020_EPI_ISL_413565                  3.30%    passed     98.44%
+ 231  hCoV_19_Netherlands_Blaricum_1364780_2020_EPI_ISL_413566                  1.36%    passed     99.79%
+ 232  hCoV_19_Netherlands_Coevorden_1363618_2020_EPI_ISL_413567                 2.85%    passed     99.95%
+ 233  hCoV_19_Netherlands_Dalen_1363624_2020_EPI_ISL_413568                     2.03%    passed     99.98%
+ 234  hCoV_19_Netherlands_Delft_1363424_2020_EPI_ISL_413569                     2.81%    passed     99.99%
+ 235  hCoV_19_Netherlands_Diemen_1363454_2020_EPI_ISL_413570                    2.81%    passed     99.99%
+ 236  hCoV_19_Netherlands_Eindhoven_1363782_2020_EPI_ISL_413571                 2.02%    passed     99.91%
+ 237  hCoV_19_Netherlands_Haarlem_1363688_2020_EPI_ISL_413572                   1.36%    passed     99.79%
+ 238  hCoV_19_Netherlands_Hardinxveld_Giessendam_1364806_2020_EPI_ISL_413573    1.37%    passed     99.91%
+ 239  hCoV_19_Netherlands_Helmond_1363548_2020_EPI_ISL_413574                   2.02%    passed     99.95%
+ 240  hCoV_19_NetherlandsL_Houten_1363498_2020_EPI_ISL_413575                   2.81%    passed    100.00%
+ 241  hCoV_19_Netherlands_Loon_op_zand_1363512_2020_EPI_ISL_413576              2.85%    passed     99.95%
+ 242  hCoV_19_Netherlands_Naarden_1364774_2020_EPI_ISL_413577                   1.37%    passed     99.92%
+ 243  hCoV_19_Netherlands_Nieuwendijk_1363582_2020_EPI_ISL_413578               3.83%    passed     99.88%
+ 244  hCoV_19_Netherlands_Nootdorp_1364222_2020_EPI_ISL_413579                  1.36%    passed     99.88%
+ 245  hCoV_19_Netherlands_Oisterwijk_1364072_2020_EPI_ISL_413580                1.37%    passed     99.91%
+ 246  hCoV_19_Netherlands_Oss_1363500_2020_EPI_ISL_413581                       3.49%    passed     99.90%
+ 247  hCoV_19_Netherlands_Rotterdam_1363790_2020_EPI_ISL_413582                 1.37%    passed     99.89%
+ 248  hCoV_19_Netherlands_Rotterdam_1364040_2020_EPI_ISL_413583                 1.37%    passed     99.92%
+ 249  hCoV_19_Netherlands_Rotterdam_1364740_2020_EPI_ISL_413584                 1.36%    passed     99.85%
+ 250  hCoV_19_Netherlands_Tilburg__2020_EPI_ISL_413585                          3.59%    passed     99.76%
+ 251  hCoV_19_Netherlands_Tilburg_1363354_2020_EPI_ISL_413586                   4.64%    passed     99.98%
+ 252  hCoV_19_Netherlands_Tilburg_1364286_2020_EPI_ISL_413587                   1.36%    passed     99.88%
+ 253  hCoV_19_Netherlands_Utrecht_1363564_2020_EPI_ISL_413588                   2.02%    passed     99.86%
+ 254  hCoV_19_Netherlands_Utrecht_1363628_2020_EPI_ISL_413589                   1.36%    passed     99.75%
+ 255  hCoV_19_Netherlands_Utrecht_1364066_2020_EPI_ISL_413590                   1.37%    passed     99.91%
+ 256  hCoV_19_Netherlands_Zeewolde_1365080_2020_EPI_ISL_413591                  1.36%    passed     99.79%
+ 257  hCoV_19_Taiwan_NTU03_2020_EPI_ISL_413592                                  1.09%    passed     99.89%
+ 258  hCoV_19_Luxemburg_Lux1_2020_EPI_ISL_413593                                1.36%    passed     99.75%
+ 259  hCoV_19_Australia_NSW08_2020_EPI_ISL_413594                               2.61%    passed     99.02%
+ 260  hCoV_19_Australia_NSW09_2020_EPI_ISL_413595                               2.61%    passed     98.45%
+ 261  hCoV_19_Australia_NSW10_2020_EPI_ISL_413596                               2.61%    passed     99.08%
+ 262  hCoV_19_Australia_NSW11_2020_EPI_ISL_413597                               2.61%    passed     98.84%
+ 263  hCoV_19_Australia_NSW12_2020_EPI_ISL_413598                               2.61%    passed     98.45%
+ 264  hCoV_19_Australia_NSW13_2020_EPI_ISL_413599                               2.61%    passed     98.66%
+ 265  hCoV_19_Australia_NSW14_2020_EPI_ISL_413600                               2.61%    passed     99.08%
+ 266  hCoV_19_USA_WA13_UW9_2020_EPI_ISL_413601                                  2.87%    passed     90.73%
+ 267  hCoV_19_Finland_FIN03032020A_2020_EPI_ISL_413602                          1.28%    passed     99.95%
+ 268  hCoV_19_Finland_FIN03032020B_2020_EPI_ISL_413603                          1.20%    passed     99.96%
+ 269  hCoV_19_Finland_FIN03032020C_2020_EPI_ISL_413604                          1.39%    passed     99.96%
+ 270  hCoV_19_Finland_FIN01032020_2020_EPI_ISL_413605                           2.56%    passed     99.86%
+ 271  hCoV_19_USA_CruiseA_1_2020_EPI_ISL_413606                                 1.04%    passed     99.99%
+ 272  hCoV_19_USA_CruiseA_2_2020_EPI_ISL_413607                                 1.04%    passed     99.99%
+ 273  hCoV_19_USA_CruiseA_3_2020_EPI_ISL_413608                                 1.04%    passed    100.00%
+ 274  hCoV_19_USA_CruiseA_4_2020_EPI_ISL_413609                                 1.04%    passed     99.98%
+ 275  hCoV_19_USA_CruiseA_5_2020_EPI_ISL_413610                                 1.04%    passed    100.00%
+ 276  hCoV_19_USA_CruiseA_6_2020_EPI_ISL_413611                                 1.04%    passed     99.99%
+ 277  hCoV_19_USA_CruiseA_7_2020_EPI_ISL_413612                                 1.04%    passed     99.99%
+ 278  hCoV_19_USA_CruiseA_8_2020_EPI_ISL_413613                                 1.04%    passed     99.99%
+ 279  hCoV_19_USA_CruiseA_9_2020_EPI_ISL_413614                                 1.04%    passed    100.00%
+ 280  hCoV_19_USA_CruiseA_10_2020_EPI_ISL_413615                                1.04%    passed    100.00%
+ 281  hCoV_19_USA_CruiseA_11_2020_EPI_ISL_413616                                1.04%    passed     99.99%
+ 282  hCoV_19_USA_CruiseA_12_2020_EPI_ISL_413617                                1.04%    passed     99.99%
+ 283  hCoV_19_USA_CruiseA_13_2020_EPI_ISL_413618                                1.04%    passed    100.00%
+ 284  hCoV_19_USA_CruiseA_14_2020_EPI_ISL_413619                                1.04%    passed     99.98%
+ 285  hCoV_19_USA_CruiseA_15_2020_EPI_ISL_413620                                1.04%    passed    100.00%
+ 286  hCoV_19_USA_CruiseA_16_2020_EPI_ISL_413621                                1.04%    passed    100.00%
+ 287  hCoV_19_USA_CruiseA_17_2020_EPI_ISL_413622                                1.04%    passed    100.00%
+ 288  hCoV_19_USA_CruiseA_18_2020_EPI_ISL_413623                                1.09%    passed     99.99%
+ 289  hCoV_19_Portugal_CV62_2020_EPI_ISL_413647                                 1.03%    passed     99.96%
+ 290  hCoV_19_Portugal_CV63_2020_EPI_ISL_413648                                 1.19%    passed     99.91%
+ 291  hCoV_19_USA_WA14_UW10_2020_EPI_ISL_413649                                 2.25%    passed     97.14%
+ 292  hCoV_19_USA_WA15_UW11_2020_EPI_ISL_413650                                 0.97%    passed     99.83%
+ 293  hCoV_19_USA_WA16_UW12_2020_EPI_ISL_413651                                 0.97%    passed     99.84%
+ 294  hCoV_19_USA_WA17_UW13_2020_EPI_ISL_413652                                 1.83%    passed     98.08%
+ 295  hCoV_19_USA_WA18_UW14_2020_EPI_ISL_413653                                 0.97%    passed     99.84%
+ 296  hCoV_19_China_WF0001_2020_EPI_ISL_413691                                  1.13%    passed     99.95%
+ 297  hCoV_19_China_WF0002_2020_EPI_ISL_413692                                  1.11%    passed     99.98%
+ 298  hCoV_19_China_WF0003_2020_EPI_ISL_413693                                  1.15%    passed     99.94%
+ 299  hCoV_19_China_WF0004_2020_EPI_ISL_413694                                  1.09%    passed    100.00%
+ 300  hCoV_19_China_WF0006_2020_EPI_ISL_413695                                  4.77%    passed     97.45%
+ 301  hCoV_19_China_WF0009_2020_EPI_ISL_413696                                 11.11%    passed     82.56%
+ 302  hCoV_19_China_WF0012_2020_EPI_ISL_413697                                  1.14%    passed     99.95%
+ 303  hCoV_19_China_WF0014_2020_EPI_ISL_413711                                  1.11%    passed     99.96%
+ 304  hCoV_19_China_WF0015_2020_EPI_ISL_413729                                  1.05%    passed     99.99%
+ 305  hCov_19_China_WF0016_2020_EPI_ISL_413746                                  1.14%    passed     99.96%
+ 306  hCoV_19_China_WF0017_2020_EPI_ISL_413747                                  5.61%    passed     98.84%
+ 307  hCoV_19_China_WF0018_2020_EPI_ISL_413748                                  1.14%    passed     99.95%
+ 308  hCoV_19_China_WF0019_2020_EPI_ISL_413749                                  1.11%    passed     99.98%
+ 309  hCoV_19_China_WF0020_2020_EPI_ISL_413750                                  1.04%    passed    100.00%
+ 310  hCoV_19_China_WF0021_2020_EPI_ISL_413751                                  1.15%    passed     99.97%
+ 311  hCoV_19_China_WF0023_2020_EPI_ISL_413752                                  2.78%    passed     99.08%
+ 312  hCoV_19_China_WF0024_2020_EPI_ISL_413753                                  1.07%    passed     99.96%
+ 313  hCoV_19_China_WF0026_2020_EPI_ISL_413761                                  1.14%    passed     99.95%
+ 314  hCoV_19_China_WF0028_2020_EPI_ISL_413791                                  1.12%    passed     99.96%
+ 315  hCoV_19_China_WF0029_2020_EPI_ISL_413809                                  1.13%    passed     99.96%
+****  TOTAL                                                                     1.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: BetaCoV_Wuhan_WIV04_2019_EPI_ISL_402124 is identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119 but kept for subsequent analysis
 NOTE: BetaCoV_Guangdong_20SF013_2020_EPI_ISL_403933 is identical to BetaCoV_Guangdong_20SF012_2020_EPI_ISL_403932 but kept for subsequent analysis
 NOTE: BetaCoV_Guangdong_20SF040_2020_EPI_ISL_403937 is identical to BetaCoV_Guangdong_20SF028_2020_EPI_ISL_403936 but kept for subsequent analysis
@@ -320,6 +347,7 @@ NOTE: hCoV_19_Netherlands_Tilburg_1364286_2020_EPI_ISL_413587 is identical to hC
 NOTE: hCoV_19_Netherlands_Utrecht_1364066_2020_EPI_ISL_413590 is identical to hCoV_19_Netherlands_Oisterwijk_1364072_2020_EPI_ISL_413580 but kept for subsequent analysis
 NOTE: hCoV_19_Australia_NSW12_2020_EPI_ISL_413598 is identical to hCoV_19_Australia_NSW09_2020_EPI_ISL_413595 but kept for subsequent analysis
 NOTE: hCoV_19_USA_CruiseA_5_2020_EPI_ISL_413610 is identical to hCoV_19_USA_CruiseA_3_2020_EPI_ISL_413608 but kept for subsequent analysis
+NOTE: hCoV_19_China_WF0026_2020_EPI_ISL_413761 is identical to hCoV_19_China_WF0012_2020_EPI_ISL_413697 but kept for subsequent analysis
 NOTE: 10 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: BetaCoV_Chongqing_ZX01_2020_EPI_ISL_408479 (identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119) is ignored but added at the end
 NOTE: BetaCoV_Jiangsu_JS03_2020_EPI_ISL_411953 (identical to BetaCoV_Wuhan_IVDC_HB_01_2019_EPI_ISL_402119) is ignored but added at the end
@@ -332,250 +360,273 @@ NOTE: hCoV_19_USA_CruiseA_13_2020_EPI_ISL_413618 (identical to hCoV_19_USA_Cruis
 NOTE: hCoV_19_USA_CruiseA_15_2020_EPI_ISL_413620 (identical to hCoV_19_USA_CruiseA_3_2020_EPI_ISL_413608) is ignored but added at the end
 NOTE: hCoV_19_USA_CruiseA_16_2020_EPI_ISL_413621 (identical to hCoV_19_USA_CruiseA_3_2020_EPI_ISL_413608) is ignored but added at the end
 
-For your convenience alignment with unique sequences printed to /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.uniqueseq.phy
+For your convenience alignment with unique sequences printed to /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.uniqueseq.phy
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.199 seconds
-NOTE: ModelFinder requires 340 MB RAM!
-ModelFinder will test 286 DNA models (sample size: 30205) ...
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.247 seconds
+NOTE: ModelFinder requires 467 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 30196) ...
  No. Model         -LnL         df  AIC          AICc         BIC
 Measuring multi-threading efficiency up to 24 CPU cores
 Increase to 10 rounds for branch lengths
-48 trees examined
-Threads: 1 / Time: 24.300 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -192288
-Threads: 2 / Time: 12.827 sec / Speedup: 1.894 / Efficiency: 95% / LogL: -192288
-Threads: 3 / Time: 8.129 sec / Speedup: 2.989 / Efficiency: 100% / LogL: -192288
-Threads: 4 / Time: 6.852 sec / Speedup: 3.546 / Efficiency: 89% / LogL: -192288
-Threads: 5 / Time: 6.065 sec / Speedup: 4.007 / Efficiency: 80% / LogL: -192288
-Threads: 6 / Time: 5.529 sec / Speedup: 4.395 / Efficiency: 73% / LogL: -192288
-Threads: 7 / Time: 4.819 sec / Speedup: 5.043 / Efficiency: 72% / LogL: -192288
-Threads: 8 / Time: 4.745 sec / Speedup: 5.121 / Efficiency: 64% / LogL: -192288
-Threads: 9 / Time: 4.675 sec / Speedup: 5.198 / Efficiency: 58% / LogL: -192288
-Threads: 10 / Time: 4.694 sec / Speedup: 5.177 / Efficiency: 52% / LogL: -192288
-Threads: 11 / Time: 4.678 sec / Speedup: 5.195 / Efficiency: 47% / LogL: -192288
-BEST NUMBER OF THREADS: 7
+34 trees examined
+Threads: 1 / Time: 24.322 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -193404
+Threads: 2 / Time: 15.547 sec / Speedup: 1.564 / Efficiency: 78% / LogL: -193404
+Threads: 3 / Time: 10.862 sec / Speedup: 2.239 / Efficiency: 75% / LogL: -193404
+Threads: 4 / Time: 9.673 sec / Speedup: 2.514 / Efficiency: 63% / LogL: -193404
+Threads: 5 / Time: 9.132 sec / Speedup: 2.663 / Efficiency: 53% / LogL: -193404
+Threads: 6 / Time: 8.337 sec / Speedup: 2.917 / Efficiency: 49% / LogL: -193404
+BEST NUMBER OF THREADS: 5
 
-  1  JC            83078.801    553 167263.602   167284.267   171862.219
-  2  JC+I          82784.402    554 166676.805   166697.545   171283.737
-  3  JC+G4         82774.981    554 166657.962   166678.702   171264.895
-  4  JC+I+G4       82775.170    555 166660.340   166681.156   171275.589
-  5  JC+R2         82776.016    555 166662.033   166682.848   171277.281
-  6  JC+R3         82774.320    557 166662.640   166683.607   171294.520
- 14  F81+F         82033.746    556 165179.492   165200.383   169803.056
- 15  F81+F+I       81714.138    557 164542.275   164563.242   169174.155
- 16  F81+F+G4      81704.810    557 164523.620   164544.588   169155.500
- 17  F81+F+I+G4    81704.511    558 164525.022   164546.065   169165.218
- 18  F81+F+R2      81704.392    558 164524.784   164545.827   169164.980
- 19  F81+F+R3      81702.012    560 164524.023   164545.219   169180.850
- 27  K2P           81825.498    554 164758.996   164779.736   169365.929
- 28  K2P+I         81441.731    555 163993.462   164014.278   168608.711
- 29  K2P+G4        81432.123    555 163974.246   163995.061   168589.494
- 30  K2P+I+G4      81430.436    556 163972.872   163993.763   168596.436
- 31  K2P+R2        81430.471    556 163972.943   163993.834   168596.507
- 32  K2P+R3        81428.731    558 163973.463   163994.506   168613.658
- 40  HKY+F         80642.927    557 162399.854   162420.821   167031.734
- 41  HKY+F+I       80197.090    558 161510.179   161531.222   166150.375
- 42  HKY+F+G4      80187.785    558 161491.570   161512.613   166131.766
- 43  HKY+F+I+G4    80185.465    559 161488.930   161510.050   166137.442
- 44  HKY+F+R2      80186.416    559 161490.832   161511.951   166139.343
- 45  HKY+F+R3      80185.443    561 161492.885   161514.157   166158.028
- 53  TNe           81665.588    555 164441.176   164461.992   169056.425
- 54  TNe+I         81296.246    556 163704.493   163725.384   168328.057
- 55  TNe+G4        81284.059    556 163680.118   163701.009   168303.682
- 56  TNe+I+G4      81282.780    557 163679.561   163700.528   168311.441
- 57  TNe+R2        81279.667    557 163673.334   163694.301   168305.214
- 58  TNe+R3        81277.202    559 163672.404   163693.523   168320.915
- 66  TN+F          80470.900    558 162057.800   162078.843   166697.996
- 67  TN+F+I        80043.196    559 161204.391   161225.510   165852.902
- 68  TN+F+G4       80029.972    559 161177.945   161199.064   165826.456
- 69  TN+F+I+G4     80027.983    560 161175.966   161197.162   165832.793
- 70  TN+F+R2       80027.038    560 161174.075   161195.271   165830.902
- 71  TN+F+R3       80026.149    562 161176.299   161197.647   165849.758
- 79  K3P           81734.636    555 164579.271   164600.087   169194.520
- 80  K3P+I         81358.399    556 163828.798   163849.689   168452.362
- 81  K3P+G4        81348.795    556 163809.591   163830.482   168433.155
- 82  K3P+I+G4      81347.167    557 163808.333   163829.301   168440.213
- 83  K3P+R2        81345.437    557 163804.874   163825.841   168436.754
- 84  K3P+R3        81343.586    559 163805.172   163826.292   168453.684
- 92  K3Pu+F        80586.449    558 162288.899   162309.942   166929.094
- 93  K3Pu+F+I      80149.017    559 161416.033   161437.152   166064.544
- 94  K3Pu+F+G4     80140.272    559 161398.543   161419.663   166047.055
- 95  K3Pu+F+I+G4   80138.024    560 161396.048   161417.244   166052.875
- 96  K3Pu+F+R2     80139.561    560 161399.122   161420.318   166055.949
- 97  K3Pu+F+R3     80138.875    562 161401.751   161423.099   166075.209
-105  TPM2+F        80507.421    558 162130.842   162151.885   166771.038
-106  TPM2+F+I      80088.677    559 161295.354   161316.473   165943.865
-107  TPM2+F+G4     80079.029    559 161276.058   161297.177   165924.569
-108  TPM2+F+I+G4   80077.047    560 161274.094   161295.289   165930.921
-109  TPM2+F+R2     80076.413    560 161272.825   161294.021   165929.652
-110  TPM2+F+R3     80075.486    562 161274.973   161296.321   165948.432
-118  TPM2u+F       80507.224    558 162130.448   162151.491   166770.644
-119  TPM2u+F+I     80088.502    559 161295.003   161316.122   165943.514
-120  TPM2u+F+G4    80078.812    559 161275.625   161296.744   165924.136
-121  TPM2u+F+I+G4  80076.837    560 161273.674   161294.870   165930.501
-122  TPM2u+F+R2    80076.277    560 161272.554   161293.749   165929.381
-123  TPM2u+F+R3    80075.362    562 161274.724   161296.072   165948.183
-131  TPM3+F        80592.638    558 162301.275   162322.318   166941.471
-132  TPM3+F+I      80152.552    559 161423.103   161444.223   166071.615
-133  TPM3+F+G4     80143.787    559 161405.574   161426.693   166054.086
-134  TPM3+F+I+G4   80141.445    560 161402.890   161424.086   166059.717
-135  TPM3+F+R2     80142.462    560 161404.923   161426.119   166061.751
-136  TPM3+F+R3     80141.663    562 161407.325   161428.674   166080.784
-144  TPM3u+F       80592.752    558 162301.503   162322.547   166941.699
-145  TPM3u+F+I     80152.651    559 161423.303   161444.422   166071.814
-146  TPM3u+F+G4    80143.869    559 161405.738   161426.857   166054.249
-147  TPM3u+F+I+G4  80141.513    560 161403.027   161424.222   166059.854
-148  TPM3u+F+R2    80142.385    560 161404.769   161425.965   166061.597
-149  TPM3u+F+R3    80141.606    562 161407.213   161428.561   166080.671
-157  TIMe          81574.254    556 164260.509   164281.400   168884.073
-158  TIMe+I        81212.517    557 163539.034   163560.001   168170.914
-159  TIMe+G4       81200.402    557 163514.804   163535.772   168146.684
-160  TIMe+I+G4     81199.320    558 163514.640   163535.683   168154.835
-161  TIMe+R2       81195.192    558 163506.385   163527.428   168146.580
-162  TIMe+R3       81193.370    560 163506.741   163527.936   168163.568
-170  TIM+F         80414.870    559 161947.740   161968.860   166596.252
-171  TIM+F+I       79994.230    560 161108.461   161129.656   165765.288
-172  TIM+F+G4      79981.627    560 161083.253   161104.449   165740.081
-173  TIM+F+I+G4    79979.732    561 161081.465   161102.737   165746.608
-174  TIM+F+R2      79979.649    561 161081.298   161102.570   165746.441
-175  TIM+F+R3      79978.905    563 161083.809   161105.234   165765.583
-183  TIM2e         81424.718    556 163961.436   163982.327   168585.000
-184  TIM2e+I       81062.564    557 163239.129   163260.096   167871.009
-185  TIM2e+G4      81049.965    557 163213.930   163234.898   167845.810
-186  TIM2e+I+G4    81049.059    558 163214.117   163235.160   167854.313
-187  TIM2e+R2      81043.906    558 163203.812   163224.855   167844.008
-188  TIM2e+R3      81042.297    560 163204.593   163225.789   167861.420
-196  TIM2+F        80336.273    559 161790.546   161811.665   166439.057
-197  TIM2+F+I      79925.995    560 160971.990   160993.185   165628.817
-198  TIM2+F+G4     79912.943    560 160945.886   160967.082   165602.713
-199  TIM2+F+I+G4   79911.269    561 160944.537   160965.809   165609.680
-200  TIM2+F+R2     79910.386    561 160942.772   160964.044   165607.915
-201  TIM2+F+R3     79909.762    563 160945.523   160966.949   165627.298
-209  TIM3e         81519.399    556 164150.797   164171.688   168774.361
-210  TIM3e+I       81150.102    557 163414.204   163435.171   168046.084
-211  TIM3e+G4      81136.476    557 163386.952   163407.919   168018.832
-212  TIM3e+I+G4    81135.382    558 163386.763   163407.806   168026.959
-213  TIM3e+R2      81129.582    558 163375.165   163396.208   168015.360
-214  TIM3e+R3      81128.065    560 163376.130   163397.326   168032.957
-222  TIM3+F        80420.100    559 161958.200   161979.319   166606.711
-223  TIM3+F+I      80002.637    560 161125.274   161146.470   165782.101
-224  TIM3+F+G4     79990.240    560 161100.481   161121.676   165757.308
-225  TIM3+F+I+G4   79988.299    561 161098.598   161119.870   165763.741
-226  TIM3+F+R2     79987.759    561 161097.517   161118.789   165762.660
-227  TIM3+F+R3     79987.099    563 161100.197   161121.623   165781.972
-235  TVMe          81430.898    557 163975.796   163996.763   168607.676
-236  TVMe+I        81056.773    558 163229.546   163250.589   167869.742
-237  TVMe+G4       81045.121    558 163206.242   163227.285   167846.437
-238  TVMe+I+G4     81043.762    559 163205.523   163226.642   167854.034
-239  TVMe+R2       81039.034    559 163196.067   163217.186   167844.579
-240  TVMe+R3       81037.521    561 163197.041   163218.313   167862.184
-248  TVM+F         80455.502    560 162031.003   162052.199   166687.831
-249  TVM+F+I       80041.875    561 161205.750   161227.022   165870.893
-250  TVM+F+G4      80032.613    561 161187.226   161208.498   165852.369
-251  TVM+F+I+G4    80030.589    562 161185.179   161206.527   165858.637
-252  TVM+F+R2      80031.059    562 161186.119   161207.467   165859.578
-253  TVM+F+R3      80030.317    564 161188.633   161210.135   165878.723
-261  SYM           81270.726    558 163657.453   163678.496   168297.649
-262  SYM+I         80907.840    559 162933.681   162954.800   167582.192
-263  SYM+G4        80894.044    559 162906.088   162927.207   167554.599
-264  SYM+I+G4      80893.179    560 162906.357   162927.553   167563.184
-265  SYM+R2        80886.650    560 162893.301   162914.496   167550.128
-266  SYM+R3        80885.113    562 162894.226   162915.574   167567.684
-274  GTR+F         80284.850    561 161691.701   161712.973   166356.844
-275  GTR+F+I       79883.978    562 160891.957   160913.305   165565.416
-276  GTR+F+G4      79871.847    562 160867.695   160889.043   165541.154
-277  GTR+F+I+G4    79870.138    563 160866.276   160887.701   165548.051
-278  GTR+F+R2      79869.276    563 160864.553   160885.978   165546.327
-279  GTR+F+R3      79868.595    565 160867.191   160888.770   165565.597
+  1  JC            83347.086    607 167908.173   167933.119   172955.660
+  2  JC+I          83049.588    608 167315.176   167340.205   172370.978
+  3  JC+G4         83039.484    608 167294.968   167319.998   172350.771
+  4  JC+I+G4       83039.563    609 167297.127   167322.239   172361.245
+  5  JC+R2         83041.750    609 167301.499   167326.612   172365.617
+  6  JC+R3         83036.792    611 167295.585   167320.864   172376.334
+ 14  F81+F         82304.232    610 165828.465   165853.661   170900.898
+ 15  F81+F+I       81981.547    611 165185.093   165210.373   170265.842
+ 16  F81+F+G4      81971.496    611 165164.992   165190.272   170245.741
+ 17  F81+F+I+G4    81971.035    612 165166.070   165191.433   170255.135
+ 18  F81+F+R2      81971.482    612 165166.963   165192.326   170256.028
+ 19  F81+F+R3      81967.182    614 165162.365   165187.895   170268.060
+ 27  K2P           82085.435    608 165386.870   165411.900   170442.673
+ 28  K2P+I         81698.791    609 164615.582   164640.694   169679.700
+ 29  K2P+G4        81688.535    609 164595.070   164620.183   169659.188
+ 30  K2P+I+G4      81686.596    610 164593.192   164618.388   169665.626
+ 31  K2P+R2        81686.667    610 164593.334   164618.530   169665.768
+ 32  K2P+R3        81683.753    612 164591.507   164616.870   169680.571
+ 40  HKY+F         80905.108    611 163032.216   163057.495   168112.965
+ 41  HKY+F+I       80456.811    612 162137.622   162162.985   167226.686
+ 42  HKY+F+G4      80446.770    612 162117.539   162142.902   167206.604
+ 43  HKY+F+I+G4    80444.086    613 162114.172   162139.619   167211.552
+ 44  HKY+F+R2      80445.292    613 162116.583   162142.030   167213.963
+ 45  HKY+F+R3      80443.906    615 162117.811   162143.426   167231.822
+ 53  TNe           81925.763    609 165069.526   165094.638   170133.644
+ 54  TNe+I         81553.814    610 164327.628   164352.824   169400.062
+ 55  TNe+G4        81540.904    610 164301.808   164327.004   169374.241
+ 56  TNe+I+G4      81539.417    611 164300.833   164326.113   169381.582
+ 57  TNe+R2        81535.811    611 164293.623   164318.902   169374.372
+ 58  TNe+R3        81532.504    613 164291.008   164316.455   169388.388
+ 66  TN+F          80733.246    612 162690.492   162715.855   167779.557
+ 67  TN+F+I        80303.532    613 161833.065   161858.511   166930.444
+ 68  TN+F+G4       80289.499    613 161804.998   161830.445   166902.378
+ 69  TN+F+I+G4     80287.187    614 161802.373   161827.904   166908.068
+ 70  TN+F+R2       80286.017    614 161800.034   161825.565   166905.730
+ 71  TN+F+R3       80284.925    616 161801.850   161827.548   166924.176
+ 79  K3P           81996.446    609 165210.892   165236.005   170275.010
+ 80  K3P+I         81617.519    610 164455.038   164480.234   169527.472
+ 81  K3P+G4        81607.202    610 164434.404   164459.600   169506.837
+ 82  K3P+I+G4      81605.358    611 164432.716   164457.995   169513.465
+ 83  K3P+R2        81603.484    611 164428.968   164454.247   169509.717
+ 84  K3P+R3        81601.038    613 164428.075   164453.522   169525.455
+ 92  K3Pu+F        80850.373    612 162924.746   162950.109   168013.810
+ 93  K3Pu+F+I      80410.520    613 162047.039   162072.486   167144.419
+ 94  K3Pu+F+G4     80400.951    613 162027.903   162053.349   167125.282
+ 95  K3Pu+F+I+G4   80398.352    614 162024.705   162050.235   167130.400
+ 96  K3Pu+F+R2     80399.652    614 162027.304   162052.834   167132.999
+ 97  K3Pu+F+R3     80398.828    616 162029.656   162055.355   167151.982
+105  TPM2+F        80773.261    612 162770.523   162795.886   167859.587
+106  TPM2+F+I      80351.993    613 161929.986   161955.433   167027.366
+107  TPM2+F+G4     80341.676    613 161909.352   161934.799   167006.732
+108  TPM2+F+I+G4   80339.367    614 161906.734   161932.264   167012.429
+109  TPM2+F+R2     80338.664    614 161905.329   161930.859   167011.024
+110  TPM2+F+R3     80337.468    616 161906.936   161932.635   167029.262
+118  TPM2u+F       80773.073    612 162770.147   162795.510   167859.211
+119  TPM2u+F+I     80351.822    613 161929.644   161955.091   167027.024
+120  TPM2u+F+G4    80341.468    613 161908.937   161934.383   167006.317
+121  TPM2u+F+I+G4  80339.162    614 161906.324   161931.854   167012.019
+122  TPM2u+F+R2    80338.520    614 161905.040   161930.570   167010.735
+123  TPM2u+F+R3    80337.378    616 161906.756   161932.455   167029.083
+131  TPM3+F        80856.123    612 162936.246   162961.609   168025.310
+132  TPM3+F+I      80413.488    613 162052.976   162078.423   167150.356
+133  TPM3+F+G4     80404.005    613 162034.011   162059.457   167131.391
+134  TPM3+F+I+G4   80401.336    614 162030.672   162056.202   167136.367
+135  TPM3+F+R2     80402.091    614 162032.182   162057.713   167137.878
+136  TPM3+F+R3     80401.236    616 162034.472   162060.170   167156.798
+144  TPM3u+F       80856.272    612 162936.543   162961.906   168025.608
+145  TPM3u+F+I     80413.597    613 162053.194   162078.641   167150.574
+146  TPM3u+F+G4    80404.091    613 162034.183   162059.629   167131.563
+147  TPM3u+F+I+G4  80401.419    614 162030.838   162056.368   167136.533
+148  TPM3u+F+R2    80402.055    614 162032.110   162057.641   167137.805
+149  TPM3u+F+R3    80401.191    616 162034.382   162060.081   167156.708
+157  TIMe          81836.398    610 164892.797   164917.993   169965.230
+158  TIMe+I        81472.216    611 164166.432   164191.711   169247.181
+159  TIMe+G4       81459.317    611 164140.634   164165.913   169221.383
+160  TIMe+I+G4     81458.063    612 164140.126   164165.488   169229.190
+161  TIMe+R2       81453.535    612 164131.070   164156.433   169220.135
+162  TIMe+R3       81451.095    614 164130.190   164155.720   169235.885
+170  TIM+F         80679.013    613 162584.026   162609.473   167681.406
+171  TIM+F+I       80256.445    614 161740.889   161766.420   166846.585
+172  TIM+F+G4      80243.026    614 161714.051   161739.582   166819.746
+173  TIM+F+I+G4    80240.826    615 161711.653   161737.267   166825.664
+174  TIM+F+R2      80240.295    615 161710.591   161736.205   166824.602
+175  TIM+F+R3      80239.574    617 161713.148   161738.931   166843.790
+183  TIM2e         81689.469    610 164598.937   164624.133   169671.371
+184  TIM2e+I       81324.848    611 163871.695   163896.975   168952.444
+185  TIM2e+G4      81311.596    611 163845.192   163870.472   168925.941
+186  TIM2e+I+G4    81310.477    612 163844.953   163870.316   168934.018
+187  TIM2e+R2      81304.966    612 163833.931   163859.294   168922.996
+188  TIM2e+R3      81302.863    614 163833.727   163859.258   168939.422
+196  TIM2+F        80602.344    613 162430.688   162456.134   167528.068
+197  TIM2+F+I      80190.049    614 161608.097   161633.628   166713.793
+198  TIM2+F+G4     80176.206    614 161580.411   161605.942   166686.107
+199  TIM2+F+I+G4   80174.264    615 161578.528   161604.143   166692.539
+200  TIM2+F+R2     80173.118    615 161576.237   161601.852   166690.248
+201  TIM2+F+R3     80172.493    617 161578.987   161604.770   166709.628
+209  TIM3e         81781.641    610 164783.282   164808.478   169855.715
+210  TIM3e+I       81409.644    611 164041.287   164066.567   169122.036
+211  TIM3e+G4      81395.289    611 164012.578   164037.858   169093.327
+212  TIM3e+I+G4    81394.033    612 164012.067   164037.430   169101.131
+213  TIM3e+R2      81387.687    612 163999.375   164024.738   169088.439
+214  TIM3e+R3      81385.762    614 163999.524   164025.054   169105.219
+222  TIM3+F        80684.029    613 162594.058   162619.505   167691.438
+223  TIM3+F+I      80264.381    614 161756.762   161782.293   166862.457
+224  TIM3+F+G4     80251.205    614 161730.411   161755.942   166836.106
+225  TIM3+F+I+G4   80248.983    615 161727.966   161753.581   166841.977
+226  TIM3+F+R2     80247.988    615 161725.976   161751.590   166839.986
+227  TIM3+F+R3     80247.352    617 161728.704   161754.487   166859.345
+235  TVMe          81697.753    611 164617.505   164642.785   169698.254
+236  TVMe+I        81320.909    612 163865.817   163891.180   168954.882
+237  TVMe+G4       81308.663    612 163841.326   163866.689   168930.391
+238  TVMe+I+G4     81307.121    613 163840.242   163865.688   168937.622
+239  TVMe+R2       81302.008    613 163830.017   163855.463   168927.396
+240  TVMe+R3       81300.100    615 163830.200   163855.814   168944.210
+248  TVM+F         80722.842    614 162673.684   162699.214   167779.379
+249  TVM+F+I       80306.604    615 161843.207   161868.822   166957.218
+250  TVM+F+G4      80296.678    615 161823.356   161848.971   166937.367
+251  TVM+F+I+G4    80294.359    616 161820.717   161846.416   166943.044
+252  TVM+F+R2      80294.485    616 161820.970   161846.669   166943.296
+253  TVM+F+R3      80293.738    618 161823.476   161849.343   166962.433
+261  SYM           81537.776    612 164299.553   164324.916   169388.617
+262  SYM+I         81172.377    613 163570.753   163596.200   168668.133
+263  SYM+G4        81157.925    613 163541.850   163567.297   168639.230
+264  SYM+I+G4      81156.910    614 163541.819   163567.350   168647.515
+265  SYM+R2        81149.859    614 163527.718   163553.249   168633.414
+266  SYM+R3        81148.001    616 163528.001   163553.700   168650.328
+274  GTR+F         80552.366    615 162334.732   162360.347   167448.743
+275  GTR+F+I       80149.359    616 161530.718   161556.417   166653.044
+276  GTR+F+G4      80136.446    616 161504.892   161530.590   166627.218
+277  GTR+F+I+G4    80134.510    617 161503.019   161528.803   166633.661
+278  GTR+F+R2      80133.282    617 161500.565   161526.348   166631.206
+279  GTR+F+R3      80132.699    619 161503.398   161529.351   166650.671
 Akaike Information Criterion:           GTR+F+R2
 Corrected Akaike Information Criterion: GTR+F+R2
 Bayesian Information Criterion:         GTR+F+G4
 Best-fit model: GTR+F+G4 chosen according to BIC
 
-All model information printed to /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.model.gz
-CPU time for ModelFinder: 1499.590 seconds (0h:24m:59s)
-Wall-clock time for ModelFinder: 251.460 seconds (0h:4m:11s)
+All model information printed to /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.model.gz
+CPU time for ModelFinder: 1809.463 seconds (0h:30m:9s)
+Wall-clock time for ModelFinder: 406.489 seconds (0h:6m:46s)
 
-NOTE: 136 MB RAM (0 GB) is required!
+NOTE: 186 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 24 CPU cores
 Increase to 10 rounds for branch lengths
-20 trees examined
-Threads: 1 / Time: 24.021 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -162817
-Threads: 2 / Time: 19.011 sec / Speedup: 1.264 / Efficiency: 63% / LogL: -162817
-Threads: 3 / Time: 11.350 sec / Speedup: 2.116 / Efficiency: 71% / LogL: -162817
-Threads: 4 / Time: 9.147 sec / Speedup: 2.626 / Efficiency: 66% / LogL: -162817
-Threads: 5 / Time: 8.793 sec / Speedup: 2.732 / Efficiency: 55% / LogL: -162817
-Threads: 6 / Time: 8.863 sec / Speedup: 2.710 / Efficiency: 45% / LogL: -162817
-BEST NUMBER OF THREADS: 4
+12 trees examined
+Threads: 1 / Time: 25.193 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -163892
+Threads: 2 / Time: 14.626 sec / Speedup: 1.722 / Efficiency: 86% / LogL: -163892
+Threads: 3 / Time: 11.424 sec / Speedup: 2.205 / Efficiency: 74% / LogL: -163892
+Threads: 4 / Time: 10.334 sec / Speedup: 2.438 / Efficiency: 61% / LogL: -163892
+Threads: 5 / Time: 8.953 sec / Speedup: 2.814 / Efficiency: 56% / LogL: -163892
+Threads: 6 / Time: 7.458 sec / Speedup: 3.378 / Efficiency: 56% / LogL: -163892
+Threads: 7 / Time: 7.047 sec / Speedup: 3.575 / Efficiency: 51% / LogL: -163892
+Threads: 8 / Time: 6.486 sec / Speedup: 3.884 / Efficiency: 49% / LogL: -163892
+BEST NUMBER OF THREADS: 7
 
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -81807.120
-2. Current log-likelihood: -79910.437
-3. Current log-likelihood: -79874.586
-4. Current log-likelihood: -79872.129
-5. Current log-likelihood: -79871.880
-Optimal log-likelihood: -79871.848
-Rate parameters:  A-C: 1.28838  A-G: 4.26651  A-T: 2.22887  C-G: 0.73485  C-T: 8.20852  G-T: 1.00000
+1. Initial log-likelihood: -82074.546
+2. Current log-likelihood: -80174.590
+3. Current log-likelihood: -80139.170
+4. Current log-likelihood: -80136.727
+5. Current log-likelihood: -80136.559
+Optimal log-likelihood: -80136.514
+Rate parameters:  A-C: 1.28326  A-G: 4.23271  A-T: 2.19444  C-G: 0.73931  C-T: 8.11261  G-T: 1.00000
 Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
-Gamma shape alpha: 0.419
-Parameters optimization took 5 rounds (6.551 sec)
-Computing ML distances based on estimated model parameters... 6.746 sec
+Gamma shape alpha: 0.420
+Parameters optimization took 5 rounds (5.260 sec)
+Computing ML distances based on estimated model parameters... 8.895 sec
 Computing BIONJ tree...
-0.066 seconds
-Log-likelihood of BIONJ tree: -79900.842
+0.078 seconds
+Log-likelihood of BIONJ tree: -80247.582
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 18.601 second
-Computing log-likelihood of 98 initial trees ... 16.289 seconds
-Current best score: -79798.043
+Generating 98 parsimony trees... 27.884 second
+Computing log-likelihood of 98 initial trees ... 18.988 seconds
+Current best score: -80114.050
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -79779.534
-Iteration 10 / LogL: -79784.417 / Time: 0h:3m:34s
-Iteration 20 / LogL: -79807.427 / Time: 0h:4m:38s
+BETTER TREE FOUND at iteration 1: -80098.520
+Iteration 10 / LogL: -80111.102 / Time: 0h:3m:57s
+Iteration 20 / LogL: -80115.951 / Time: 0h:5m:37s
 Finish initializing candidate tree set (20)
-Current best tree score: -79779.534 / CPU time: 188.415
+Current best tree score: -80098.520 / CPU time: 238.024
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Iteration 30 / LogL: -79784.356 / Time: 0h:4m:57s (0h:12m:7s left)
-Iteration 40 / LogL: -80183.530 / Time: 0h:5m:14s (0h:8m:11s left)
-Iteration 50 / LogL: -79785.700 / Time: 0h:5m:31s (0h:5m:44s left)
-Iteration 60 / LogL: -79823.452 / Time: 0h:5m:47s (0h:4m:1s left)
-Iteration 70 / LogL: -79779.880 / Time: 0h:6m:6s (0h:2m:44s left)
-Iteration 80 / LogL: -79812.577 / Time: 0h:6m:29s (0h:1m:43s left)
-Iteration 90 / LogL: -79779.885 / Time: 0h:6m:48s (0h:0m:50s left)
-Iteration 100 / LogL: -79805.819 / Time: 0h:7m:4s (0h:0m:4s left)
-TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:7m:8s
+Iteration 30 / LogL: -80110.957 / Time: 0h:6m:4s (0h:14m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -80098.385
+Iteration 40 / LogL: -80380.982 / Time: 0h:6m:26s (0h:15m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -80097.271
+Iteration 50 / LogL: -80106.027 / Time: 0h:6m:48s (0h:13m:11s left)
+Iteration 60 / LogL: -80109.962 / Time: 0h:7m:16s (0h:10m:29s left)
+Iteration 70 / LogL: -80144.939 / Time: 0h:7m:43s (0h:8m:23s left)
+Iteration 80 / LogL: -80149.005 / Time: 0h:8m:6s (0h:6m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -80097.022
+Iteration 90 / LogL: -80097.291 / Time: 0h:8m:31s (0h:8m:59s left)
+Iteration 100 / LogL: -80120.886 / Time: 0h:8m:48s (0h:7m:28s left)
+Iteration 110 / LogL: -80482.946 / Time: 0h:9m:7s (0h:6m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -80096.453
+Iteration 120 / LogL: -80104.704 / Time: 0h:9m:28s (0h:7m:53s left)
+Iteration 130 / LogL: -80117.371 / Time: 0h:9m:50s (0h:6m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 139: -80096.402
+Iteration 140 / LogL: -80143.687 / Time: 0h:10m:12s (0h:7m:16s left)
+Iteration 150 / LogL: -80428.697 / Time: 0h:10m:31s (0h:6m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -80095.901
+Iteration 160 / LogL: -80099.044 / Time: 0h:10m:55s (0h:6m:44s left)
+Iteration 170 / LogL: -80095.927 / Time: 0h:11m:18s (0h:5m:53s left)
+Iteration 180 / LogL: -80095.982 / Time: 0h:11m:36s (0h:5m:3s left)
+Iteration 190 / LogL: -80112.841 / Time: 0h:11m:55s (0h:4m:17s left)
+Iteration 200 / LogL: -80493.567 / Time: 0h:12m:17s (0h:3m:34s left)
+Iteration 210 / LogL: -80396.832 / Time: 0h:12m:36s (0h:2m:53s left)
+Iteration 220 / LogL: -80097.611 / Time: 0h:12m:57s (0h:2m:14s left)
+Iteration 230 / LogL: -80105.962 / Time: 0h:13m:15s (0h:1m:37s left)
+Iteration 240 / LogL: -80393.306 / Time: 0h:13m:34s (0h:1m:1s left)
+Iteration 250 / LogL: -80121.507 / Time: 0h:13m:52s (0h:0m:26s left)
+TREE SEARCH COMPLETED AFTER 259 ITERATIONS / Time: 0h:14m:8s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -79779.534
-2. Current log-likelihood: -79779.350
-Optimal log-likelihood: -79779.346
-Rate parameters:  A-C: 1.33377  A-G: 4.43487  A-T: 2.31874  C-G: 0.76325  C-T: 8.57441  G-T: 1.00000
+1. Initial log-likelihood: -80095.901
+Optimal log-likelihood: -80095.896
+Rate parameters:  A-C: 1.28892  A-G: 4.26401  A-T: 2.21632  C-G: 0.73790  C-T: 8.23000  G-T: 1.00000
 Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
-Gamma shape alpha: 0.419
-Parameters optimization took 2 rounds (1.228 sec)
-BEST SCORE FOUND : -79779.346
-Total tree length: 0.331
+Gamma shape alpha: 0.421
+Parameters optimization took 1 rounds (0.535 sec)
+BEST SCORE FOUND : -80095.896
+Total tree length: 0.332
 
-Total number of iterations: 102
-CPU time used for tree search: 1287.667 sec (0h:21m:27s)
-Wall-clock time used for tree search: 338.065 sec (0h:5m:38s)
-Total CPU time used: 1555.140 sec (0h:25m:55s)
-Total wall-clock time used: 429.337 sec (0h:7m:9s)
+Total number of iterations: 259
+CPU time used for tree search: 4963.023 sec (1h:22m:43s)
+Wall-clock time used for tree search: 749.702 sec (0h:12m:29s)
+Total CPU time used: 5332.789 sec (1h:28m:52s)
+Total wall-clock time used: 849.288 sec (0h:14m:9s)
 
 Analysis results written to: 
-  IQ-TREE report:                /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.iqtree
-  Maximum-likelihood tree:       /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.treefile
-  Likelihood distances:          /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.mldist
-  Screen log file:               /home/a1moshir/COVID19_2020-03-08/output_files/sequences_safe.aln.log
+  IQ-TREE report:                /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.iqtree
+  Maximum-likelihood tree:       /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.treefile
+  Likelihood distances:          /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.mldist
+  Screen log file:               /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.aln.log
 
-Date and Time: Sun Mar  8 17:03:17 2020
+Date and Time: Mon Mar  9 12:54:13 2020
