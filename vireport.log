@@ -4,40 +4,43 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-09 -s GISAID-BetaCoV-Analysis/data/2020-03-09/2020-03-09.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-09/2020-03-09.dates.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-09/2020-03-09.outgroups.txt
-Output directory: /home/a1moshir/COVID19_2020-03-09
+ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-10 -s GISAID-BetaCoV-Analysis/data/2020-03-10/2020-03-10.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-10/2020-03-10.dates.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-10/2020-03-10.outgroups.txt
+Output directory: /home/a1moshir/COVID19_2020-03-10
 Starting viral analysis workflow...
 
 Initializing module implementations... done
 
 Running 'Preprocessing_SafeNames'...
-Preprocessed sequences output to: /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.fas
-Preprocessed sample times output to: /home/a1moshir/COVID19_2020-03-09/output_files/times_safe.txt
-Preprocessed outgroups list output to: /home/a1moshir/COVID19_2020-03-09/output_files/outgroups_safe.txt
+Preprocessed sequences output to: /home/a1moshir/COVID19_2020-03-10/output_files/sequences_safe.fas
+Preprocessed sample times output to: /home/a1moshir/COVID19_2020-03-10/output_files/times_safe.txt
+Preprocessed outgroups list output to: /home/a1moshir/COVID19_2020-03-10/output_files/outgroups_safe.txt
 
 Running 'MultipleSequenceAlignment_MAFFT'...
-Multiple sequence alignment output to: /home/a1moshir/COVID19_2020-03-09/output_files/sequences_safe.no_outgroup.aln
+Multiple sequence alignment output to: /home/a1moshir/COVID19_2020-03-10/output_files/sequences_safe.no_outgroup.aln
 
 Running 'PairwiseDistancesSequence_tn93'...
-Pairwise sequence distances output to: /home/a1moshir/COVID19_2020-03-09/output_files/pairwise_distances_sequence.csv
+Pairwise sequence distances output to: /home/a1moshir/COVID19_2020-03-10/output_files/pairwise_distances_sequence.csv
 
 Running 'PhylogeneticInference_IQTREE'...
-Inferred (unrooted) phylogeny output to: /home/a1moshir/COVID19_2020-03-09/output_files/unrooted.no_outgroup.tre
+Inferred (unrooted) phylogeny output to: /home/a1moshir/COVID19_2020-03-10/output_files/unrooted.no_outgroup.tre
 
 Running 'PairwiseDistancesTree_TreeSwift'...
-Pairwise phylogenetic distances output to: /home/a1moshir/COVID19_2020-03-09/output_files/pairwise_distances_phylogeny.csv
+Pairwise phylogenetic distances output to: /home/a1moshir/COVID19_2020-03-10/output_files/pairwise_distances_phylogeny.csv
 
 Running 'Rooting_MinVar'...
-Rooted phylogeny output to: /home/a1moshir/COVID19_2020-03-09/output_files/rooted.no_outgroup.tre
+Rooted phylogeny output to: /home/a1moshir/COVID19_2020-03-10/output_files/rooted.no_outgroup.tre
 
 Running 'Dating_treedater'...
-Dated phylogeny output to: /home/a1moshir/COVID19_2020-03-09/output_files/dated.tre
+Dated phylogeny output to: /home/a1moshir/COVID19_2020-03-10/output_files/dated.tre
+
+Running 'AncestralSequenceReconstruction_TreeTime'...
+Ancestral sequence(s) output to: /home/a1moshir/COVID19_2020-03-10/output_files/ancestral_sequences.fas
 
 Running 'TransmissionClustering_TreeN93TreeDists'...
-Transmission clusters output to: /home/a1moshir/COVID19_2020-03-09/output_files/transmission_clusters.tsv
+Transmission clusters output to: /home/a1moshir/COVID19_2020-03-10/output_files/transmission_clusters.tsv
 
 Writing report using 'WriteReport_Default'...
-Report written to: /home/a1moshir/COVID19_2020-03-09
+Report written to: /home/a1moshir/COVID19_2020-03-10
 
 
 ===========================   Citations   ============================
@@ -49,4 +52,5 @@ Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". Softwa
 Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).
 Nguyen L.T., Schmidt H.A., von Haeseler A., Minh B.Q. (2015). "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies". Molecular Biology and Evolution. 32(1), 268-274.
 Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.
+Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.
 Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.

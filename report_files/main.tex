@@ -4,17 +4,17 @@
 \usepackage{hyperref}
 \title{\vspace{-2.0cm}ViReport v0.0.1}
 \author{Niema Moshiri}
-\date{2020-03-09}
+\date{2020-03-10}
 \begin{document}
 \maketitle
 
 \section{Input Dataset}
-The analysis was conducted on a dataset containing 315 sequences.
-The average sequence length was 29786.54,
-with a standard deviation of 371.174.
+The analysis was conducted on a dataset containing 363 sequences.
+The average sequence length was 29801.774,
+with a standard deviation of 347.964.
 The earliest sample date was 2013-07-24,
-the median sample date was 2020-01-30,
-and the most recent sample date was 2020-03-04.
+the median sample date was 2020-02-01,
+and the most recent sample date was 2020-03-05.
 
 
 \begin{figure}[h]
@@ -33,12 +33,12 @@ and the most recent sample date was 2020-03-04.
 
 \section{Preprocessed Dataset}
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores.
-After preprocessing, the dataset contained 315 sequences.
-The average sequence length was 29786.54,
-with a standard deviation of 371.174.
+After preprocessing, the dataset contained 363 sequences.
+The average sequence length was 29801.774,
+with a standard deviation of 347.964.
 The earliest sample date was 2013-07-24,
-the median sample date was 2020-01-30,
-and the most recent sample date was 2020-03-04.
+the median sample date was 2020-02-01,
+and the most recent sample date was 2020-03-05.
 
 
 \begin{figure}[h]
@@ -57,10 +57,10 @@ and the most recent sample date was 2020-03-04.
 
 \section{Multiple Sequence Alignment}
 Multiple sequence alignment was performed using MAFFT (Katoh \& Standley, 2013) in automatic mode.
-There were 30196 positions (15173 invariant) and 277 unique sequences in the multiple sequence alignment.
+There were 30208 positions (11950 invariant) and 325 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
 The average pairwise sequence distance was 0.000254,
-with a standard deviation of 0.000208.
+with a standard deviation of 0.000197.
 
 
 \begin{figure}[h]
@@ -73,9 +73,9 @@ with a standard deviation of 0.000208.
 A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017).
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00315,
-and the average pairwise phylogenetic distance was 0.000417,
-with a standard deviation of 0.000314.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0032,
+and the average pairwise phylogenetic distance was 0.000419,
+with a standard deviation of 0.000315.
 
 
 \begin{figure}[h]
@@ -94,9 +94,9 @@ with a standard deviation of 0.000314.
 
 \section{Phylogenetic Dating}
 The rooted phylogeny was dated using treedater (Volz \& Frost, 2017).
-The height of the dated tree was 131.347 days,
-so given that the most recent sample was collected on 2020-03-04,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-10-24.
+The height of the dated tree was 109.636 days,
+so given that the most recent sample was collected on 2020-03-05,
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-16.
 
 
 \begin{figure}[h]
@@ -105,13 +105,15 @@ the estimated time of the most recent common ancestor (tMRCA) was 2019-10-24.
 \caption{Dated phylogenetic tree in unit of years}
 \end{figure}
 
+\section{Ancestral Sequence Reconstruction}
+Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
 \section{Transmission Clustering}
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 48,
-and the total number of clusters (excluding singletons) was 16.
-The average cluster size (excluding singletons) was 16.0625,
-with a standard deviation of 43.378,
-and the maximum and minimum cluster sizes were 183 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 57,
+and the total number of clusters (excluding singletons) was 17.
+The average cluster size (excluding singletons) was 17.412,
+with a standard deviation of 46.956,
+and the maximum and minimum cluster sizes were 204 and 2, respectively.
 
 
 \begin{figure}[h]
@@ -120,5 +122,8 @@ and the maximum and minimum cluster sizes were 183 and 2, respectively.
 \caption{Distribution of cluster sizes (excluding singletons)}
 \end{figure}
 
+\section{Citations}
+\begin{itemize}
+\item Kalyaanamoorthy S., Minh B.Q., Wong T.K.F., von Haeseler A., Jermiin L.S. (2017). "ModelFinder: Fast model selection for accurate phylogenetic estimates". Nature Methods. 14, 587-589.\item Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.\item Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.\item Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.\item Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.\item Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).\item Nguyen L.T., Schmidt H.A., von Haeseler A., Minh B.Q. (2015). "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies". Molecular Biology and Evolution. 32(1), 268-274.\item Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.\item Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.\item Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.\end{itemize}
 
 \end{document}

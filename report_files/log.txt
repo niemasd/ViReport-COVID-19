@@ -1,7 +1,7 @@
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
  restricted \write18 enabled.
 entering extended mode
-(/home/a1moshir/COVID19_2020-03-09/report_files/main.tex
+(/home/a1moshir/COVID19_2020-03-10/report_files/main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
 aded.
@@ -67,10 +67,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_s
 equence_lengths.pdf>]
-<./figs/tree_mutations.pdf, id=53, 722.7pt x 3590.01234pt>
+<./figs/tree_mutations.pdf, id=53, 722.7pt x 4145.04591pt>
 <use ./figs/tree_mutations.pdf>
 
-LaTeX Warning: Float too large for page by 23.90678pt on input line 85.
+LaTeX Warning: Float too large for page by 23.89595pt on input line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -80,10 +80,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=55, 722.7pt x 3590.01234pt>
+<./figs/tree_time.pdf, id=55, 722.7pt x 4145.04591pt>
 <use ./figs/tree_time.pdf>
 
-LaTeX Warning: Float too large for page by 23.90678pt on input line 106.
+LaTeX Warning: Float too large for page by 23.89595pt on input line 106.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -93,14 +93,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./figs/input_sample_dates.pdf>] [3 <./figs/processed_sequence_lengths.pdf> 
-<./figs/processed_sample_dates.pdf
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [2 <./figs/input_sampl
+e_dates.pdf>] [3 <./figs/processed_sequence_lengths.pdf>] [4 <./figs/processed_
+sample_dates.pdf> <./figs/pairwise_distances_sequences.pdf
 
-pdfTeX warning: pdflatex (file ./figs/processed_sample_dates.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->] [4 <./figs/pairwise_distances_sequences.pdf>] [5 <./figs/tree_mutations.pdf>
-] [6 <./figs/pairwise_distances_tree.pdf>] [7 <./figs/tree_time.pdf>] [8 <./fig
-s/cluster_sizes.pdf>] (./main.aux)
+pdfTeX warning: pdflatex (file ./figs/pairwise_distances_sequences.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [5 <./figs/tree_mutations.pdf>] [6 <./figs/pairwise_distances_tree.pdf>]
+[7 <./figs/tree_time.pdf>] [8 <./figs/cluster_sizes.pdf>] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -109,6 +109,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
  )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (8 pages, 205431 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (8 pages, 219951 bytes).
 Transcript written on main.log.
