@@ -1,1 +1,1 @@
-FastRoot.py -i /home/a1moshir/COVID19_2020-03-10/output_files/unrooted.tre -m MV
+FastRoot.py -i /home/a1moshir/COVID19_2020-03-11/output_files/unrooted.tre -m MV
