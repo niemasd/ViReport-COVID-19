@@ -4,17 +4,17 @@
 \usepackage{hyperref}
 \title{\vspace{-2.0cm}ViReport v0.0.1}
 \author{Niema Moshiri}
-\date{2020-03-11}
+\date{2020-03-12}
 \begin{document}
 \maketitle
 
 \section{Input Dataset}
-The analysis was conducted on a dataset containing 381 sequences.
-The average sequence length was 29804.997,
-with a standard deviation of 340.162.
-The earliest sample date was 2013-07-24,
-the median sample date was 2020-02-01,
-and the most recent sample date was 2020-03-05.
+The analysis was conducted on a dataset containing 449 sequences.
+The average sequence length was 29801.497,
+with a standard deviation of 315.377.
+The earliest sample date was 2019-12-01,
+the median sample date was 2020-02-08,
+and the most recent sample date was 2020-03-06.
 
 
 \begin{figure}[h]
@@ -33,12 +33,12 @@ and the most recent sample date was 2020-03-05.
 
 \section{Preprocessed Dataset}
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores.
-After preprocessing, the dataset contained 381 sequences.
-The average sequence length was 29804.997,
-with a standard deviation of 340.162.
-The earliest sample date was 2013-07-24,
-the median sample date was 2020-02-01,
-and the most recent sample date was 2020-03-05.
+After preprocessing, the dataset contained 449 sequences.
+The average sequence length was 29801.497,
+with a standard deviation of 315.377.
+The earliest sample date was 2019-12-01,
+the median sample date was 2020-02-08,
+and the most recent sample date was 2020-03-06.
 
 
 \begin{figure}[h]
@@ -57,10 +57,10 @@ and the most recent sample date was 2020-03-05.
 
 \section{Multiple Sequence Alignment}
 Multiple sequence alignment was performed using MAFFT (Katoh \& Standley, 2013) in automatic mode.
-There were 30201 positions (11488 invariant) and 343 unique sequences in the multiple sequence alignment.
+There were 30333 positions (10453 invariant) and 397 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
-The average pairwise sequence distance was 0.000255,
-with a standard deviation of 0.000197.
+The average pairwise sequence distance was 0.000269,
+with a standard deviation of 0.000199.
 
 
 \begin{figure}[h]
@@ -70,12 +70,12 @@ with a standard deviation of 0.000197.
 \end{figure}
 
 \section{Phylogenetic Inference}
-A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017).
+A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00338,
-and the average pairwise phylogenetic distance was 0.00041,
-with a standard deviation of 0.000303.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00416,
+and the average pairwise phylogenetic distance was 0.000502,
+with a standard deviation of 0.000357.
 
 
 \begin{figure}[h]
@@ -94,9 +94,9 @@ with a standard deviation of 0.000303.
 
 \section{Phylogenetic Dating}
 The rooted phylogeny was dated using treedater (Volz \& Frost, 2017).
-The height of the dated tree was 140.825 days,
-so given that the most recent sample was collected on 2020-03-05,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-10-16.
+The height of the dated tree was 133.463 days,
+so given that the most recent sample was collected on 2020-03-06,
+the estimated time of the most recent common ancestor (tMRCA) was 2019-10-24.
 
 
 \begin{figure}[h]
@@ -109,11 +109,11 @@ the estimated time of the most recent common ancestor (tMRCA) was 2019-10-16.
 Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
 \section{Transmission Clustering}
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 59,
-and the total number of clusters (excluding singletons) was 18.
-The average cluster size (excluding singletons) was 17.333,
-with a standard deviation of 49.289,
-and the maximum and minimum cluster sizes were 219 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 65,
+and the total number of clusters (excluding singletons) was 22.
+The average cluster size (excluding singletons) was 17,
+with a standard deviation of 50.0491,
+and the maximum and minimum cluster sizes were 241 and 2, respectively.
 
 
 \begin{figure}[h]
@@ -124,6 +124,6 @@ and the maximum and minimum cluster sizes were 219 and 2, respectively.
 
 \section{Citations}
 \begin{itemize}
-\item Kalyaanamoorthy S., Minh B.Q., Wong T.K.F., von Haeseler A., Jermiin L.S. (2017). "ModelFinder: Fast model selection for accurate phylogenetic estimates". Nature Methods. 14, 587-589.\item Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.\item Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.\item Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.\item Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.\item Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).\item Nguyen L.T., Schmidt H.A., von Haeseler A., Minh B.Q. (2015). "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies". Molecular Biology and Evolution. 32(1), 268-274.\item Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.\item Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.\item Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.\end{itemize}
+\item Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.\item Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.\item Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.\item Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.\item Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.\item Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).\item Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.\item Price M.N., Dehal P.S., Arkin A.P. (2010). "FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments". PLoS ONE. 5(3), e9490.\item Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.\item Tavare S. (1986). ""Some Probabilistic and Statistical Problems in the Analysis of DNA Sequences". Lectures on Mathematics in the Life Sciences. 17, 57-86.\item Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.\end{itemize}
 
 \end{document}
