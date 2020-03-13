@@ -4,17 +4,17 @@
 \usepackage{hyperref}
 \title{\vspace{-2.0cm}ViReport v0.0.1}
 \author{Niema Moshiri}
-\date{2020-03-12}
+\date{2020-03-13}
 \begin{document}
 \maketitle
 
 \section{Input Dataset}
-The analysis was conducted on a dataset containing 449 sequences.
-The average sequence length was 29801.497,
-with a standard deviation of 315.377.
+The analysis was conducted on a dataset containing 520 sequences.
+The average sequence length was 29798.198,
+with a standard deviation of 306.00176.
 The earliest sample date was 2019-12-01,
-the median sample date was 2020-02-08,
-and the most recent sample date was 2020-03-06.
+the median sample date was 2020-02-20,
+and the most recent sample date was 2020-03-09.
 
 
 \begin{figure}[h]
@@ -33,12 +33,12 @@ and the most recent sample date was 2020-03-06.
 
 \section{Preprocessed Dataset}
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores.
-After preprocessing, the dataset contained 449 sequences.
-The average sequence length was 29801.497,
-with a standard deviation of 315.377.
+After preprocessing, the dataset contained 520 sequences.
+The average sequence length was 29798.198,
+with a standard deviation of 306.00176.
 The earliest sample date was 2019-12-01,
-the median sample date was 2020-02-08,
-and the most recent sample date was 2020-03-06.
+the median sample date was 2020-02-20,
+and the most recent sample date was 2020-03-09.
 
 
 \begin{figure}[h]
@@ -57,10 +57,10 @@ and the most recent sample date was 2020-03-06.
 
 \section{Multiple Sequence Alignment}
 Multiple sequence alignment was performed using MAFFT (Katoh \& Standley, 2013) in automatic mode.
-There were 30333 positions (10453 invariant) and 397 unique sequences in the multiple sequence alignment.
+There were 30444 positions (8939 invariant) and 462 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
-The average pairwise sequence distance was 0.000269,
-with a standard deviation of 0.000199.
+The average pairwise sequence distance was 0.000274,
+with a standard deviation of 0.000191.
 
 
 \begin{figure}[h]
@@ -73,9 +73,9 @@ with a standard deviation of 0.000199.
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00416,
-and the average pairwise phylogenetic distance was 0.000502,
-with a standard deviation of 0.000357.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00505,
+and the average pairwise phylogenetic distance was 0.000466,
+with a standard deviation of 0.00038.
 
 
 \begin{figure}[h]
@@ -94,9 +94,9 @@ with a standard deviation of 0.000357.
 
 \section{Phylogenetic Dating}
 The rooted phylogeny was dated using treedater (Volz \& Frost, 2017).
-The height of the dated tree was 133.463 days,
-so given that the most recent sample was collected on 2020-03-06,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-10-24.
+The height of the dated tree was 115.349 days,
+so given that the most recent sample was collected on 2020-03-09,
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-14.
 
 
 \begin{figure}[h]
@@ -109,11 +109,11 @@ the estimated time of the most recent common ancestor (tMRCA) was 2019-10-24.
 Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
 \section{Transmission Clustering}
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 65,
-and the total number of clusters (excluding singletons) was 22.
-The average cluster size (excluding singletons) was 17,
-with a standard deviation of 50.0491,
-and the maximum and minimum cluster sizes were 241 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 76,
+and the total number of clusters (excluding singletons) was 19.
+The average cluster size (excluding singletons) was 22.842,
+with a standard deviation of 57.949,
+and the maximum and minimum cluster sizes were 259 and 2, respectively.
 
 
 \begin{figure}[h]
