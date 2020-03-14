@@ -63,9 +63,9 @@ with a standard deviation of 0.000191.
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00505,
-and the average pairwise phylogenetic distance was 0.000466,
-with a standard deviation of 0.00038.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00496,
+and the average pairwise phylogenetic distance was 0.000451,
+with a standard deviation of 0.000377.
 
 
 <figure>
@@ -83,9 +83,9 @@ with a standard deviation of 0.00038.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 115.349 days,
+The height of the dated tree was 125.469 days,
 so given that the most recent sample was collected on 2020-03-09,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-11-14.
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-04.
 
 
 <figure>
@@ -99,11 +99,11 @@ Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 76,
-and the total number of clusters (excluding singletons) was 19.
-The average cluster size (excluding singletons) was 22.842,
-with a standard deviation of 57.949,
-and the maximum and minimum cluster sizes were 259 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 77,
+and the total number of clusters (excluding singletons) was 21.
+The average cluster size (excluding singletons) was 20.619,
+with a standard deviation of 57.26,
+and the maximum and minimum cluster sizes were 268 and 2, respectively.
 
 
 <figure>

@@ -2,7 +2,7 @@ Note: Initial guess of substitution rate not provided. Will attempt to guess sta
 Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
 Note: Minimum temporal branch length  (*minblen*) set to 0.0194117647058824. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 1.28967720883015e-06,1.30139914658907e-06,2.98976067853992e-06,2.99954807265699e-06 
+Initial guesses of substitution rate: 1.15980975274823e-06,1.3971599881543e-06,2.87588568994966e-06,3.09791652490927e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -29,23 +29,23 @@ The following steps may help to fix or alleviate common problems:
 Phylogenetic tree with 510 tips and 509 internal nodes.
 
 Tip labels:
-	hCoV_19_China_FS_S42_P0046_2020_EPI_ISL_413869, BetaCov_France_IDF0626_2020_EPI_ISL_408431, BetaCoV_Wuhan_WIV05_2019_EPI_ISL_402128, BetaCoV_Japan_NA_20_05_1_2020_EPI_ISL_410531, BetaCoV_Japan_OS_20_07_1_2020_EPI_ISL_410532, BetaCoV_Wuhan_WIV06_2019_EPI_ISL_402129, ...
+	hCoV_19_China_FS_S42_P0046_2020_EPI_ISL_413869, hCoV_19_China_FS_S48_P0047_2020_EPI_ISL_413870, BetaCov_Wuhan_WH02_2019_EPI_ISL_406799, hCoV_19_Spain_Valencia2_2020_EPI_ISL_414496, hCoV_19_Scotland_CVR04_2020_EPI_ISL_414026, hCoV_19_Scotland_CVR02_2020_EPI_ISL_414024, ...
 Node labels:
-	0.866, 0.003, 0.870, 0.552, 0.254, 0.220, ...
+	0.789, 0.399, 0.749, 0.804, 0.000, 1.000, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737376.651312495 
+737366.530554254 
 
  Time to common ancestor (before most recent sample) 
-115.348687505117 
+125.469445745926 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.16046469814996e-05 
+1.11626453684281e-05 
 
  Unadjusted mean substitution rate 
-1.16046469814996e-05 
+1.11626453684281e-05 
 
  Clock model  
 strict 
