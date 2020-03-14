@@ -1,11 +1,11 @@
-# ViReport v0.0.1 &mdash; 2020-03-13
+# ViReport v0.0.1 &mdash; 2020-03-14
 
 ## Input Dataset
-The analysis was conducted on a dataset containing 520 sequences.
-The average sequence length was 29798.198,
-with a standard deviation of 306.00176.
+The analysis was conducted on a dataset containing 541 sequences.
+The average sequence length was 29797.248,
+with a standard deviation of 301.061.
 The earliest sample date was 2019-12-01,
-the median sample date was 2020-02-20,
+the median sample date was 2020-02-23,
 and the most recent sample date was 2020-03-09.
 
 
@@ -24,11 +24,11 @@ and the most recent sample date was 2020-03-09.
 
 ## Preprocessed Dataset
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores.
-After preprocessing, the dataset contained 520 sequences.
-The average sequence length was 29798.198,
-with a standard deviation of 306.00176.
+After preprocessing, the dataset contained 541 sequences.
+The average sequence length was 29797.248,
+with a standard deviation of 301.061.
 The earliest sample date was 2019-12-01,
-the median sample date was 2020-02-20,
+the median sample date was 2020-02-23,
 and the most recent sample date was 2020-03-09.
 
 
@@ -47,10 +47,10 @@ and the most recent sample date was 2020-03-09.
 
 ## Multiple Sequence Alignment
 Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode.
-There were 30444 positions (8939 invariant) and 462 unique sequences in the multiple sequence alignment.
+There were 30220 positions (8591 invariant) and 483 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
 The average pairwise sequence distance was 0.000274,
-with a standard deviation of 0.000191.
+with a standard deviation of 0.000181.
 
 
 <figure>
@@ -63,9 +63,9 @@ with a standard deviation of 0.000191.
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00496,
-and the average pairwise phylogenetic distance was 0.000451,
-with a standard deviation of 0.000377.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00382,
+and the average pairwise phylogenetic distance was 0.000463,
+with a standard deviation of 0.000324.
 
 
 <figure>
@@ -83,9 +83,9 @@ with a standard deviation of 0.000377.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 125.469 days,
+The height of the dated tree was 100.539 days,
 so given that the most recent sample was collected on 2020-03-09,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-11-04.
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-29.
 
 
 <figure>
@@ -99,11 +99,11 @@ Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 77,
-and the total number of clusters (excluding singletons) was 21.
-The average cluster size (excluding singletons) was 20.619,
-with a standard deviation of 57.26,
-and the maximum and minimum cluster sizes were 268 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 80,
+and the total number of clusters (excluding singletons) was 24.
+The average cluster size (excluding singletons) was 18.792,
+with a standard deviation of 43.425,
+and the maximum and minimum cluster sizes were 206 and 2, respectively.
 
 
 <figure>
