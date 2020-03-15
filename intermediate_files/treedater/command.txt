@@ -1,1 +1,1 @@
-tdcl -t /home/a1moshir/COVID19_2020-03-14/output_files/rooted.no_outgroup.tre -s /home/a1moshir/COVID19_2020-03-14/intermediate_files/treedater/times_treedater.txt -l 30220 -o /home/a1moshir/COVID19_2020-03-14/output_files/dated.tre
+tdcl -t /home/a1moshir/COVID19_2020-03-15/output_files/rooted.no_outgroup.tre -s /home/a1moshir/COVID19_2020-03-15/intermediate_files/treedater/times_treedater.txt -l 30357 -o /home/a1moshir/COVID19_2020-03-15/output_files/dated.tre

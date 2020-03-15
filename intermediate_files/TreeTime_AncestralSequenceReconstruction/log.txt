@@ -1,42 +1,42 @@
 
 0.00	-TreeAnc: set-up
 
-9.65	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
-    	tips at positions with AMBIGUOUS bases. This resulted in unexpected
-    	behavior is some cases and is no longer done by default. If you want to
-    	replace those ambiguous sites with their most likely state, rerun with
-    	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
+10.39	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+     	tips at positions with AMBIGUOUS bases. This resulted in unexpected
+     	behavior is some cases and is no longer done by default. If you want to
+     	replace those ambiguous sites with their most likely state, rerun with
+     	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
 
-Inferred sequence evolution model (saved as /home/a1moshir/COVID19_2020-03-14/intermediate_files/TreeTime_AncestralSequenceReconstruction//sequence_evolution_model.txt):
+Inferred sequence evolution model (saved as /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction//sequence_evolution_model.txt):
 Substitution rate (mu): 1.0
 
 Equilibrium frequencies (pi_i):
-  A: 0.2965
-  C: 0.18
-  G: 0.1932
-  T: 0.3196
-  -: 0.0106
+  A: 0.2964
+  C: 0.1802
+  G: 0.193
+  T: 0.3197
+  -: 0.0107
 
 Symmetrized rates from j->i (W_ij):
 	A	C	G	T	-
-  A	0	0.3203	0.7389	0.265	56.9637
-  C	0.3203	0	0.3606	1.3408	51.4245
-  G	0.7389	0.3606	0	0.4728	52.5419
-  T	0.265	1.3408	0.4728	0	57.9495
-  -	56.9637	51.4245	52.5419	57.9495	0
+  A	0	0.3716	0.8146	0.2998	52.4873
+  C	0.3716	0	0.3775	1.4576	48.4601
+  G	0.8146	0.3775	0	0.5195	49.1191
+  T	0.2998	1.4576	0.5195	0	52.9998
+  -	52.4873	48.4601	49.1191	52.9998	0
 
 Actual rates from j->i (Q_ij):
 	A	C	G	T	-
-  A	0	0.095	0.2191	0.0786	16.8907
-  C	0.0577	0	0.0649	0.2414	9.259
-  G	0.1428	0.0697	0	0.0914	10.1531
-  T	0.0847	0.4285	0.1511	0	18.5189
-  -	0.6053	0.5464	0.5583	0.6157	0
+  A	0	0.1101	0.2414	0.0888	15.5571
+  C	0.067	0	0.068	0.2627	8.733
+  G	0.1572	0.0729	0	0.1003	9.4823
+  T	0.0958	0.466	0.1661	0	16.9426
+  -	0.5602	0.5172	0.5243	0.5657	0
 
 
 --- alignment including ancestral nodes saved as  
-	 /home/a1moshir/COVID19_2020-03-14/intermediate_files/TreeTime_AncestralSequenceReconstruction/ancestral_sequences.fasta
+	 /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction/ancestral_sequences.fasta
 
 --- tree saved in nexus format as  
-	 /home/a1moshir/COVID19_2020-03-14/intermediate_files/TreeTime_AncestralSequenceReconstruction/annotated_tree.nexus
+	 /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction/annotated_tree.nexus
 

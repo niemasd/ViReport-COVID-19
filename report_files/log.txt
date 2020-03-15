@@ -1,7 +1,7 @@
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
  restricted \write18 enabled.
 entering extended mode
-(/home/a1moshir/COVID19_2020-03-14/report_files/main.tex
+(/home/a1moshir/COVID19_2020-03-15/report_files/main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
 aded.
@@ -67,10 +67,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_s
 equence_lengths.pdf>]
-<./figs/tree_mutations.pdf, id=53, 722.7pt x 6203.29556pt>
+<./figs/tree_mutations.pdf, id=53, 722.7pt x 6422.99625pt>
 <use ./figs/tree_mutations.pdf>
 
-LaTeX Warning: Float too large for page by 23.88583pt on input line 85.
+LaTeX Warning: Float too large for page by 23.88826pt on input line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -80,10 +80,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=55, 722.7pt x 6203.29556pt>
+<./figs/tree_time.pdf, id=55, 722.7pt x 6422.99625pt>
 <use ./figs/tree_time.pdf>
 
-LaTeX Warning: Float too large for page by 23.88583pt on input line 106.
+LaTeX Warning: Float too large for page by 23.88826pt on input line 106.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -111,5 +111,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (8 pages, 251505 bytes).
+Output written on main.pdf (8 pages, 254729 bytes).
 Transcript written on main.log.
