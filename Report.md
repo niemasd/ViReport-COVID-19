@@ -47,7 +47,7 @@ and the most recent sample date was 2020-03-11.
 
 ## Multiple Sequence Alignment
 Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode.
-There were 35056 positions (11805 invariant) and 512 unique sequences in the multiple sequence alignment.
+There were 30042 positions (6791 invariant) and 512 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
 The average pairwise sequence distance was 0.000286,
 with a standard deviation of 0.000204.
@@ -58,6 +58,11 @@ with a standard deviation of 0.000204.
 <figcaption>Distribution of pairwise sequence distances</figcaption>
 </figure>
 
+Across the positions of the multiple sequence alignment that had non-zero Shannon entropy,
+the minimum Shannon entropy was 0.0189,
+the maximum Shannon entropy was 2,
+and the average Shannon entropy was 0.062,
+with a standard deviation of 0.103.
 
 
 <figure>
@@ -70,9 +75,9 @@ with a standard deviation of 0.000204.
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00471,
-and the average pairwise phylogenetic distance was 0.00052,
-with a standard deviation of 0.000365.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00479,
+and the average pairwise phylogenetic distance was 0.000521,
+with a standard deviation of 0.000372.
 
 
 <figure>
@@ -90,9 +95,9 @@ with a standard deviation of 0.000365.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 103.983 days,
+The height of the dated tree was 112.473 days,
 so given that the most recent sample was collected on 2020-03-11,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-11-28.
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-19.
 
 
 <figure>
@@ -106,11 +111,11 @@ Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 92,
-and the total number of clusters (excluding singletons) was 21.
-The average cluster size (excluding singletons) was 22.286,
-with a standard deviation of 47.218,
-and the maximum and minimum cluster sizes were 211 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 90,
+and the total number of clusters (excluding singletons) was 24.
+The average cluster size (excluding singletons) was 19.583,
+with a standard deviation of 45.409,
+and the maximum and minimum cluster sizes were 215 and 2, respectively.
 
 
 <figure>
