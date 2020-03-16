@@ -59,13 +59,20 @@ with a standard deviation of 0.000204.
 </figure>
 
 
+
+<figure>
+<img src="./report_files/figs/alignment_entropies.png" width="auto" height="auto" style="max-width:75%;">
+<figcaption>Shannon entropy across the positions of the multiple sequence alignment</figcaption>
+</figure>
+
+
 ## Phylogenetic Inference
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood.
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00482,
-and the average pairwise phylogenetic distance was 0.000537,
-with a standard deviation of 0.000373.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00471,
+and the average pairwise phylogenetic distance was 0.00052,
+with a standard deviation of 0.000365.
 
 
 <figure>
@@ -83,9 +90,9 @@ with a standard deviation of 0.000373.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 116.799 days,
+The height of the dated tree was 103.983 days,
 so given that the most recent sample was collected on 2020-03-11,
-the estimated time of the most recent common ancestor (tMRCA) was 2019-11-15.
+the estimated time of the most recent common ancestor (tMRCA) was 2019-11-28.
 
 
 <figure>
@@ -99,11 +106,11 @@ Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 88,
-and the total number of clusters (excluding singletons) was 23.
-The average cluster size (excluding singletons) was 20.522,
-with a standard deviation of 36.741,
-and the maximum and minimum cluster sizes were 157 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 92,
+and the total number of clusters (excluding singletons) was 21.
+The average cluster size (excluding singletons) was 22.286,
+with a standard deviation of 47.218,
+and the maximum and minimum cluster sizes were 211 and 2, respectively.
 
 
 <figure>
