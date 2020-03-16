@@ -3,5 +3,5 @@ Input File:  /home/a1moshir/COVID19_2020-03-16/output_files/pairwise_distances_p
 Output File: /home/a1moshir/COVID19_2020-03-16/intermediate_files/TreeN93/treen93.tre
 
 === COMPUTE TREEN93 TREE ===
-Number of Individuals: 561
-Total runtime: 4.9913060665130615 seconds
+Number of Individuals: 560
+Total runtime: 4.458834648132324 seconds
