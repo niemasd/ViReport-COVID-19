@@ -1,42 +1,42 @@
 
 0.00	-TreeAnc: set-up
 
-10.39	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+13.59	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
      	tips at positions with AMBIGUOUS bases. This resulted in unexpected
      	behavior is some cases and is no longer done by default. If you want to
      	replace those ambiguous sites with their most likely state, rerun with
      	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
 
-Inferred sequence evolution model (saved as /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction//sequence_evolution_model.txt):
+Inferred sequence evolution model (saved as /home/a1moshir/COVID19_2020-03-16/intermediate_files/TreeTime_AncestralSequenceReconstruction//sequence_evolution_model.txt):
 Substitution rate (mu): 1.0
 
 Equilibrium frequencies (pi_i):
-  A: 0.2964
-  C: 0.1802
-  G: 0.193
-  T: 0.3197
-  -: 0.0107
+  A: 0.3056
+  C: 0.1856
+  G: 0.1868
+  T: 0.3091
+  -: 0.0128
 
 Symmetrized rates from j->i (W_ij):
 	A	C	G	T	-
-  A	0	0.3716	0.8146	0.2998	52.4873
-  C	0.3716	0	0.3775	1.4576	48.4601
-  G	0.8146	0.3775	0	0.5195	49.1191
-  T	0.2998	1.4576	0.5195	0	52.9998
-  -	52.4873	48.4601	49.1191	52.9998	0
+  A	0	0.9696	2.0224	0.9436	3.3802
+  C	0.9696	0	1.0612	2.0874	3.6303
+  G	2.0224	1.0612	0	0.9597	3.6104
+  T	0.9436	2.0874	0.9597	0	3.3826
+  -	3.3802	3.6303	3.6104	3.3826	0
 
 Actual rates from j->i (Q_ij):
 	A	C	G	T	-
-  A	0	0.1101	0.2414	0.0888	15.5571
-  C	0.067	0	0.068	0.2627	8.733
-  G	0.1572	0.0729	0	0.1003	9.4823
-  T	0.0958	0.466	0.1661	0	16.9426
-  -	0.5602	0.5172	0.5243	0.5657	0
+  A	0	0.2963	0.6181	0.2884	1.033
+  C	0.18	0	0.197	0.3874	0.6738
+  G	0.3778	0.1982	0	0.1793	0.6744
+  T	0.2917	0.6453	0.2967	0	1.0457
+  -	0.0434	0.0466	0.0464	0.0434	0
 
 
 --- alignment including ancestral nodes saved as  
-	 /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction/ancestral_sequences.fasta
+	 /home/a1moshir/COVID19_2020-03-16/intermediate_files/TreeTime_AncestralSequenceReconstruction/ancestral_sequences.fasta
 
 --- tree saved in nexus format as  
-	 /home/a1moshir/COVID19_2020-03-15/intermediate_files/TreeTime_AncestralSequenceReconstruction/annotated_tree.nexus
+	 /home/a1moshir/COVID19_2020-03-16/intermediate_files/TreeTime_AncestralSequenceReconstruction/annotated_tree.nexus
 
