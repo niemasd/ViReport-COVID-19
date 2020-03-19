@@ -1,12 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/home/a1moshir/COVID19_2020-03-17/report_files/main.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+(/home/niemamoshiri/COVID19_2020-03-18/report_files/main.tex
+LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
@@ -16,10 +14,8 @@ Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
@@ -28,74 +24,51 @@ Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
 No file main.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-<./figs/input_sequence_lengths.pdf, id=4, 462.52798pt x 346.89601pt>
-<use ./figs/input_sequence_lengths.pdf>
-<./figs/input_sample_dates.pdf, id=5, 462.52798pt x 346.89601pt>
-<use ./figs/input_sample_dates.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figs/processed_sequence_lengths.pdf, id=6, 462.52798pt x 346.89601pt>
-<use ./figs/processed_sequence_lengths.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figs/processed_sample_dates.pdf, id=7, 462.52798pt x 346.89601pt>
-<use ./figs/processed_sample_dates.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figs/pairwise_distances_sequences.pdf, id=8, 462.52798pt x 346.89601pt>
-<use ./figs/pairwise_distances_sequences.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_s
-equence_lengths.pdf>]
-<./figs/alignment_entropies.pdf, id=53, 462.52798pt x 346.89601pt>
-<use ./figs/alignment_entropies.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figs/tree_mutations.pdf, id=54, 722.7pt x 7220.85693pt>
-<use ./figs/tree_mutations.pdf>
-
-LaTeX Warning: Float too large for page by 23.91444pt on input line 98.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/pairwise_distances_tree.pdf, id=55, 462.52798pt x 346.89601pt>
-<use ./figs/pairwise_distances_tree.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=56, 722.7pt x 7220.85693pt>
-<use ./figs/tree_time.pdf>
 
-LaTeX Warning: Float too large for page by 23.91444pt on input line 119.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_sequence_le
+ngths.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 23.81778pt on input line 69.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 23.81778pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./figs/input_sample_dates.pdf>]
-<./figs/cluster_sizes.pdf, id=96, 462.52798pt x 346.89601pt>
-<use ./figs/cluster_sizes.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -117,5 +90,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 302747 bytes).
+Output written on main.pdf (9 pages, 359449 bytes).
 Transcript written on main.log.
