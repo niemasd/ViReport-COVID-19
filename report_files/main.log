@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  19 MAR 2020 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  20 MAR 2020 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/niemamoshiri/COVID19_2020-03-19/report_files/main.tex
-(/home/niemamoshiri/COVID19_2020-03-19/report_files/main.tex
+**/home/niemamoshiri/COVID19_2020-03-20/report_files/main.tex
+(/home/niemamoshiri/COVID19_2020-03-20/report_files/main.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -339,13 +339,13 @@ Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 58.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_mutations.pdf, id=54, 722.7pt x 9764.76132pt>
+<./figs/tree_mutations.pdf, id=54, 722.7pt x 9949.77185pt>
 File: ./figs/tree_mutations.pdf Graphic file (type pdf)
 <use ./figs/tree_mutations.pdf>
 Package pdftex.def Info: ./figs/tree_mutations.pdf  used on input line 67.
-(pdftex.def)             Requested size: 48.13503pt x 650.37657pt.
+(pdftex.def)             Requested size: 47.2418pt x 650.4016pt.
 
-LaTeX Warning: Float too large for page by 23.891pt on input line 69.
+LaTeX Warning: Float too large for page by 23.91603pt on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -359,13 +359,13 @@ Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=56, 722.7pt x 9764.76132pt>
+<./figs/tree_time.pdf, id=56, 722.7pt x 9949.77185pt>
 File: ./figs/tree_time.pdf Graphic file (type pdf)
 <use ./figs/tree_time.pdf>
 Package pdftex.def Info: ./figs/tree_time.pdf  used on input line 84.
-(pdftex.def)             Requested size: 48.13503pt x 650.37657pt.
+(pdftex.def)             Requested size: 47.2418pt x 650.4016pt.
 
-LaTeX Warning: Float too large for page by 23.891pt on input line 86.
+LaTeX Warning: Float too large for page by 23.91603pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -424,9 +424,9 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 335641 bytes).
+Output written on main.pdf (9 pages, 339289 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
+ 501 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
