@@ -54,7 +54,7 @@ ngths.pdf>]
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.9218pt on input line 69.
+LaTeX Warning: Float too large for page by 23.87228pt on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -63,7 +63,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.9218pt on input line 86.
+LaTeX Warning: Float too large for page by 23.87228pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -90,5 +90,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 363863 bytes).
+Output written on main.pdf (9 pages, 360816 bytes).
 Transcript written on main.log.
