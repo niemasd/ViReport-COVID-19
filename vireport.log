@@ -4,44 +4,44 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-20 -s GISAID-BetaCoV-Analysis/data/2020-03-20/2020-03-20.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-20/2020-03-20.dates.tsv -c GISAID-BetaCoV-Analysis/data/2020-03-20/2020-03-20.countries.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-20/2020-03-20.outgroups.txt --max_threads --phylo FastTree
-Output directory: /home/niemamoshiri/COVID19_2020-03-20
+ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-21 -s GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.dates.tsv -c GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.countries.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.outgroups.txt --max_threads --phylo FastTree
+Output directory: /home/niemamoshiri/COVID19_2020-03-21
 Starting viral analysis workflow...
 
 Initializing module implementations... done
 
 Running 'Preprocessing_SafeNames'...
-Preprocessed sequences output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/sequences_safe.fas
-Preprocessed sample times output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/times_safe.txt
-Preprocessed outgroups list output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/outgroups_safe.txt
-Preprocessed sample categories output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/categories_safe.txt
+Preprocessed sequences output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.fas
+Preprocessed sample times output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/times_safe.txt
+Preprocessed outgroups list output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/outgroups_safe.txt
+Preprocessed sample categories output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/categories_safe.txt
 
 Running 'MultipleSequenceAlignment_MAFFT'...
-Multiple sequence alignment output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/sequences_safe.no_outgroup.aln
+Multiple sequence alignment output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.no_outgroup.aln
 
 Running 'PairwiseDistancesSequence_tn93'...
-Pairwise sequence distances output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/pairwise_distances_sequence.csv
+Pairwise sequence distances output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/pairwise_distances_sequence.csv
 
 Running 'PhylogeneticInference_FastTree'...
-Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/unrooted.no_outgroup.tre
+Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/unrooted.no_outgroup.tre
 
 Running 'PairwiseDistancesTree_TreeSwift'...
-Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/pairwise_distances_phylogeny.csv
+Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/pairwise_distances_phylogeny.csv
 
 Running 'Rooting_MinVar'...
-Rooted phylogeny output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/rooted.no_outgroup.tre
+Rooted phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/rooted.no_outgroup.tre
 
 Running 'Dating_treedater'...
-Dated phylogeny output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/dated.tre
+Dated phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/dated.tre
 
 Running 'AncestralSequenceReconstruction_TreeTime'...
-Ancestral sequence(s) output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/ancestral_sequences.fas
+Ancestral sequence(s) output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/ancestral_sequences.fas
 
 Running 'TransmissionClustering_TreeN93TreeDists'...
-Transmission clusters output to: /home/niemamoshiri/COVID19_2020-03-20/output_files/transmission_clusters.tsv
+Transmission clusters output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/transmission_clusters.tsv
 
 Writing report using 'WriteReport_Default'...
-Report written to: /home/niemamoshiri/COVID19_2020-03-20
+Report written to: /home/niemamoshiri/COVID19_2020-03-21
 
 
 ===========================   Citations   ============================

@@ -1,1 +1,1 @@
-FastTree -out /home/niemamoshiri/COVID19_2020-03-20/output_files/unrooted.tre -gamma -nt -gtr /home/niemamoshiri/COVID19_2020-03-20/output_files/sequences_safe.aln
+FastTree -out /home/niemamoshiri/COVID19_2020-03-21/output_files/unrooted.tre -gamma -nt -gtr /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.aln

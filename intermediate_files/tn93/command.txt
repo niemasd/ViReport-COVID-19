@@ -1,1 +1,1 @@
-tn93 -t 1 -l 1 -q -o /home/niemamoshiri/COVID19_2020-03-20/output_files/pairwise_distances_sequence.csv /home/niemamoshiri/COVID19_2020-03-20/output_files/sequences_safe.no_outgroup.aln
+tn93 -t 1 -l 1 -q -o /home/niemamoshiri/COVID19_2020-03-21/output_files/pairwise_distances_sequence.csv /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.no_outgroup.aln
