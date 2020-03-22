@@ -1,1 +1,0 @@
-mafft --reorder --nomemsave --thread 4 --auto /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.fas

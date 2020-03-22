@@ -4,49 +4,49 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-21 -s GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.no_short_seqs.fas -t GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.dates.tsv -c GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.countries.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-21/2020-03-21.outgroups.txt --max_threads --phylo FastTree
-Output directory: /home/niemamoshiri/COVID19_2020-03-21
+ViReport was run as follows: ./ViReport/ViReport.py -o COVID19_2020-03-22 -s GISAID-BetaCoV-Analysis/data/2020-03-22/2020-03-22.no_short_seqs.fas -r MT072688 -t GISAID-BetaCoV-Analysis/data/2020-03-22/2020-03-22.dates.tsv -c GISAID-BetaCoV-Analysis/data/2020-03-22/2020-03-22.countries.tsv -og GISAID-BetaCoV-Analysis/data/2020-03-22/2020-03-22.outgroups.txt --max_threads --msa Minimap2 --phylo FastTree
+Output directory: /home/niemamoshiri/COVID19_2020-03-22
 Starting viral analysis workflow...
 
 Initializing module implementations... done
 
 Running 'Preprocessing_SafeNames'...
-Preprocessed sequences output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.fas
-Preprocessed sample times output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/times_safe.txt
-Preprocessed outgroups list output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/outgroups_safe.txt
-Preprocessed sample categories output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/categories_safe.txt
+Preprocessed sequences output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/sequences_safe.fas
+Preprocessed sample times output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/times_safe.txt
+Preprocessed outgroups list output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/outgroups_safe.txt
+Preprocessed sample categories output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/categories_safe.txt
 
-Running 'MultipleSequenceAlignment_MAFFT'...
-Multiple sequence alignment output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/sequences_safe.no_outgroup.aln
+Running 'MultipleSequenceAlignment_Minimap2'...
+Multiple sequence alignment output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/sequences_safe.no_outgroup.aln
 
 Running 'PairwiseDistancesSequence_tn93'...
-Pairwise sequence distances output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/pairwise_distances_sequence.csv
+Pairwise sequence distances output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/pairwise_distances_sequence.csv
 
 Running 'PhylogeneticInference_FastTree'...
-Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/unrooted.no_outgroup.tre
+Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/unrooted.no_outgroup.tre
 
 Running 'PairwiseDistancesTree_TreeSwift'...
-Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/pairwise_distances_phylogeny.csv
+Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/pairwise_distances_phylogeny.csv
 
 Running 'Rooting_MinVar'...
-Rooted phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/rooted.no_outgroup.tre
+Rooted phylogeny output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/rooted.no_outgroup.tre
 
 Running 'Dating_treedater'...
-Dated phylogeny output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/dated.tre
+Dated phylogeny output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/dated.tre
 
 Running 'AncestralSequenceReconstruction_TreeTime'...
-Ancestral sequence(s) output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/ancestral_sequences.fas
+Ancestral sequence(s) output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/ancestral_sequences.fas
 
 Running 'TransmissionClustering_TreeN93TreeDists'...
-Transmission clusters output to: /home/niemamoshiri/COVID19_2020-03-21/output_files/transmission_clusters.tsv
+Transmission clusters output to: /home/niemamoshiri/COVID19_2020-03-22/output_files/transmission_clusters.tsv
 
 Writing report using 'WriteReport_Default'...
-Report written to: /home/niemamoshiri/COVID19_2020-03-21
+Report written to: /home/niemamoshiri/COVID19_2020-03-22
 
 
 ===========================   Citations   ============================
-Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.
 Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.
+Li H. (2018). "Minimap2: pairwise alignment for nucleotide sequences". Bioinformatics. 34(18), 3094-3100.
 Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.
 Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.
 Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.
