@@ -1,10 +1,10 @@
-[M::mm_idx_gen::0.002*2.25] collected minimizers
-[M::mm_idx_gen::0.003*2.73] sorted minimizers
-[M::main::0.004*2.24] loaded/built the index for 1 target sequence(s)
-[M::mm_mapopt_update::0.005*2.17] mid_occ = 3
+[M::mm_idx_gen::0.002*2.53] collected minimizers
+[M::mm_idx_gen::0.003*2.92] sorted minimizers
+[M::main::0.004*2.37] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.004*2.29] mid_occ = 3
 [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
-[M::mm_idx_stat::0.005*2.12] distinct minimizers: 5570 (99.95% are singletons); average occurrences: 1.001; average spacing: 5.349
-[M::worker_pipeline::3.378*3.91] mapped 1033 sequences
+[M::mm_idx_stat::0.005*2.23] distinct minimizers: 5570 (99.95% are singletons); average occurrences: 1.001; average spacing: 5.349
+[M::worker_pipeline::3.368*3.92] mapped 1033 sequences
 [M::main] Version: 2.17-r941
 [M::main] CMD: minimap2 -a -d /home/niemamoshiri/COVID19_2020-03-22/intermediate_files/Minimap2/index.mmi -o /home/niemamoshiri/COVID19_2020-03-22/intermediate_files/Minimap2/alignment.sam -t 4 /home/niemamoshiri/COVID19_2020-03-22/intermediate_files/Minimap2/ref.fas /home/niemamoshiri/COVID19_2020-03-22/intermediate_files/Minimap2/seqs.fas
-[M::main] Real time: 3.379 sec; CPU: 13.209 sec; Peak RSS: 0.105 GB
+[M::main] Real time: 3.369 sec; CPU: 13.197 sec; Peak RSS: 0.105 GB
