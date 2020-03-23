@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  23 MAR 2020 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  23 MAR 2020 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/niemamoshiri/COVID19_2020-03-23/report_files/main.tex
-(/home/niemamoshiri/COVID19_2020-03-23/report_files/main.tex
+**/home/niemamoshiri/COVID19/report_files/main.tex
+(/home/niemamoshiri/COVID19/report_files/main.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -339,13 +339,13 @@ Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 58.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_mutations.pdf, id=55, 722.7pt x 14540.36269pt>
+<./figs/tree_mutations.pdf, id=55, 722.7pt x 15106.95898pt>
 File: ./figs/tree_mutations.pdf Graphic file (type pdf)
 <use ./figs/tree_mutations.pdf>
 Package pdftex.def Info: ./figs/tree_mutations.pdf  used on input line 67.
-(pdftex.def)             Requested size: 32.3216pt x 650.29448pt.
+(pdftex.def)             Requested size: 31.10857pt x 650.27814pt.
 
-LaTeX Warning: Float too large for page by 23.80891pt on input line 69.
+LaTeX Warning: Float too large for page by 23.79257pt on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -359,13 +359,13 @@ Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=57, 722.7pt x 14540.36269pt>
+<./figs/tree_time.pdf, id=57, 722.7pt x 15106.95898pt>
 File: ./figs/tree_time.pdf Graphic file (type pdf)
 <use ./figs/tree_time.pdf>
 Package pdftex.def Info: ./figs/tree_time.pdf  used on input line 84.
-(pdftex.def)             Requested size: 32.3216pt x 650.29448pt.
+(pdftex.def)             Requested size: 31.10857pt x 650.27814pt.
 
-LaTeX Warning: Float too large for page by 23.80891pt on input line 86.
+LaTeX Warning: Float too large for page by 23.79257pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -413,18 +413,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
  5523 strings out of 492615
- 83171 string characters out of 6131390
+ 83138 string characters out of 6131390
  179482 words of memory out of 5000000
  9382 multiletter control sequences out of 15000+600000
  7280 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,32p,1680b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,32p,1669b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 386685 bytes).
+Output written on main.pdf (9 pages, 390110 bytes).
 PDF statistics:
  511 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams
