@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  22 MAR 2020 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  23 MAR 2020 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/niemamoshiri/COVID19_2020-03-22/report_files/main.tex
-(/home/niemamoshiri/COVID19_2020-03-22/report_files/main.tex
+**/home/niemamoshiri/COVID19_2020-03-23/report_files/main.tex
+(/home/niemamoshiri/COVID19_2020-03-23/report_files/main.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -329,7 +329,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_sequence_leng
 ths.pdf>]
-<./figs/alignment_entropies.pdf, id=53, 462.52798pt x 346.89601pt>
+<./figs/alignment_entropies.pdf, id=54, 462.52798pt x 346.89601pt>
 File: ./figs/alignment_entropies.pdf Graphic file (type pdf)
 <use ./figs/alignment_entropies.pdf>
 Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 58.
@@ -339,18 +339,18 @@ Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 58.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_mutations.pdf, id=54, 722.7pt x 11718.942pt>
+<./figs/tree_mutations.pdf, id=55, 722.7pt x 14551.92542pt>
 File: ./figs/tree_mutations.pdf Graphic file (type pdf)
 <use ./figs/tree_mutations.pdf>
 Package pdftex.def Info: ./figs/tree_mutations.pdf  used on input line 67.
-(pdftex.def)             Requested size: 40.10701pt x 650.35535pt.
+(pdftex.def)             Requested size: 32.29955pt x 650.36752pt.
 
-LaTeX Warning: Float too large for page by 23.86978pt on input line 69.
+LaTeX Warning: Float too large for page by 23.88196pt on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/pairwise_distances_tree.pdf, id=55, 462.52798pt x 346.89601pt>
+<./figs/pairwise_distances_tree.pdf, id=56, 462.52798pt x 346.89601pt>
 File: ./figs/pairwise_distances_tree.pdf Graphic file (type pdf)
 <use ./figs/pairwise_distances_tree.pdf>
 Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
@@ -359,19 +359,19 @@ Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=56, 722.7pt x 11718.942pt>
+<./figs/tree_time.pdf, id=57, 722.7pt x 14551.92542pt>
 File: ./figs/tree_time.pdf Graphic file (type pdf)
 <use ./figs/tree_time.pdf>
 Package pdftex.def Info: ./figs/tree_time.pdf  used on input line 84.
-(pdftex.def)             Requested size: 40.10701pt x 650.35535pt.
+(pdftex.def)             Requested size: 32.29955pt x 650.36752pt.
 
-LaTeX Warning: Float too large for page by 23.86978pt on input line 86.
+LaTeX Warning: Float too large for page by 23.88196pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./figs/input_sample_dates.pdf>]
-<./figs/cluster_sizes.pdf, id=98, 462.52798pt x 346.89601pt>
+<./figs/cluster_sizes.pdf, id=99, 462.52798pt x 346.89601pt>
 File: ./figs/cluster_sizes.pdf Graphic file (type pdf)
 <use ./figs/cluster_sizes.pdf>
 Package pdftex.def Info: ./figs/cluster_sizes.pdf  used on input line 94.
@@ -414,7 +414,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
 Here is how much of TeX's memory you used:
  5523 strings out of 492615
  83171 string characters out of 6131390
- 179482 words of memory out of 5000000
+ 180482 words of memory out of 5000000
  9382 multiletter control sequences out of 15000+600000
  7280 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -424,9 +424,9 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 356277 bytes).
+Output written on main.pdf (9 pages, 388859 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
+ 511 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)

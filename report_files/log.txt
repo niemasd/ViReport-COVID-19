@@ -1,7 +1,7 @@
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/home/niemamoshiri/COVID19_2020-03-22/report_files/main.tex
+(/home/niemamoshiri/COVID19_2020-03-23/report_files/main.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -54,7 +54,7 @@ ngths.pdf>]
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.86978pt on input line 69.
+LaTeX Warning: Float too large for page by 23.88196pt on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -63,7 +63,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.86978pt on input line 86.
+LaTeX Warning: Float too large for page by 23.88196pt on input line 86.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -90,5 +90,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 356277 bytes).
+Output written on main.pdf (9 pages, 388859 bytes).
 Transcript written on main.log.
