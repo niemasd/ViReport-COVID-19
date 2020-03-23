@@ -7,4 +7,4 @@ Mode:        max_non_singleton
 Computing transmission clusters...
 Optimal Threshold: 0.000000
 Number of Non-Singleton Clusters: 27
-Total runtime: 0.03100132942199707 seconds
+Total runtime: 0.03133964538574219 seconds
