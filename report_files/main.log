@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  23 MAR 2020 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.18)  24 MAR 2020 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,7 +346,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_sequence_leng
 ths.pdf>]
-<./figs/alignment_entropies.pdf, id=56, 462.52798pt x 346.89601pt>
+<./figs/alignment_entropies.pdf, id=53, 462.52798pt x 346.89601pt>
 File: ./figs/alignment_entropies.pdf Graphic file (type pdf)
 <use ./figs/alignment_entropies.pdf>
 Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 74.
@@ -356,18 +356,24 @@ Package pdftex.def Info: ./figs/alignment_entropies.pdf  used on input line 74.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_mutations.pdf, id=57, 722.7pt x 15106.95898pt>
+! Dimension too large.
+<argument> \ht \@tempboxa 
+                          
+l.83 ...eepaspectratio]{./figs/tree_mutations.pdf}
+                                                  
+? 
+<./figs/tree_mutations.pdf, id=54, 722.7pt x 16552.35898pt>
 File: ./figs/tree_mutations.pdf Graphic file (type pdf)
 <use ./figs/tree_mutations.pdf>
 Package pdftex.def Info: ./figs/tree_mutations.pdf  used on input line 83.
-(pdftex.def)             Requested size: 31.10857pt x 650.27814pt.
+(pdftex.def)             Requested size: 28.68253pt x 650.24841pt.
 
-LaTeX Warning: Float too large for page by 23.79257pt on input line 85.
+LaTeX Warning: Float too large for page by 23.76285pt on input line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/pairwise_distances_tree.pdf, id=58, 462.52798pt x 346.89601pt>
+<./figs/pairwise_distances_tree.pdf, id=55, 462.52798pt x 346.89601pt>
 File: ./figs/pairwise_distances_tree.pdf Graphic file (type pdf)
 <use ./figs/pairwise_distances_tree.pdf>
 Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
@@ -376,19 +382,25 @@ Package pdftex.def Info: ./figs/pairwise_distances_tree.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figs/tree_time.pdf, id=59, 722.7pt x 15106.95898pt>
+! Dimension too large.
+<argument> \ht \@tempboxa 
+                          
+l.100 ...ht,keepaspectratio]{./figs/tree_time.pdf}
+                                                  
+? 
+<./figs/tree_time.pdf, id=56, 722.7pt x 16552.35898pt>
 File: ./figs/tree_time.pdf Graphic file (type pdf)
 <use ./figs/tree_time.pdf>
 Package pdftex.def Info: ./figs/tree_time.pdf  used on input line 100.
-(pdftex.def)             Requested size: 31.10857pt x 650.27814pt.
+(pdftex.def)             Requested size: 28.68253pt x 650.24841pt.
 
-LaTeX Warning: Float too large for page by 23.79257pt on input line 102.
+LaTeX Warning: Float too large for page by 23.76285pt on input line 102.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./figs/input_sample_dates.pdf>]
-<./figs/cluster_sizes.pdf, id=101, 462.52798pt x 346.89601pt>
+<./figs/cluster_sizes.pdf, id=98, 462.52798pt x 346.89601pt>
 File: ./figs/cluster_sizes.pdf Graphic file (type pdf)
 <use ./figs/cluster_sizes.pdf>
 Package pdftex.def Info: ./figs/cluster_sizes.pdf  used on input line 110.
@@ -442,9 +454,9 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (11 pages, 425758 bytes).
+Output written on main.pdf (11 pages, 421503 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
+ 636 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
