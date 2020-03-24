@@ -2,7 +2,7 @@ Note: Initial guess of substitution rate not provided. Will attempt to guess sta
 Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
 Note: Minimum temporal branch length  (*minblen*) set to 0.00668716372021522. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 2.5498799760352e-06,3.09783443408394e-06,3.18855242298512e-06,3.60560123512028e-06,3.82722486993503e-06,4.11336803615662e-06 
+Initial guesses of substitution rate: 3.03734301497299e-06,3.07618856686405e-06,3.58164732489294e-06,3.61399075063858e-06,4.08710608292183e-06,4.19063848630417e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -29,23 +29,23 @@ The following steps may help to fix or alleviate common problems:
 Phylogenetic tree with 1301 tips and 1300 internal nodes.
 
 Tip labels:
-	hCoV_19_Guangdong_GD2020012_P0022_2020_EPI_ISL_413886, hCoV_19_USA_WA_UW23_2020_EPI_ISL_414592, hCoV_19_USA_WA_UW66_2020_EPI_ISL_415594, hCoV_19_USA_WA_UW28_2020_EPI_ISL_414597, hCoV_19_USA_WA_UW80_2020_EPI_ISL_416436, hCoV_19_USA_WA_UW38_2020_EPI_ISL_416455, ...
+	hCoV_19_Guangdong_GD2020012_P0022_2020_EPI_ISL_413886, hCoV_19_Guangdong_ZS_S6_P0060_2020_EPI_ISL_413900, hCoV_19_Guangdong_GDSZ202009_P0032_2020_EPI_ISL_413881, hCoV_19_China_WF0028_2020_EPI_ISL_413791, hCoV_19_China_WF0012_2020_EPI_ISL_413697, hCoV_19_China_WF0026_2020_EPI_ISL_413761, ...
 Node labels:
-	0.205, 0.917, 0.923, 0.000, 0.922, 0.843, ...
+	0.470, 0.777, 0.403, 0.381, 0.455, 0.228, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737401.51474824 
+737396.351888128 
 
  Time to common ancestor (before most recent sample) 
-101.485251760227 
+106.648111872491 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.59658879412024e-05 
+1.58639531279841e-05 
 
  Unadjusted mean substitution rate 
-1.59658879412024e-05 
+1.58639531279841e-05 
 
  Clock model  
 strict 

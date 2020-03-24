@@ -48,13 +48,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/input_sequence_le
 ngths.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.79257pt on input line 69.
+LaTeX Warning: Float too large for page by 23.79257pt on input line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -63,7 +69,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 23.79257pt on input line 86.
+LaTeX Warning: Float too large for page by 23.79257pt on input line 102.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -72,14 +78,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [3 <./figs/processed_s
-equence_lengths.pdf>] [4 <./figs/processed_sample_dates.pdf>] [5 <./figs/pairwi
-se_distances_sequences.pdf> <./figs/alignment_entropies.pdf
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [3 <./figs/input_categ
+ories.pdf>] [4 <./figs/processed_sequence_lengths.pdf>] [5 <./figs/processed_sa
+mple_dates.pdf> <./figs/processed_input_categories.pdf
+
+pdfTeX warning: pdflatex (file ./figs/processed_input_categories.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [6 <./figs/pairwise_distances_sequences.pdf> <./figs/alignment_entropies.pdf
+
 
 pdfTeX warning: pdflatex (file ./figs/alignment_entropies.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] [6 <./figs/tree_mutations.pdf>] [7 <./figs/pairwise_distances_tree.pdf>]
-[8 <./figs/tree_time.pdf>] [9 <./figs/cluster_sizes.pdf>] (./main.aux)
+>] [7 <./figs/tree_mutations.pdf>] [8 <./figs/pairwise_distances_tree.pdf>]
+[9 <./figs/tree_time.pdf>] [10 <./figs/cluster_sizes.pdf>] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -90,5 +101,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (9 pages, 390110 bytes).
+Output written on main.pdf (10 pages, 425393 bytes).
 Transcript written on main.log.

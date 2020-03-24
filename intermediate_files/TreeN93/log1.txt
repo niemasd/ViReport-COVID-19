@@ -4,4 +4,4 @@ Output File: /home/niemamoshiri/COVID19/intermediate_files/TreeN93/treen93.tre
 
 === COMPUTE TREEN93 TREE ===
 Number of Individuals: 1301
-Total runtime: 15.446832180023193 seconds
+Total runtime: 15.463542222976685 seconds

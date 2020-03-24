@@ -18,6 +18,14 @@ The analysis was conducted on a dataset containing 1328 sequences. The average s
 
 
 
+
+<figure>
+<img src="./report_files/figs/input_categories.png" width="auto" height="auto" style="max-width:75%;">
+<figcaption>Distribution of input sample categories</figcaption>
+</figure>
+
+
+
 ## Preprocessed Dataset
 The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 1328 sequences. The average sequence length was 29819.0429, with a standard deviation of 209.491. The earliest sample date was 2019-12-24, the median sample date was 2020-03-02, and the most recent sample date was 2020-03-20.
 
@@ -32,6 +40,14 @@ The input dataset was preprocessed such that sequences were given safe names: no
 <figure>
 <img src="./report_files/figs/processed_sample_dates.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of preprocessed sample dates</figcaption>
+</figure>
+
+
+
+
+<figure>
+<img src="./report_files/figs/processed_input_categories.png" width="auto" height="auto" style="max-width:75%;">
+<figcaption>Distribution of preprocessed sample categories</figcaption>
 </figure>
 
 
@@ -55,7 +71,7 @@ Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input 
 
 
 ## Phylogenetic Inference
-A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood. The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00124, and the average pairwise phylogenetic distance was 0.000367, with a standard deviation of 0.000179.
+A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood. The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00123, and the average pairwise phylogenetic distance was 0.000366, with a standard deviation of 0.000178.
 
 <figure>
 <img src="./report_files/figs/tree_mutations.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
@@ -73,7 +89,7 @@ A maximum-likelihood phylogeny was inferred under the General Time-Reversible (G
 
 
 ## Phylogenetic Dating
-The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 101.485 days, so given that the most recent sample was collected on 2020-03-20, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-09.
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 106.648 days, so given that the most recent sample was collected on 2020-03-20, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-04.
 
 <figure>
 <img src="./report_files/figs/tree_time.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
@@ -85,7 +101,7 @@ The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height 
 ## Ancestral Sequence Reconstruction
 Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
 ## Transmission Clustering
-Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 159, and the total number of clusters (excluding singletons) was 29. The average cluster size (excluding singletons) was 39.379, with a standard deviation of 124.146, and the maximum and minimum cluster sizes were 647 and 2, respectively.
+Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 157, and the total number of clusters (excluding singletons) was 29. The average cluster size (excluding singletons) was 39.448, with a standard deviation of 124.366, and the maximum and minimum cluster sizes were 648 and 2, respectively.
 
 <figure>
 <img src="./report_files/figs/cluster_sizes.png" width="auto" height="auto" style="max-width:75%;">
