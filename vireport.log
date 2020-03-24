@@ -4,62 +4,62 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-[2020-03-23 19:22:59] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --continue --max_threads --msa Minimap2 --phylo FastTree
-[2020-03-23 19:22:59] Output directory: /home/niemamoshiri/COVID19
-[2020-03-23 19:22:59] Starting viral analysis workflow...
+[2020-03-23 19:30:02] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --continue --max_threads --msa Minimap2 --phylo FastTree
+[2020-03-23 19:30:02] Output directory: /home/niemamoshiri/COVID19
+[2020-03-23 19:30:02] Starting viral analysis workflow...
 
-[2020-03-23 19:22:59] Initializing module implementations...
-[2020-03-23 19:22:59] Finished initializing 13 module implementations
+[2020-03-23 19:30:02] Initializing module implementations...
+[2020-03-23 19:30:02] Finished initializing 13 module implementations
 
-[2020-03-23 19:22:59] Running 'Preprocessing_SafeNames'...
+[2020-03-23 19:30:02] Running 'Preprocessing_SafeNames'...
 Safename sequences exist. Skipping recomputation.
 Safename sample times exist. Skipping recomputation.
 Safename outgroups exist. Skipping recomputation.
 Safename sample categories exist. Skipping recomputation.
-[2020-03-23 19:23:03] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
-[2020-03-23 19:23:03] Preprocessed reference ID: MT072688
-[2020-03-23 19:23:03] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
-[2020-03-23 19:23:03] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
-[2020-03-23 19:23:03] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
+[2020-03-23 19:30:06] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
+[2020-03-23 19:30:06] Preprocessed reference ID: MT072688
+[2020-03-23 19:30:06] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
+[2020-03-23 19:30:06] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
+[2020-03-23 19:30:06] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
 
-[2020-03-23 19:23:03] Running 'MultipleSequenceAlignment_Minimap2'...
+[2020-03-23 19:30:06] Running 'MultipleSequenceAlignment_Minimap2'...
 Multiple sequence alignment exists. Skipping recomputation.
-[2020-03-23 19:23:10] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
+[2020-03-23 19:30:14] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
 
-[2020-03-23 19:23:10] Running 'PairwiseDistancesSequence_tn93'...
+[2020-03-23 19:30:14] Running 'PairwiseDistancesSequence_tn93'...
 Pairwise sequence distances exist. Skipping recomputation.
-[2020-03-23 19:23:10] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
+[2020-03-23 19:30:14] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
 
-[2020-03-23 19:23:10] Running 'PhylogeneticInference_FastTree'...
+[2020-03-23 19:30:14] Running 'PhylogeneticInference_FastTree'...
 Inferred phylogeny exists. Skipping recomputation.
-[2020-03-23 19:23:10] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre
+[2020-03-23 19:30:14] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre
 
-[2020-03-23 19:23:10] Running 'PairwiseDistancesTree_TreeSwift'...
+[2020-03-23 19:30:14] Running 'PairwiseDistancesTree_TreeSwift'...
 Pairwise phylogenetic distances exist. Skipping recomputation.
-[2020-03-23 19:23:10] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv
+[2020-03-23 19:30:14] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv
 
-[2020-03-23 19:23:10] Running 'Rooting_MinVar'...
+[2020-03-23 19:30:14] Running 'Rooting_MinVar'...
 Rooted phylogeny exists. Skipping recomputation.
-[2020-03-23 19:23:10] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre
+[2020-03-23 19:30:14] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre
 
-[2020-03-23 19:23:10] Running 'Dating_treedater'...
+[2020-03-23 19:30:14] Running 'Dating_treedater'...
 Dated tree exists. Skipping recomputation.
-[2020-03-23 19:23:10] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre
+[2020-03-23 19:30:14] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre
 
-[2020-03-23 19:23:10] Running 'AncestralSequenceReconstruction_TreeTime'...
+[2020-03-23 19:30:14] Running 'AncestralSequenceReconstruction_TreeTime'...
 Ancestral sequences exist. Skipping recomputation.
-[2020-03-23 19:23:10] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas
+[2020-03-23 19:30:14] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas
 
-[2020-03-23 19:23:10] Running 'TransmissionClustering_TreeN93TreeDists'...
+[2020-03-23 19:30:14] Running 'TransmissionClustering_TreeN93TreeDists'...
 Transmission clusters exist. Skipping recomputation.
-[2020-03-23 19:23:10] Transmission clusters output to: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv
+[2020-03-23 19:30:14] Transmission clusters output to: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv
 
-[2020-03-23 19:23:10] Writing report using 'WriteReport_Default'...
-[2020-03-23 19:24:02] Report written to: /home/niemamoshiri/COVID19
+[2020-03-23 19:30:14] Writing report using 'WriteReport_Default'...
+[2020-03-23 19:31:05] Report written to: /home/niemamoshiri/COVID19
 
 
 ==========================   Information   ===========================
-Output Size (bytes): 515305207
+Output Size (bytes): 515251109
 Execution Time (seconds): 62
 
 

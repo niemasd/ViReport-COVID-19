@@ -40,9 +40,6 @@ No file main.aux.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Float too large for page by 219.07138pt on input line 34.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -50,9 +47,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Float too large for page by 219.07138pt on input line 59.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -84,14 +78,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [3] [4 <./figs/input_c
-ategories.pdf>] [5 <./figs/processed_sequence_lengths.pdf> <./figs/processed_sa
-mple_dates.pdf
-
-pdfTeX warning: pdflatex (file ./figs/processed_sample_dates.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->] [6 <./figs/processed_input_categories.pdf>] [7 <./figs/pairwise_distances_se
-quences.pdf> <./figs/alignment_entropies.pdf
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd) [3 <./figs/input_categ
+ories.pdf>] [4 <./figs/processed_sequence_lengths.pdf>] [5 <./figs/processed_sa
+mple_dates.pdf>] [6 <./figs/processed_input_categories.pdf>] [7 <./figs/pairwis
+e_distances_sequences.pdf> <./figs/alignment_entropies.pdf
 
 pdfTeX warning: pdflatex (file ./figs/alignment_entropies.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
@@ -107,5 +97,5 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (11 pages, 425710 bytes).
+Output written on main.pdf (11 pages, 425758 bytes).
 Transcript written on main.log.
