@@ -6,6 +6,7 @@ The analysis was conducted on a dataset containing 1683 sequences. The average s
 <figure>
 <img src="./report_files/figs/input_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of input sequence lengths</figcaption>
+<br>
 </figure>
 
 
@@ -14,6 +15,7 @@ The analysis was conducted on a dataset containing 1683 sequences. The average s
 <figure>
 <img src="./report_files/figs/input_sample_dates.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of input sample dates</figcaption>
+<br>
 </figure>
 
 
@@ -22,6 +24,7 @@ The analysis was conducted on a dataset containing 1683 sequences. The average s
 <figure>
 <img src="./report_files/figs/input_categories.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of input sample categories</figcaption>
+<br>
 </figure>
 
 
@@ -32,6 +35,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 <figure>
 <img src="./report_files/figs/processed_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of preprocessed sequence lengths</figcaption>
+<br>
 </figure>
 
 
@@ -40,6 +44,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 <figure>
 <img src="./report_files/figs/processed_sample_dates.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of preprocessed sample dates</figcaption>
+<br>
 </figure>
 
 
@@ -48,6 +53,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 <figure>
 <img src="./report_files/figs/processed_input_categories.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of preprocessed sample categories</figcaption>
+<br>
 </figure>
 
 
@@ -58,6 +64,7 @@ Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input 
 <figure>
 <img src="./report_files/figs/pairwise_distances_sequences.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of pairwise sequence distances</figcaption>
+<br>
 </figure>
 
 
@@ -66,6 +73,7 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 <figure>
 <img src="./report_files/figs/alignment_coverage.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Coverage (proportion of non-gap characters) across the positions of the multiple sequence alignment</figcaption>
+<br>
 </figure>
 
 
@@ -74,6 +82,7 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 <figure>
 <img src="./report_files/figs/alignment_entropies.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Shannon entropy across the positions of the multiple sequence alignment. Due to the abundance of zero-entropy positions, all non-zero entropies were deemed significant. The significance threshold is shown as a red dashed line, and significant points are shown in red.</figcaption>
+<br>
 </figure>
 
 
@@ -84,6 +93,7 @@ A maximum-likelihood phylogeny was inferred under the General Time-Reversible (G
 <figure>
 <img src="./report_files/figs/tree_mutations.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
 <figcaption>Rooted phylogenetic tree in unit of expected per-site mutations</figcaption>
+<br>
 </figure>
 
 
@@ -92,6 +102,7 @@ A maximum-likelihood phylogeny was inferred under the General Time-Reversible (G
 <figure>
 <img src="./report_files/figs/pairwise_distances_tree.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of pairwise phylogenetic distances</figcaption>
+<br>
 </figure>
 
 
@@ -102,6 +113,7 @@ The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height 
 <figure>
 <img src="./report_files/figs/tree_time.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
 <figcaption>Dated phylogenetic tree in unit of years</figcaption>
+<br>
 </figure>
 
 
@@ -114,6 +126,7 @@ Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwi
 <figure>
 <img src="./report_files/figs/cluster_sizes.png" width="auto" height="auto" style="max-width:75%;">
 <figcaption>Distribution of cluster sizes (excluding singletons)</figcaption>
+<br>
 </figure>
 
 
