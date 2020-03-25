@@ -1,7 +1,7 @@
 
 0.00	-TreeAnc: set-up
 
-18.34	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+21.35	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
      	tips at positions with AMBIGUOUS bases. This resulted in unexpected
      	behavior is some cases and is no longer done by default. If you want to
      	replace those ambiguous sites with their most likely state, rerun with
@@ -12,26 +12,26 @@ Substitution rate (mu): 1.0
 
 Equilibrium frequencies (pi_i):
   A: 0.2973
-  C: 0.1752
-  G: 0.192
-  T: 0.325
+  C: 0.1742
+  G: 0.1918
+  T: 0.3262
   -: 0.0104
 
 Symmetrized rates from j->i (W_ij):
 	A	C	G	T	-
-  A	0	0.1643	0.62	0.1187	65.516
-  C	0.1643	0	0.1757	1.4412	52.8649
-  G	0.62	0.1757	0	0.5035	55.1994
-  T	0.1187	1.4412	0.5035	0	68.5743
-  -	65.516	52.8649	55.1994	68.5743	0
+  A	0	0.164	0.6015	0.1305	64.8878
+  C	0.164	0	0.1688	1.4969	52.818
+  G	0.6015	0.1688	0	0.5101	54.918
+  T	0.1305	1.4969	0.5101	0	67.635
+  -	64.8878	52.818	54.918	67.635	0
 
 Actual rates from j->i (Q_ij):
 	A	C	G	T	-
-  A	0	0.0488	0.1844	0.0353	19.4799
-  C	0.0288	0	0.0308	0.2525	9.2627
-  G	0.1191	0.0337	0	0.0967	10.6009
-  T	0.0386	0.4684	0.1637	0	22.2883
-  -	0.6803	0.5489	0.5731	0.712	0
+  A	0	0.0488	0.1789	0.0388	19.294
+  C	0.0286	0	0.0294	0.2608	9.2024
+  G	0.1154	0.0324	0	0.0979	10.5358
+  T	0.0426	0.4883	0.1664	0	22.0636
+  -	0.6727	0.5476	0.5694	0.7012	0
 
 
 --- alignment including ancestral nodes saved as  
