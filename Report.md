@@ -1,7 +1,7 @@
 # ViReport v0.0.1 &mdash; 2020-03-28
 
 ## Input Dataset
-The analysis was conducted on a dataset containing 2390 sequences. The average sequence length was 29831.921, with a standard deviation of 277.282. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2021-03-14.
+The analysis was conducted on a dataset containing 2390 sequences. The average sequence length was 29831.921, with a standard deviation of 277.282. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2020-03-26.
 
 <figure>
 <img src="./report_files/figs/input_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -27,7 +27,7 @@ The analysis was conducted on a dataset containing 2390 sequences. The average s
 
 
 ## Preprocessed Dataset
-The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 2390 sequences. The average sequence length was 29831.921, with a standard deviation of 277.282. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2021-03-14.
+The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 2390 sequences. The average sequence length was 29831.921, with a standard deviation of 277.282. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2020-03-26.
 
 <figure>
 <img src="./report_files/figs/processed_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -97,7 +97,7 @@ A maximum-likelihood phylogeny was inferred under the General Time-Reversible (G
 
 
 ## Phylogenetic Dating
-The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 479.928 days, so given that the most recent sample was collected on 2021-03-14, the estimated time of the most recent common ancestor (tMRCA) was 2019-11-20.
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 113.442 days, so given that the most recent sample was collected on 2020-03-26, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-03.
 
 <figure>
 <img src="./report_files/figs/tree_time.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
