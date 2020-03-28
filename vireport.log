@@ -4,51 +4,51 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-[2020-03-27 12:20:03] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --max_threads --msa Minimap2 --phylo FastTree
-[2020-03-27 12:20:03] Output directory: /home/niemamoshiri/COVID19
-[2020-03-27 12:20:03] Starting viral analysis workflow...
+[2020-03-28 09:41:30] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --max_threads --msa Minimap2 --phylo FastTree
+[2020-03-28 09:41:30] Output directory: /home/niemamoshiri/COVID19
+[2020-03-28 09:41:30] Starting viral analysis workflow...
 
-[2020-03-27 12:20:03] Initializing module implementations...
-[2020-03-27 12:20:03] Finished initializing 13 module implementations
+[2020-03-28 09:41:30] Initializing module implementations...
+[2020-03-28 09:41:30] Finished initializing 13 module implementations
 
-[2020-03-27 12:20:03] Running 'Preprocessing_SafeNames'...
-[2020-03-27 12:20:09] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
-[2020-03-27 12:20:09] Preprocessed reference ID: MT072688
-[2020-03-27 12:20:09] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
-[2020-03-27 12:20:09] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
-[2020-03-27 12:20:09] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
+[2020-03-28 09:41:30] Running 'Preprocessing_SafeNames'...
+[2020-03-28 09:41:36] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
+[2020-03-28 09:41:36] Preprocessed reference ID: MT072688
+[2020-03-28 09:41:36] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
+[2020-03-28 09:41:36] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
+[2020-03-28 09:41:36] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
 
-[2020-03-27 12:20:09] Running 'MultipleSequenceAlignment_Minimap2'...
-[2020-03-27 12:20:29] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
+[2020-03-28 09:41:36] Running 'MultipleSequenceAlignment_Minimap2'...
+[2020-03-28 09:41:58] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
 
-[2020-03-27 12:20:29] Running 'PairwiseDistancesSequence_tn93'...
-[2020-03-27 12:20:29] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
+[2020-03-28 09:41:58] Running 'PairwiseDistancesSequence_tn93'...
+[2020-03-28 09:41:58] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
 
-[2020-03-27 12:20:29] Running 'PhylogeneticInference_FastTree'...
-[2020-03-27 12:45:23] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre
+[2020-03-28 09:41:58] Running 'PhylogeneticInference_FastTree'...
+[2020-03-28 10:09:23] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre
 
-[2020-03-27 12:45:23] Running 'PairwiseDistancesTree_TreeSwift'...
-[2020-03-27 12:45:32] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv
+[2020-03-28 10:09:23] Running 'PairwiseDistancesTree_TreeSwift'...
+[2020-03-28 10:09:33] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv
 
-[2020-03-27 12:45:32] Running 'Rooting_MinVar'...
-[2020-03-27 12:45:33] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre
+[2020-03-28 10:09:33] Running 'Rooting_MinVar'...
+[2020-03-28 10:09:33] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre
 
-[2020-03-27 12:45:33] Running 'Dating_treedater'...
-[2020-03-27 12:56:12] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre
+[2020-03-28 10:09:33] Running 'Dating_treedater'...
+[2020-03-28 10:22:55] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre
 
-[2020-03-27 12:56:12] Running 'AncestralSequenceReconstruction_TreeTime'...
-[2020-03-27 12:58:48] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas
+[2020-03-28 10:22:55] Running 'AncestralSequenceReconstruction_TreeTime'...
+[2020-03-28 10:25:33] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas
 
-[2020-03-27 12:58:48] Running 'TransmissionClustering_TreeN93TreeDists'...
-[2020-03-27 12:59:32] Transmission clusters output to: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv
+[2020-03-28 10:25:33] Running 'TransmissionClustering_TreeN93TreeDists'...
+[2020-03-28 10:26:26] Transmission clusters output to: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv
 
-[2020-03-27 12:59:32] Writing report using 'WriteReport_Default'...
-[2020-03-27 13:00:52] Report written to: /home/niemamoshiri/COVID19/Report.md
+[2020-03-28 10:26:26] Writing report using 'WriteReport_Default'...
+[2020-03-28 10:27:49] Report written to: /home/niemamoshiri/COVID19/Report.md
 
 
 ==========================   Information   ===========================
-Output Size (bytes): 745088221
-Execution Time (seconds): 2449
+Output Size (bytes): 857545367
+Execution Time (seconds): 2779
 
 
 ===========================   Citations   ============================
