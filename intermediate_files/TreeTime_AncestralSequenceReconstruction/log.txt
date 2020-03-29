@@ -1,9 +1,7 @@
 
 0.00	-TreeAnc: set-up
 
-30.95	-WARNING: character I is unknown. Treating it as missing information
-
-30.95	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+31.78	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
      	tips at positions with AMBIGUOUS bases. This resulted in unexpected
      	behavior is some cases and is no longer done by default. If you want to
      	replace those ambiguous sites with their most likely state, rerun with
@@ -13,27 +11,27 @@ Inferred sequence evolution model (saved as /home/niemamoshiri/COVID19/intermedi
 Substitution rate (mu): 1.0
 
 Equilibrium frequencies (pi_i):
-  A: 0.2983
-  C: 0.1719
-  G: 0.1904
-  T: 0.3292
+  A: 0.298
+  C: 0.1718
+  G: 0.1908
+  T: 0.3291
   -: 0.0103
 
 Symmetrized rates from j->i (W_ij):
 	A	C	G	T	-
-  A	0	0.1721	0.5971	0.1338	64.7458
-  C	0.1721	0	0.1755	1.5388	52.7269
-  G	0.5971	0.1755	0	0.5282	54.9937
-  T	0.1338	1.5388	0.5282	0	67.3301
-  -	64.7458	52.7269	54.9937	67.3301	0
+  A	0	0.1781	0.5895	0.1339	64.9255
+  C	0.1781	0	0.172	1.5371	53.0384
+  G	0.5895	0.172	0	0.515	55.1454
+  T	0.1339	1.5371	0.515	0	67.584
+  -	64.9255	53.0384	55.1454	67.584	0
 
 Actual rates from j->i (Q_ij):
 	A	C	G	T	-
-  A	0	0.0513	0.1781	0.0399	19.311
-  C	0.0296	0	0.0302	0.2646	9.0657
-  G	0.1137	0.0334	0	0.1005	10.4685
-  T	0.044	0.5065	0.1739	0	22.1638
-  -	0.6645	0.5412	0.5644	0.691	0
+  A	0	0.0531	0.1756	0.0399	19.3461
+  C	0.0306	0	0.0295	0.2641	9.1126
+  G	0.1125	0.0328	0	0.0983	10.5243
+  T	0.0441	0.5059	0.1695	0	22.2422
+  -	0.6664	0.5444	0.566	0.6937	0
 
 
 --- alignment including ancestral nodes saved as  
