@@ -1,7 +1,7 @@
-# ViReport v0.0.1 &mdash; 2020-03-29
+# ViReport v0.0.1 &mdash; 2020-03-30
 
 ## Input Dataset
-The analysis was conducted on a dataset containing 2458 sequences. The average sequence length was 29832.805, with a standard deviation of 273.652. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2020-03-26.
+The analysis was conducted on a dataset containing 2671 sequences. The average sequence length was 29835.423, with a standard deviation of 262.946. The earliest sample date was 2019-12-24, the median sample date was 2020-03-07, and the most recent sample date was 2020-03-26.
 
 <figure>
 <img src="./report_files/figs/input_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -27,7 +27,7 @@ The analysis was conducted on a dataset containing 2458 sequences. The average s
 
 
 ## Preprocessed Dataset
-The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 2458 sequences. The average sequence length was 29832.805, with a standard deviation of 273.652. The earliest sample date was 2019-12-24, the median sample date was 2020-03-06, and the most recent sample date was 2020-03-26.
+The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 2671 sequences. The average sequence length was 29835.423, with a standard deviation of 262.946. The earliest sample date was 2019-12-24, the median sample date was 2020-03-07, and the most recent sample date was 2020-03-26.
 
 <figure>
 <img src="./report_files/figs/processed_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -53,7 +53,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 
 
 ## Multiple Sequence Alignment
-Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input sequence was aligned to the reference sequence (MT072688), and the multiple sequence alignment was constructed based on positions in the reference. There were 29811 positions (403 invariant) and 1984 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.0003, with a standard deviation of 0.000145.
+Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input sequence was aligned to the reference sequence (MT072688), and the multiple sequence alignment was constructed based on positions in the reference. There were 29811 positions (302 invariant) and 2149 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.000302, with a standard deviation of 0.000145.
 
 <figure>
 <img src="./report_files/figs/pairwise_distances_sequences.png" width="auto" height="auto" style="max-width:75%;">
@@ -61,7 +61,7 @@ Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input 
 </figure>
 
 
-Across the positions of the multiple sequence alignment, the minimum coverage was 0.307, the maximum coverage was 0.997, and the average coverage was 0.976, with a standard deviation of 0.0237.
+Across the positions of the multiple sequence alignment, the minimum coverage was 0.312, the maximum coverage was 0.997, and the average coverage was 0.977, with a standard deviation of 0.0236.
 
 <figure>
 <img src="./report_files/figs/alignment_coverage.png" width="auto" height="auto" style="max-width:75%;">
@@ -69,7 +69,7 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 </figure>
 
 
- Across the positions of the multiple sequence alignment that had non-zero Shannon entropy, the minimum Shannon entropy was 0.00524, the maximum Shannon entropy was 1.00222, and the average Shannon entropy was 0.0167, with a standard deviation of 0.0668.
+ Across the positions of the multiple sequence alignment that had non-zero Shannon entropy, the minimum Shannon entropy was 0.00486, the maximum Shannon entropy was 1.00581, and the average Shannon entropy was 0.0157, with a standard deviation of 0.0646.
 
 <figure>
 <img src="./report_files/figs/alignment_entropies.png" width="auto" height="auto" style="max-width:75%;">
@@ -79,7 +79,7 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 
 
 ## Phylogenetic Inference
-A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood. The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.0024, and the average pairwise phylogenetic distance was 0.000377, with a standard deviation of 0.000182.
+A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood. The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020). The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00232, and the average pairwise phylogenetic distance was 0.000376, with a standard deviation of 0.000183.
 
 <figure>
 <img src="./report_files/figs/tree_mutations.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
@@ -97,7 +97,7 @@ A maximum-likelihood phylogeny was inferred under the General Time-Reversible (G
 
 
 ## Phylogenetic Dating
-The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 107.061 days, so given that the most recent sample was collected on 2020-03-26, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-09.
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 95.597 days, so given that the most recent sample was collected on 2020-03-26, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-21.
 
 <figure>
 <img src="./report_files/figs/tree_time.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
@@ -109,7 +109,7 @@ The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height 
 ## Ancestral Sequence Reconstruction
 Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
 ## Transmission Clustering
-Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 215, and the total number of clusters (excluding singletons) was 45. The average cluster size (excluding singletons) was 49.222, with a standard deviation of 184.906, and the maximum and minimum cluster sizes were 1068 and 2, respectively.
+Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 237, and the total number of clusters (excluding singletons) was 44. The average cluster size (excluding singletons) was 54.682, with a standard deviation of 198.559, and the maximum and minimum cluster sizes were 1113 and 2, respectively.
 
 <figure>
 <img src="./report_files/figs/cluster_sizes.png" width="auto" height="auto" style="max-width:75%;">
