@@ -1,1 +1,0 @@
-minimap2 -a -d /home/niemamoshiri/COVID19/intermediate_files/Minimap2/index.mmi -o /home/niemamoshiri/COVID19/intermediate_files/Minimap2/alignment.sam -t 4 /home/niemamoshiri/COVID19/intermediate_files/Minimap2/ref.fas /home/niemamoshiri/COVID19/intermediate_files/Minimap2/seqs.fas
