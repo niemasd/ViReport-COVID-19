@@ -1,0 +1,1 @@
+treetime ancestral --aln /home/niemamoshiri/COVID19/intermediate_files/TreeTime_AncestralSequenceReconstruction/aln_unzipped.fas --tree /home/niemamoshiri/COVID19/intermediate_files/TreeTime_AncestralSequenceReconstruction/tree_with_internal_labels.tre --outdir /home/niemamoshiri/COVID19/intermediate_files/TreeTime_AncestralSequenceReconstruction

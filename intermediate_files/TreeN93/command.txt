@@ -1,0 +1,2 @@
+TreeN93.py -v -i /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv.gz -o /home/niemamoshiri/COVID19/intermediate_files/TreeN93/treen93.tre.gz
+TreeN93_cluster.py -v -i /home/niemamoshiri/COVID19/intermediate_files/TreeN93/treen93.tre.gz -o /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv.gz

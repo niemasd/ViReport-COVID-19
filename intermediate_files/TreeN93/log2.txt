@@ -1,0 +1,10 @@
+=== INPUTS ===
+Input File:  /home/niemamoshiri/COVID19/intermediate_files/TreeN93/treen93.tre.gz
+Output File: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv.gz
+Mode:        max_non_singleton
+
+=== RESULTS ===
+Computing transmission clusters...
+Optimal Threshold: 0.000100
+Number of Non-Singleton Clusters: 73
+Total runtime: 0.08921265602111816 seconds
