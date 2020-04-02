@@ -1,5 +1,10 @@
 # GISAID doesn't let me upload sequences
-*.aln
+*.alan
+*.aln.gz
 *.fas
+*.fas.gz
 *.phy
+*.phy.gz
 *.sam
+*.sam.gz
+*.bam
