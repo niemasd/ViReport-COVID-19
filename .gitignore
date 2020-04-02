@@ -3,6 +3,8 @@
 *.aln.gz
 *.fas
 *.fas.gz
+*.fasta
+*.fasta.gz
 *.phy
 *.phy.gz
 *.sam
