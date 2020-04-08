@@ -10,3 +10,7 @@
 *.sam
 *.sam.gz
 *.bam
+
+# pairwise distances are too big now
+*.csv
+*.csv.gz
