@@ -1,8 +1,8 @@
 Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
 Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
-Note: Minimum temporal branch length  (*minblen*) set to 0.00201752598328918. Increase *minblen* in the event of convergence failures. 
+Note: Minimum temporal branch length  (*minblen*) set to 0.00198158526821457. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
-Initial guesses of substitution rate: 2.69780815693289e-06,2.97410958786693e-06,3.25041101880097e-06,3.29408304370153e-06,3.58693677784324e-06,3.87979051198496e-06 
+Initial guesses of substitution rate: 2.74971552733042e-06,3.0211130711765e-06,3.29251061502259e-06,3.45653626961168e-06,3.73957437058045e-06,4.02261247154922e-06 
 
 NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
 		
@@ -26,26 +26,26 @@ The following steps may help to fix or alleviate common problems:
 * A poor fit may be due to a small number of lineages with unusual / outlying branch lengths which can occur due to sequencing error or poor alignment. Try the *outlierTips* command to identify and remove these lineages. 
 * Check that there is adequate variance in sample times in order to estimate a molecular clock by doing a root-to-tip regression. Try the *rootToTipRegressionPlot* command. If the clock rate can not be reliably estimated, you can fix the value to a range using the _meanRateLimits_ option which would estimate a time tree given the previous estimate of clock rates. 
 
-Phylogenetic tree with 4907 tips and 4906 internal nodes.
+Phylogenetic tree with 4996 tips and 4995 internal nodes.
 
 Tip labels:
-	hCoV_19_Shanghai_SH0004_2020_EPI_ISL_416318, hCoV_19_Guangdong_ZS_S6_P0060_2020_EPI_ISL_413900, hCoV_19_Shanghai_SH0059_2020_EPI_ISL_416366, hCoV_19_Nanchang_JX174_2020_EPI_ISL_421238, hCoV_19_China_WF0023_2020_EPI_ISL_413752, hCoV_19_China_WF0029_2020_EPI_ISL_413809, ...
+	hCoV_19_Guangdong_GDFS2020056_P0044_2020_EPI_ISL_413876, hCoV_19_USA_CA_SCCPHD_UC17_2020_EPI_ISL_417321, hCoV_19_Guangdong_FS_S29_P0051_2020_EPI_ISL_413891, hCoV_19_Guangdong_GD2020241_P0013_2020_EPI_ISL_413877, hCoV_19_Iceland_250_2020_EPI_ISL_417578, hCoV_19_England_20109038906_2020_EPI_ISL_417261, ...
 Node labels:
-	0.508, 0.766, 0.516, 0.267, 0.758, 0.000, ...
+	0.893, 0.000, 0.810, 0.445, 0.000, 0.288, ...
 
 Rooted; includes branch lengths.
 
  Time of common ancestor 
-737413.204232567 
+737415.92866293 
 
  Time to common ancestor (before most recent sample) 
-101.795767433243 
+99.0713370703161 
 
  Weighted mean substitution rate (adjusted by branch lengths) 
-1.50592653040526e-05 
+1.56136235287245e-05 
 
  Unadjusted mean substitution rate 
-1.50592653040526e-05 
+1.56136235287245e-05 
 
  Clock model  
 strict 
