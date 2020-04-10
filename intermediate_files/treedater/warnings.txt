@@ -1,0 +1,3 @@
+Warning message:
+In .dater(tre, sts, s = s, omega0 = omega0, minblen = minblen, maxit = maxit,  :
+  Root to tip regression predicts a substition rate less than zero. Tree may be poorly rooted or there may be small temporal signal.
