@@ -1,1 +1,0 @@
-tdcl -t /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre.gz -s /home/niemamoshiri/COVID19/intermediate_files/treedater/times_treedater.txt -l 29808 -o /home/niemamoshiri/COVID19/intermediate_files/treedater/dated.tre
