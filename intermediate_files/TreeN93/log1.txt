@@ -3,5 +3,5 @@ Input File:  /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogen
 Output File: /home/niemamoshiri/COVID19/intermediate_files/TreeN93/treen93.tre.gz
 
 === COMPUTE TREEN93 TREE ===
-Number of Individuals: 5811
-Total runtime: 310.2260730266571 seconds
+Number of Individuals: 6288
+Total runtime: 361.679771900177 seconds

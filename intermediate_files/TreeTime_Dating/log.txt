@@ -5,68 +5,50 @@ Attempting to parse dates...
 
 0.00	-TreeAnc: set-up
 
-5.12	###TreeTime.run: INITIAL ROUND
+7.02	###TreeTime.run: INITIAL ROUND
 
-180.71	###TreeTime.run: ITERATION 1 out of 2 iterations
+195.93	###TreeTime.run: ITERATION 1 out of 2 iterations
 
-373.30	###TreeTime.run: ITERATION 2 out of 2 iterations
+410.33	###TreeTime.run: ITERATION 2 out of 2 iterations
 
-561.85	TreeTime: The following tips don't fit the clock model, please remove
+619.10	TreeTime: The following tips don't fit the clock model, please remove
       	them from the tree. Their dates have been reset:
 
-561.85	hCoV_19_USA_WI_GMF_00049_2020_EPI_ISL_418185, input date:
-      	2020.2117486338798, apparent date: 2020.87
+619.10	hCoV_19_USA_WA_UW306_2020_EPI_ISL_418874, input date: 2020.2254098360656,
+      	apparent date: 2020.62
 
-561.85	hCoV_19_Italy_UniMI02_2020_EPI_ISL_417446, input date:
-      	2020.1489071038252, apparent date: 2020.90
+619.10	hCoV_19_Ecuador_HGSQ_USFQ_010_2020__EPI_ISL_422565, input date:
+      	2020.2445355191257, apparent date: 2020.95
 
-561.85	hCoV_19_Iceland_85_2020_EPI_ISL_417869, input date: 2020.1898907103825,
-      	apparent date: 2021.04
+619.10	hCoV_19_Ecuador_HGSQ_USFQ_007_2020__EPI_ISL_422564, input date:
+      	2020.2445355191257, apparent date: 2020.95
 
-561.85	hCoV_19_Malaysia_190300_2020_EPI_ISL_417920, input date:
-      	2020.2226775956285, apparent date: 2020.99
+619.10	hCoV_19_Hong_Kong_HKPU70_1302_2020_EPI_ISL_419243, input date:
+      	2020.1434426229507, apparent date: 2020.38
 
-561.85	hCoV_19_Hong_Kong_HKPU70_1302_2020_EPI_ISL_419243, input date:
-      	2020.1434426229507, apparent date: 2020.44
+619.10	hCoV_19_Hong_Kong_HKPU86_1802_2020_EPI_ISL_419249, input date:
+      	2020.1516393442623, apparent date: 2020.31
 
-561.85	hCoV_19_Hong_Kong_HKPU86_1802_2020_EPI_ISL_419249, input date:
-      	2020.1516393442623, apparent date: 2020.38
+619.10	hCoV_19_Hong_Kong_HKPU90_1602_2020_EPI_ISL_419251, input date:
+      	2020.1543715846994, apparent date: 2020.34
 
-561.85	hCoV_19_Hong_Kong_HKPU90_1602_2020_EPI_ISL_419251, input date:
-      	2020.1543715846994, apparent date: 2020.39
+619.10	hCoV_19_USA_WI_GMF_00049_2020_EPI_ISL_418185, input date:
+      	2020.2117486338798, apparent date: 2020.56
 
-561.85	hCoV_19_Beijing_IVDC_BJ_005_2020_EPI_ISL_408485, input date:
-      	2020.0478142076502, apparent date: 2020.36
+619.10	hCoV_19_Malaysia_190300_2020_EPI_ISL_417920, input date:
+      	2020.2226775956285, apparent date: 2020.82
 
-561.85	hCoV_19_Spain_Valencia9_2020_EPI_ISL_417205, input date:
-      	2020.1680327868853, apparent date: 2020.51
+619.10	hCoV_19_Italy_UniMI02_2020_EPI_ISL_417446, input date:
+      	2020.1489071038252, apparent date: 2020.43
 
-561.85	hCoV_19_USA_WI_GMF_00237_2020_EPI_ISL_418189, input date:
-      	2020.2254098360656, apparent date: 2020.75
+619.10	hCoV_19_Senegal_610_2020_EPI_ISL_420075, input date: 2020.217213114754,
+      	apparent date: 2020.46
 
-561.85	hCoV_19_USA_WA_UW306_2020_EPI_ISL_418874, input date: 2020.2254098360656,
-      	apparent date: 2020.74
+619.10	hCoV_19_Senegal_640_2020_EPI_ISL_420079, input date: 2020.217213114754,
+      	apparent date: 2020.27
 
-561.85	hCoV_19_USA_WA_UW119_2020_EPI_ISL_416657, input date: 2020.1926229508197,
-      	apparent date: 2020.63
-
-561.85	hCoV_19_USA_WY_WYPHL001_2020_EPI_ISL_421272, input date:
-      	2020.1898907103825, apparent date: 2020.71
-
-561.85	hCoV_19_USA_WI_GMF_00384_2020_EPI_ISL_422464, input date:
-      	2020.233606557377, apparent date: 2021.24
-
-561.85	hCoV_19_Senegal_610_2020_EPI_ISL_420075, input date: 2020.217213114754,
-      	apparent date: 2020.54
-
-561.85	hCoV_19_Senegal_640_2020_EPI_ISL_420079, input date: 2020.217213114754,
-      	apparent date: 2020.36
-
-561.85	_hCoV_19_Senegal_328_2020_EPI_ISL_420071, input date: 2020.2090163934427,
-      	apparent date: 2020.28
-
-561.85	hCoV_19_Belgium_KN_030756_2020_EPI_ISL_420450, input date:
-      	2020.181693989071, apparent date: 2020.35
+619.10	hCoV_19_USA_WI_GMF_00384_2020_EPI_ISL_422464, input date:
+      	2020.233606557377, apparent date: 2021.02
 
 Inferred sequence evolution model (saved as /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating/sequence_evolution_model.txt):
 Substitution rate (mu): 1.0
@@ -97,8 +79,8 @@ Actual rates from j->i (Q_ij):
 
 Inferred sequence evolution model (saved as /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating/molecular_clock.txt):
 Root-Tip-Regression:
- --rate:	9.841e-04
- --r^2:  	0.17
+ --rate:	1.246e-03
+ --r^2:  	0.21
 
 --- saved tree as 
 	 /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating/timetree.pdf
