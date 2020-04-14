@@ -1,1 +1,0 @@
-treetime --sequence-length 29808 --keep-root --tree /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating/tree_unzipped.fas --dates /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating/dates.csv --outdir /home/niemamoshiri/COVID19/intermediate_files/TreeTime_Dating

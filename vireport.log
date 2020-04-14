@@ -4,51 +4,62 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-[2020-04-12 09:27:38] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas.gz -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --gzip_output --max_threads --msa Minimap2 --date TreeTime --phylo FastTree
-[2020-04-12 09:27:38] Output directory: /home/niemamoshiri/COVID19
-[2020-04-12 09:27:38] Starting viral analysis workflow...
+[2020-04-14 07:08:15] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas.gz -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --gzip_output --max_threads --msa Minimap2 --phylo FastTree --trans_clust None
+[2020-04-14 07:08:15] Output directory: /home/niemamoshiri/COVID19
+[2020-04-14 07:08:15] Starting viral analysis workflow...
 
-[2020-04-12 09:27:38] Initializing module implementations...
-[2020-04-12 09:27:38] Finished initializing 13 module implementations
+[2020-04-14 07:08:15] Initializing module implementations...
+[2020-04-14 07:08:15] Finished initializing 13 module implementations
 
-[2020-04-12 09:27:38] Running 'Preprocessing_SafeNames'...
-[2020-04-12 09:28:01] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas.gz
-[2020-04-12 09:28:01] Preprocessed reference ID: MT072688
-[2020-04-12 09:28:01] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt.gz
-[2020-04-12 09:28:01] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt.gz
-[2020-04-12 09:28:01] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt.gz
+[2020-04-14 07:08:15] Running 'Preprocessing_SafeNames'...
+Safename sequences exist. Skipping recomputation.
+Safename sample times exist. Skipping recomputation.
+Safename outgroups exist. Skipping recomputation.
+Safename sample categories exist. Skipping recomputation.
+[2020-04-14 07:08:38] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas.gz
+[2020-04-14 07:08:38] Preprocessed reference ID: MT072688
+[2020-04-14 07:08:38] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt.gz
+[2020-04-14 07:08:38] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt.gz
+[2020-04-14 07:08:38] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt.gz
 
-[2020-04-12 09:28:01] Running 'MultipleSequenceAlignment_Minimap2'...
-[2020-04-12 09:29:04] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln.gz
+[2020-04-14 07:08:38] Running 'MultipleSequenceAlignment_Minimap2'...
+Multiple sequence alignment exists. Skipping recomputation.
+[2020-04-14 07:09:24] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln.gz
 
-[2020-04-12 09:29:04] Running 'PairwiseDistancesSequence_tn93'...
-[2020-04-12 09:35:45] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv.gz
+[2020-04-14 07:09:24] Running 'PairwiseDistancesSequence_tn93'...
+Pairwise sequence distances exist. Skipping recomputation.
+[2020-04-14 07:09:24] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv.gz
 
-[2020-04-12 09:35:45] Running 'PhylogeneticInference_FastTree'...
-[2020-04-12 10:49:46] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre.gz
+[2020-04-14 07:09:24] Running 'PhylogeneticInference_FastTree'...
+Inferred phylogeny exists. Skipping recomputation.
+[2020-04-14 07:09:25] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre.gz
 
-[2020-04-12 10:49:46] Running 'PairwiseDistancesTree_TreeSwift'...
-[2020-04-12 10:52:41] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv.gz
+[2020-04-14 07:09:25] Running 'PairwiseDistancesTree_TreeSwift'...
+Pairwise phylogenetic distances exist. Skipping recomputation.
+[2020-04-14 07:09:25] Pairwise phylogenetic distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_phylogeny.csv.gz
 
-[2020-04-12 10:52:41] Running 'Rooting_MinVar'...
-[2020-04-12 10:52:43] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre.gz
+[2020-04-14 07:09:25] Running 'Rooting_MinVar'...
+Rooted phylogeny exists. Skipping recomputation.
+[2020-04-14 07:09:25] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre.gz
 
-[2020-04-12 10:52:43] Running 'Dating_TreeTime'...
-[2020-04-12 11:03:35] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre.gz
+[2020-04-14 07:09:25] Running 'Dating_treedater'...
+Dated tree exists. Skipping recomputation.
+[2020-04-14 07:09:25] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre.gz
 
-[2020-04-12 11:03:35] Running 'AncestralSequenceReconstruction_TreeTime'...
-[2020-04-12 11:08:43] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas.gz
+[2020-04-14 07:09:25] Running 'AncestralSequenceReconstruction_TreeTime'...
+Ancestral sequences exist. Skipping recomputation.
+[2020-04-14 07:09:25] Ancestral sequence(s) output to: /home/niemamoshiri/COVID19/output_files/ancestral_sequences.fas.gz
 
-[2020-04-12 11:08:43] Running 'TransmissionClustering_TreeN93TreeDists'...
-[2020-04-12 11:15:05] Transmission clusters output to: /home/niemamoshiri/COVID19/output_files/transmission_clusters.tsv.gz
+[2020-04-14 07:09:25] Running 'TransmissionClustering_None'...
+[2020-04-14 07:09:25] Transmission clusters output to: None
 
-[2020-04-12 11:15:05] Writing report using 'WriteReport_Default'...
-[2020-04-12 11:18:55] Report written to: /home/niemamoshiri/COVID19/Report.md
+[2020-04-14 07:09:25] Writing report using 'WriteReport_Default'...
+[2020-04-14 07:15:01] Report written to: /home/niemamoshiri/COVID19/Report.md
 
 
 ==========================   Information   ===========================
-Output Size (bytes): 1295386369
-Execution Time (seconds): 6677
+Output Size (bytes): 1768105966
+Execution Time (seconds): 405
 
 
 ===========================   Citations   ============================
@@ -62,3 +73,4 @@ Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAn
 Price M.N., Dehal P.S., Arkin A.P. (2010). "FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments". PLoS ONE. 5(3), e9490.
 Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.
 Tavare S. (1986). ""Some Probabilistic and Statistical Problems in the Analysis of DNA Sequences". Lectures on Mathematics in the Life Sciences. 17, 57-86.
+Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.
