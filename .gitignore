@@ -1,5 +1,8 @@
+# don't upload intermediate data because it's big
+intermediate_files
+
 # GISAID doesn't let me upload sequences
-*.alan
+*.aln
 *.aln.gz
 *.fas
 *.fas.gz

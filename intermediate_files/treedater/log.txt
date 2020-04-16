@@ -1,5 +1,5 @@
 Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
-Note: Minimum temporal branch length  (*minblen*) set to 0.00159130816505707. Increase *minblen* in the event of convergence failures. 
+Note: Minimum temporal branch length  (*minblen*) set to 0.00113499945432719. Increase *minblen* in the event of convergence failures. 
 Tree is rooted. Not estimating root position.
 
 NOTE: The estimated coefficient of variation of clock rates is high (>1). Sometimes this indicates a poor fit and/or a problem with the data.
