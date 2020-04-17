@@ -1,1 +1,0 @@
-Rscript /home/niemamoshiri/COVID19/intermediate_files/treedater/run_treedater.R
