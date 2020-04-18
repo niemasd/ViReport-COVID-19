@@ -1,4 +1,4 @@
-# ViReport v0.0.1 &mdash; 2020-04-17
+# ViReport v0.0.1 &mdash; 2020-04-18
 
 ## Input Dataset
 The analysis was conducted on a dataset containing 9350 sequences. The average sequence length was 29858.111, with a standard deviation of 75.69. The earliest sample date was 2019-12-24, the median sample date was 2020-03-18, and the most recent sample date was 2020-04-17.
@@ -81,7 +81,7 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 ## Phylogenetic Inference
 A maximum-likelihood phylogeny was inferred under the General Time-Reversible (GTR) model (Tavare, 1986) using FastTree 2 (Price et al., 2010) using a Gamma20-based likelihood. The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017). The tree was too large to draw.
 ## Phylogenetic Dating
-The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 122.627 days, so given that the most recent sample was collected on 2020-04-17, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-16. The tree was too large to draw.
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 122.862 days, so given that the most recent sample was collected on 2020-04-17, the estimated time of the most recent common ancestor (tMRCA) was 2019-12-16. The tree was too large to draw.
 ## Citations
 
 * Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.
