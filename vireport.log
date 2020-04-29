@@ -4,56 +4,48 @@
 \--------------------/
 
 ========================   Workflow Process   ========================
-[2020-04-18 07:01:55] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas.gz -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --max_threads --msa Minimap2 --phylo FastTree --ancestral None --dists_tree None --trans_clust None
-[2020-04-18 07:01:55] Output directory: /home/niemamoshiri/COVID19
-[2020-04-18 07:01:55] Starting viral analysis workflow...
+[2020-04-29 14:49:41] ViReport was run as follows: ./ViReport/ViReport.py -o COVID19 -s GISAID-BetaCoV-Analysis/data/current/sequences.no_short_seqs.fas.gz -r MT072688 -t GISAID-BetaCoV-Analysis/data/current/dates.tsv -c GISAID-BetaCoV-Analysis/data/current/countries.tsv -og GISAID-BetaCoV-Analysis/data/current/outgroups.txt --format Markdown --continue --max_threads --msa Minimap2 --phylo None --root None --date None --ancestral None --dists_tree None --trans_clust None
+[2020-04-29 14:49:41] Output directory: /home/niemamoshiri/COVID19
+[2020-04-29 14:49:41] Starting viral analysis workflow...
 
-[2020-04-18 07:01:55] Initializing module implementations...
-[2020-04-18 07:01:55] Finished initializing 13 module implementations
+[2020-04-29 14:49:41] Initializing module implementations...
+[2020-04-29 14:49:41] Finished initializing 13 module implementations
 
-[2020-04-18 07:01:55] Running 'Preprocessing_SafeNames'...
-[2020-04-18 07:01:56] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
-[2020-04-18 07:01:56] Preprocessed reference ID: MT072688
-[2020-04-18 07:01:56] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
-[2020-04-18 07:01:56] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
-[2020-04-18 07:01:56] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
+[2020-04-29 14:49:41] Running 'Preprocessing_SafeNames'...
+[2020-04-29 14:49:44] Preprocessed sequences output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.fas
+[2020-04-29 14:49:44] Preprocessed reference ID: MT072688
+[2020-04-29 14:49:44] Preprocessed sample times output to: /home/niemamoshiri/COVID19/output_files/times_safe.txt
+[2020-04-29 14:49:44] Preprocessed outgroups list output to: /home/niemamoshiri/COVID19/output_files/outgroups_safe.txt
+[2020-04-29 14:49:44] Preprocessed sample categories output to: /home/niemamoshiri/COVID19/output_files/categories_safe.txt
 
-[2020-04-18 07:01:56] Running 'MultipleSequenceAlignment_Minimap2'...
-[2020-04-18 07:03:12] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
+[2020-04-29 14:49:44] Running 'MultipleSequenceAlignment_Minimap2'...
+[2020-04-29 14:52:09] Multiple sequence alignment output to: /home/niemamoshiri/COVID19/output_files/sequences_safe.no_outgroup.aln
 
-[2020-04-18 07:03:12] Running 'PairwiseDistancesSequence_tn93'...
-[2020-04-18 07:12:47] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
+[2020-04-29 14:52:09] Running 'PairwiseDistancesSequence_tn93'...
+[2020-04-29 15:12:24] Pairwise sequence distances output to: /home/niemamoshiri/COVID19/output_files/pairwise_distances_sequence.csv
 
-[2020-04-18 07:12:47] Running 'PhylogeneticInference_FastTree'...
-[2020-04-18 09:19:26] Inferred (unrooted) phylogeny output to: /home/niemamoshiri/COVID19/output_files/unrooted.no_outgroup.tre
+[2020-04-29 15:12:24] Running 'PhylogeneticInference_None'...
 
-[2020-04-18 09:19:26] Running 'PairwiseDistancesTree_None'...
+[2020-04-29 15:12:24] Running 'PairwiseDistancesTree_None'...
 
-[2020-04-18 09:19:26] Running 'Rooting_MinVar'...
-[2020-04-18 09:19:28] Rooted phylogeny output to: /home/niemamoshiri/COVID19/output_files/rooted.no_outgroup.tre
+[2020-04-29 15:12:24] Running 'Rooting_None'...
 
-[2020-04-18 09:19:28] Running 'Dating_treedater'...
-[2020-04-18 11:34:15] Dated phylogeny output to: /home/niemamoshiri/COVID19/output_files/dated.tre
+[2020-04-29 15:12:24] Running 'Dating_None'...
 
-[2020-04-18 11:34:15] Running 'AncestralSequenceReconstruction_None'...
+[2020-04-29 15:12:24] Running 'AncestralSequenceReconstruction_None'...
 
-[2020-04-18 11:34:15] Running 'TransmissionClustering_None'...
+[2020-04-29 15:12:24] Running 'TransmissionClustering_None'...
 
-[2020-04-18 11:34:15] Writing report using 'WriteReport_Default'...
-[2020-04-18 11:39:21] Report written to: /home/niemamoshiri/COVID19/Report.md
+[2020-04-29 15:12:24] Writing report using 'WriteReport_Default'...
+[2020-04-29 15:23:50] Report written to: /home/niemamoshiri/COVID19/Report.md
 
 
 ==========================   Information   ===========================
-Output Size (bytes): 5844266413
-Execution Time (seconds): 16646
+Output Size (bytes): 14621781938
+Execution Time (seconds): 2048
 
 
 ===========================   Citations   ============================
-Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.
 Li H. (2018). "Minimap2: pairwise alignment for nucleotide sequences". Bioinformatics. 34(18), 3094-3100.
-Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.
 Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).
 Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.
-Price M.N., Dehal P.S., Arkin A.P. (2010). "FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments". PLoS ONE. 5(3), e9490.
-Tavare S. (1986). ""Some Probabilistic and Statistical Problems in the Analysis of DNA Sequences". Lectures on Mathematics in the Life Sciences. 17, 57-86.
-Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.
