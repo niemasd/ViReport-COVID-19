@@ -1,7 +1,7 @@
-# ViReport v0.0.1 &mdash; 2020-04-29
+# ViReport v0.0.1 &mdash; 2020-05-03
 
 ## Input Dataset
-The analysis was conducted on a dataset containing 15285 sequences. The average sequence length was 29860.244, with a standard deviation of 87.654. The earliest sample date was 2019-12-24, the median sample date was 2020-03-22, and the most recent sample date was 2020-04-24.
+The analysis was conducted on a dataset containing 15894 sequences. The average sequence length was 29860.755, with a standard deviation of 87.711. The earliest sample date was 2019-12-24, the median sample date was 2020-03-23, and the most recent sample date was 2020-04-24.
 
 <figure>
 <img src="./report_files/figs/input_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -27,7 +27,7 @@ The analysis was conducted on a dataset containing 15285 sequences. The average 
 
 
 ## Preprocessed Dataset
-The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 15285 sequences. The average sequence length was 29860.244, with a standard deviation of 87.654. The earliest sample date was 2019-12-24, the median sample date was 2020-03-22, and the most recent sample date was 2020-04-24.
+The input dataset was preprocessed such that sequences were given safe names: non-letters/digits in sequence IDs were converted to underscores. After preprocessing, the dataset contained 15894 sequences. The average sequence length was 29860.755, with a standard deviation of 87.711. The earliest sample date was 2019-12-24, the median sample date was 2020-03-23, and the most recent sample date was 2020-04-24.
 
 <figure>
 <img src="./report_files/figs/processed_sequence_lengths.png" width="auto" height="auto" style="max-width:75%;">
@@ -53,7 +53,7 @@ The input dataset was preprocessed such that sequences were given safe names: no
 
 
 ## Multiple Sequence Alignment
-Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input sequence was aligned to the reference sequence (MT072688), and the multiple sequence alignment was constructed based on positions in the reference. There were 29808 positions (21 invariant) and 12512 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.000319, with a standard deviation of 0.000157.
+Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input sequence was aligned to the reference sequence (MT072688), and the multiple sequence alignment was constructed based on positions in the reference. There were 29808 positions (21 invariant) and 13009 unique sequences in the multiple sequence alignment. Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018). The average pairwise sequence distance was 0.000323, with a standard deviation of 0.000161.
 
 <figure>
 <img src="./report_files/figs/pairwise_distances_sequences.png" width="auto" height="auto" style="max-width:75%;">
@@ -61,7 +61,7 @@ Multiple sequence alignment was performed using Minimap2 (Li, 2018). Each input 
 </figure>
 
 
-Across the positions of the multiple sequence alignment, the minimum coverage was 0.269, the maximum coverage was 0.998, and the average coverage was 0.969, with a standard deviation of 0.0343.
+Across the positions of the multiple sequence alignment, the minimum coverage was 0.27, the maximum coverage was 0.998, and the average coverage was 0.97, with a standard deviation of 0.0339.
 
 <figure>
 <img src="./report_files/figs/alignment_coverage.png" width="auto" height="auto" style="max-width:75%;">
@@ -69,11 +69,11 @@ Across the positions of the multiple sequence alignment, the minimum coverage wa
 </figure>
 
 
- Across the positions of the multiple sequence alignment that had non-zero Shannon entropy, the minimum Shannon entropy was 0.00101, the maximum Shannon entropy was 0.977, and the average Shannon entropy was 0.00488, with a standard deviation of 0.0325.
+ Across the positions of the multiple sequence alignment that had non-zero Shannon entropy, the minimum Shannon entropy was 0.000973, the maximum Shannon entropy was 0.975, and the average Shannon entropy was 0.00477, with a standard deviation of 0.0319.
 
 <figure>
 <img src="./report_files/figs/alignment_entropies.png" width="auto" height="auto" style="max-width:75%;">
-<figcaption>Shannon entropy across the positions of the multiple sequence alignment. A significance threshold was computed using Tukey's Rule: 1.5x the interquartile range added to the third quartile, which was 0.00254. The significance threshold is shown as a red dashed line, and significant points are shown in red.</figcaption>
+<figcaption>Shannon entropy across the positions of the multiple sequence alignment. A significance threshold was computed using Tukey's Rule: 1.5x the interquartile range added to the third quartile, which was 0.00245. The significance threshold is shown as a red dashed line, and significant points are shown in red.</figcaption>
 </figure>
 
 
