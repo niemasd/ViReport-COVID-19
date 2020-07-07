@@ -1,4 +1,4 @@
-# ViReport v0.0.1 &mdash; 2020-07-04
+# ViReport v0.0.1 &mdash; 2020-07-07
 
 ## Input Dataset
 The analysis was conducted on a dataset containing 59280 sequences. The average sequence length was 29856.638, with a standard deviation of 99.506. The earliest sample date was 2019-12-24, the median sample date was 2020-04-02, and the most recent sample date was 2020-12-06.
